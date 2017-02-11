@@ -17,8 +17,9 @@ This script is heavily inspired by `libtcod's namegen`_, written by Dominik "Min
 Names
 ******
 
-    *Some of the appeal of imaginative literature comes from the exotic worlds and characters it conjures up. One way it distances itself from the everyday world is by using unfamiliar and evocative names. If the characters are Sally, Bill, and Fred, you are rooted in the mundane. If they are Hyssome, Drythe, and Rimsall, you are obviously beyond the fields we know, and the stage is set for wonders. The same applies to role-playing games using imaginative settings.*
-        Gary Gygax (Gary Gygax's Extraordinary Book of Names)
+    **Some of the appeal of imaginative literature comes from the exotic worlds and characters it conjures up. One way it distances itself from the everyday world is by using unfamiliar and evocative names. If the characters are Sally, Bill, and Fred, you are rooted in the mundane. If they are Hyssome, Drythe, and Rimsall, you are obviously beyond the fields we know, and the stage is set for wonders. The same applies to role-playing games using imaginative settings.
+
+        Gary Gygax (Gary Gygax's Extraordinary Book of Names)**
 
 The patterns that ship with this script here are based on:
 
