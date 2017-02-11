@@ -47,10 +47,10 @@ Table of contents
 * `Example of generated names`_
 
 Inspiration
-------------
+============
 
 Code
-*****
+-----
 
 This script is shamelessly inspired by the great `libtcod's namegen`_, written by Dominik "Mingos" Marczuk. It even uses its syntax for .cfg files, aiming to provide compatibility with its existing sets.
 
@@ -58,7 +58,7 @@ This script is shamelessly inspired by the great `libtcod's namegen`_, written b
 
 
 Names and syllables
-********************
+--------------------
 
 Part of the patterns used in this this script were adapted from:
 
@@ -81,10 +81,10 @@ Inspiration came from sources such as:
 .. _`creative-role-playing.com`: http://web.archive.org/web/20141009095317/https://www.creative-role-playing.com/fantasy-sounding-names/
 
 Usage
-------
+======
 
 Basic usage
-************
+------------
 
 To get a dwarf name and surname, using default sets, just do:
 
@@ -96,7 +96,7 @@ To get a dwarf name and surname, using default sets, just do:
    local surname = namegen.generate("dwarf surname")  --  Steelcutter
 
 Like-a-boss usage
-******************
+------------------
 
 To get whatever you want, call for a name set with the rule you want:
 
@@ -115,10 +115,10 @@ To get whatever you want, call for a name set with the rule you want:
 
 
 How does it works?
--------------------
+===================
 
 Basics
-*******
+-------
 
 When loaded/required, the module "namegen" parses the set files pointed by 'namegen.index' (a plain text file).
 
@@ -145,7 +145,7 @@ This set with its only rule would generate names such as:
 * Duerin;
 
 Syllable Groups
-****************
+----------------
 
 Every syllable group has a matching symbol (used rules, `s` and `e` in the previous example) that matches it, and will, after parsed, be stored under a specific key on the parser data table:
 
@@ -169,7 +169,7 @@ Every syllable group has a matching symbol (used rules, `s` and `e` in the previ
            phonemesConsonants  parser_data["consonants"]
 
 Rules
-******
+------
 
 Considering the basic example above, if you replace its rule for "$e$s", that would swap syllables in the generated names.
 
@@ -190,7 +190,7 @@ Each rule would have an equal chance to be used at each generation. If desired, 
 Instead of each rule having 1/2 chance to be used, the first one would have 1/2*50% chance.
 
 How to help
-------------
+============
 
 * Improve the lua code, performance-wise, fix bugs, etc.
 
@@ -221,7 +221,7 @@ You can also report an issue_.
 .. _`improve the documentation`: https://github.com/LukeMS/lua-namegen/edit/master/README.rst
 
 Example of generated names
----------------------------
+===========================
 
 This is a list of a few names genereated by the default sets:
 
