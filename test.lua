@@ -17,3 +17,4 @@ for _, set in ipairs(sets) do
     table.sort(names)
     print("  " .. inspect(names):gsub("[{}]", ""))
 end
+

@@ -1,13 +1,15 @@
 LuaNameGen - Lua Name Generator v1.0.0
 =======================================
 
-What if, instead of Bilbo and Frodo, Tolkien's characters were named Bill and Fred? Or if, during the climax of a role-playing session, you face an Ancient Red Dragon called Peter...
+What if, instead of Bilbo and Frodo, Tolkien's characters were named Bill and Fred? Or if, during the climax of a role-playing session, you face an Ancient Red Dragon called Bob...
 
 That should be enough to justify this script.
 
-Join me in this (meta)adventure, the quest for name generation!
+Embark in this (meta)adventure, the quest for name generation!
 
 Free the syllables. Create names. Have fun.
+
+Fork. Fix. Pull request. Register issues. Contribute.
 
 
 Inspiration
@@ -16,7 +18,7 @@ Inspiration
 Code
 *****
 
-This script is heavily inspired by the great `libtcod's namegen`_, written by Dominik "Mingos" Marczuk. It even uses its syntax for .cfg files, aiming to provide compatibility with its existing sets.
+This script is shamelessly inspired by the great `libtcod's namegen`_, written by Dominik "Mingos" Marczuk. It even uses its syntax for .cfg files, aiming to provide compatibility with its existing sets.
 
 .. _`libtcod's namegen`: https://bitbucket.org/libtcod/libtcod/src/afba13253a79f16d10f596e2c9c99cf183f94b3c/src/namegen_c.c
 
@@ -32,11 +34,14 @@ Inspiration came from sources such as:
 
 * J.R.R. Tolkien's works;
 * Gary Gygax's works;
+* Many other fantasy novels;
+* `d20pfsrd.com`_, the huge, free and beautiful PF SRD :)
 * `fantasynamegenerators.com`_;
 * `fantasynamegen.com`_;
 * `creative-role-playing.com`_ fantasy-sounding-names;
 * other generators that I shall remember someday.
 
+.. _`d20pfsrd.com`: http://www.d20pfsrd.com/
 .. _`fantasynamegenerators.com`: https://fantasynamegenerators.com/
 .. _`fantasynamegen.com`: https://www.fantasynamegen.com/
 .. _`creative-role-playing.com`: http://web.archive.org/web/20141009095317/https://www.creative-role-playing.com/fantasy-sounding-names/
@@ -44,7 +49,7 @@ Inspiration came from sources such as:
 Basic usage
 ------------
 
-To get a dwarf name and surname, using default sets, just do
+To get a dwarf name and surname, using default sets, just do:
 
 .. code-block:: lua
 
@@ -52,6 +57,24 @@ To get a dwarf name and surname, using default sets, just do
 
    local name = namegen.generate("dwarf male")  --  Dolin
    local surname = namegen.generate("dwarf surname")  --  Steelcutter
+
+Use it like a boss
+-------------------
+
+To get whatever you want, call for a name set with the rule you want:
+
+.. code-block:: lua
+
+   local namegen = require("namegen")
+
+   local syllable_a = namegen.generate_custom(
+       "orc female 2", "$A$10B")  --  Bragluk
+   local syllable_b = namegen.generate_custom(
+       "giant female", "$B$10B")  --  tuhli
+   local syllable_c = namegen.generate_custom(
+       "infernal 1", "-$B$B")  -- -mozraz
+   print("It's alive!!!", syllable_a .. syllable_b .. syllable_c)
+   -- It's alive!!!   Bragluktuhli-mozraz
 
 
 How does it works?
