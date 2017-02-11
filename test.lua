@@ -9,7 +9,8 @@ local namegen = require("namegen")
 local sets = namegen.get_sets()
 table.sort(sets)
 for _, set in ipairs(sets) do
-    print("\n\n" .. "* " .. string.format([["%s"]], set) .. "\n")
+    print("\n" .. "* " .. string.format([["%s"]], set))
+    print("\n" .. ".. code-block:: lua" .. "\n")
     local names = {}
     for i = 1, 50 do
         names[#names + 1] = namegen.generate(set)
