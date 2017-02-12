@@ -80,7 +80,11 @@ end
 
 local function ng_debug(str, ...)
     if DEBUG == true then
-        print(string.format(str, ...))
+        if ... then
+            print(string.format(str, ...))
+        else
+            print(str)
+        end
     end
 end
 
@@ -223,22 +227,45 @@ end
 local function word_repeated_syllables(str)
     local str = str:lower()
 
-    for step = 2, 3 do
-        for i = 1, #str - step * 2 + 1, 1 do
-            local a0 = i
-            local a1 = a0 + step - 1
-            local b0 = a1 + 1
-            local b1 = b0 + step - 1
-            local a = str:sub(a0, a1)
-            local b = str:sub(b0, b1)
-            if a == b then
-                ng_debug(a, b)
+    for step = 2, math.min(5, math.floor(#str / 2)) do
+        for i = 1, #str - step + 1 do
+            local search = str:sub(i, i + step - 1)
+            local sub = str:sub(i + step)
+            if search == sub then
                 return true
             end
         end
     end
     return false
 end
+--[[
+-- check for repeated syllables (case-insensitive)
+local function word_repeated_syllables(str)
+    local size = #str
+    local str = str:lower()
+    for step = 2, math.min(5, math.floor(size / 2)) do
+        for i = 1, #str - step + 1 do
+            local search = str:sub(i, i + step - 1)
+            local sub = str:sub(i + step)
+            -- print(step, search, sub)
+            if sub:find(search) then
+                return true
+            end
+        end
+    end
+    return false
+end
+
+local function ng_debug(str, ...)
+    if DEBUG == true then
+        if ... then
+            print(string.format(str, ...))
+        else
+            print(str)
+    end
+end
+]]--
+
 
 -- verify if the word passes the above checks
 local function word_is_ok(data, str)
