@@ -24,17 +24,17 @@ end
 for i = 1, 10 do
     do break end
     print(inspect({
-        namegen.generate("kobold male"),
-        namegen.generate("kobold male"),
-        namegen.generate("kobold male"),
-        namegen.generate("kobold male"),
-        namegen.generate("kobold male"),
-        namegen.generate("kobold male"),
-        namegen.generate("kobold male"),
-        namegen.generate("kobold male"),
-        namegen.generate("kobold male"),
-        namegen.generate("kobold male"),
-        namegen.generate("kobold male"),
-        namegen.generate("kobold male")
+        namegen.generate("oread female"),
+        namegen.generate("oread female"),
+        namegen.generate("oread female"),
+        namegen.generate("oread female"),
+        namegen.generate("oread female"),
+        namegen.generate("oread female"),
+        namegen.generate("oread female"),
+        namegen.generate("oread female"),
+        namegen.generate("oread female"),
+        namegen.generate("oread female"),
+        namegen.generate("oread female"),
+        namegen.generate("oread female")
     }))
 end
