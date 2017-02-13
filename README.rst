@@ -1,6 +1,6 @@
 |MIT|
 
-.. |MIT| image:: https://img.shields.io/badge/License-MIT-yellow.svg
+.. |MIT| image:: https://img.shields.io/badge/License-MIT-green.svg
 
 LuaNameGen - Lua Name Generator v1.0.0
 =======================================
@@ -9,15 +9,9 @@ What if, instead of Bilbo and Frodo, Tolkien's characters were named Bill and Fr
 
 Or if, during the climax of a role-playing session, you face an Ancient Red Dragon called Bob...
 
-That should be enough to justify this script.
+LuaNameGen is an effort to quickly create random names for characters, objects and places. It is useful for both table-top games (run the script, grab the name) or to be used as a library for game development.
 
-Embark in this (meta)adventure, the quest for name generation!
-
-Free the syllables. Create fantastic names. Have fun. Provide fun.
-
-Fork. Fix. Pull request. Register issues. Contribute.
-
-Let's make it the **One Generator to rule them all**.
+Free the syllables, create fantastic names, have fun, provide fun.
 
 Table of contents
 ==================
@@ -226,292 +220,387 @@ Example of generated names
 This is a list of a few names genereated by the default sets:
 
 
-
-
-* "aasimar female"
+"aasimar female"
+-----------------
 
 .. code-block:: lua
 
    "Adrasteleth", "Areseth", "Arken", "Atareleth", "Avareseth", "Avlantenth", "Daalla", "Dadrea", "Dasinoe", "Drinramou", "Imesinoe", "Jal-atar", "Jal-varam", "Jaljena", "Jasaner", "Jasarmeth", "Kalares", "Kaljena", "Kalsah", "Kavalel", "Maenth", "Masozi", "Nienth", "Niereth", "Nies", "Nieth", "Nijena", "Nivina", "Onma", "Pal-aman", "Ral-talar", "Ranalen", "Sardareleth", "Sardareth", "Sarma", "Sarnateleth", "Sartyra", "Talasen", "Taldrea", "Talsinoe", "Taltyra", "Taranenth", "Tarma", "Valdoreleth", "Valnoreth", "Vanarel", "Varaleth", "Varaleth", "Vardaret", "Voltareth"
 
-* "aasimar male"
+"aasimar male"
+---------------
 
 .. code-block:: lua
 
-   "Amaranth", "Ar-avar", "Ar-valon", "Aradal", "Aral", "Aranas", "Arat", "Aritian", "Belan", "Belgan", "Cerath", "Cernan", "Cerran", "Cronwier", "Eran", "Ilamin", "Jaldril", "Jalrant", "Jasanathar", "Javralath", "Kaladathar", "Kalwier", "Mauar", "Mauathar", "Maunan", "Maunan", "Oar", "Paath", "Paldril", "Palitian", "Paral", "Parant", "Ravanathal", "Sar-palad", "Sar-saran", "Sardanat", "Sarnatath", "Solarath", "Talanath", "Talonath", "Tuath", "Tutin", "Tutin", "Valnarathal", "Valnarathas", "Valnorathal", "Valoral", "Vanarathal", "Vardaral", "Zairan"
+   "Ar-avar", "Ar-ravan", "Aranas", "Arat", "Aritian", "Arran", "Asanal", "Asanas", "Asarnanth", "Astaral", "Avaran", "Avarathas", "Avralathal", "Belan", "Cerath", "Crongan", "Cronwier", "Cronwier", "Eran", "Ilan", "Jalanathal", "Jalkaranth", "Kalarat", "Kalarathar", "Mauathar", "Maudril", "Maunan", "Oran", "Paanth", "Palamin", "Palorath", "Paral", "Rasanathas", "Samaral", "Samaras", "Sardanat", "Solaranth", "Talamin", "Talanathal", "Talarath", "Talgan", "Tural", "Valdoral", "Valkarathal", "Valnarathas", "Valnorathal", "Valoral", "Var-aman", "Zainan", "Zairan"
 
-* "catfolk female"
-
-.. code-block:: lua
-
-   "Alirra", "Amiau", "Dumihr", "Dusash", "Duslif", "Holina", "Homiah", "Hosheer", "Hoslif", "Hosyau", "Jilirri", "Jilissi", "Jisharr", "Jishim", "Jiyi", "Lithlahi", "Lithyera", "Maulyana", "Meerline", "Miaumew", "Miaumihr", "Mihrmeeri", "Mihrsharr", "Milaha", "Milaha", "Milissa", "Milyara", "Mimeere", "Mipurrh", "Mirrmeera", "Mirrserr", "Misfee", "Saflahe", "Safsharr", "Safyeri", "Sashlyara", "Sfeelyani", "Sheerlirre", "Sheerlithi", "Sheeyi", "Shimserr", "Shurrlyani", "Shurrsaf", "Siphelahi", "Siphemau", "Sipheyeri", "Siythlirri", "Tilini", "Timirr", "Tiyera"
-
-* "catfolk male"
+"catfolk female"
+-----------------
 
 .. code-block:: lua
 
-   "Carmew", "Carshah", "Carsharr", "Carshau", "Carsiyth", "Dremiau", "Dreran", "Fermeer", "Fershim", "Germau", "Gerslif", "Lirrsaf", "Lisslirr", "Lithshurr", "Lithsiyth", "Lithsiyth", "Meerpurrh", "Meershau", "Mewsheer", "Miaupurrh", "Miausaf", "Mirrgar", "Mirrshah", "Nykserr", "Nykserr", "Nyksharr", "Nykshee", "Nyksiyth", "Purrhlyau", "Purrhsyau", "Purrhus", "Rousharr", "Routan", "Safus", "Sashshau", "Sashwan", "Shahlyau", "Shahmeer", "Sharrsiyth", "Shaumihr", "Sheemirr", "Shimshah", "Siythlyau", "Siythwan", "Sliflirr", "Syauruth", "Zithsaf", "Zithsaf", "Zithshee", "Zithsiyth"
+   "Alirra", "Amiau", "Dusash", "Duslif", "Holina", "Homiah", "Hosheer", "Hoslif", "Hosyau", "Jilirri", "Jilissi", "Jishim", "Jiyi", "Lithlahi", "Lithyera", "Maulyana", "Meerline", "Miaulithi", "Miaumew", "Miaumihr", "Mihrmeeri", "Mihrsharr", "Milaha", "Milaha", "Milissa", "Milyara", "Mimeere", "Mipurrh", "Mirrmeera", "Mirrserr", "Misfee", "Saflahe", "Safsharr", "Safyeri", "Sashlyara", "Sfeelyani", "Sheerlirre", "Sheerlithi", "Sheeyi", "Shimserr", "Shurrlyani", "Shurrsaf", "Siphelahi", "Siphemau", "Sipheyeri", "Siythlirri", "Syaulina", "Tilini", "Timirr", "Tiyera"
 
-* "dark elf female"
-
-.. code-block:: lua
-
-   "Balsabistra", "Balsabliniza", "Balverpirdril", "Bursolilrin", "Charnopelhel", "Charsulleviln", "Charvirlavira", "Chormyrpirtra", "Chororisdra", "Colyasratra", "Divpelpelrin", "Divvorilhel", "Dromothpelhel", "Drompandylra", "Dromporidrin", "Dulmyrdylbra", "Dulverpirna", "Eilonpeliln", "Eilsinlinsil", "Eilvrillaviza", "Eknerilene", "Enoristra", "Eryolisith", "Gonpellivna", "Gontormendra", "Gonvorerra", "Gulporisra", "Gulsunsylrin", "Gulvorpirvril", "Imrelsylna", "Imsulsinhel", "Insvrilrinlin", "Jegnilpirira", "Jendpordylene", "Jendsulpirtra", "Jendveksinia", "Kilvorlavrin", "Lilpanlivvril", "Lulolgrilistra", "Lulpellevra", "Lulsindylira", "Lultorpelvra", "Mabtorsylistra", "Mazporpirna", "Mersekelvril", "Meryaspirrin", "Mornilralia", "Mornilsinira", "Norsolrilene", "Nothporpelistra"
-
-* "dark elf male"
+"catfolk male"
+---------------
 
 .. code-block:: lua
 
-   "Balrharanim", "Baltuldylid", "Bersinrilnaz", "Bervilpelvim", "Charnilelred", "Charsusdylvid", "Charverlinird", "Choryelsinul", "Derelelvim", "Desulrarid", "Divsunlinnil", "Divtendyluld", "Divverisriv", "Dolpanlivvir", "Drirupirvir", "Drompelsinvim", "Dromporsinvid", "Enolgpirnid", "Enrhasylul", "Ensabralnaz", "Ensolpelred", "Erolgrinlim", "Erpelilvid", "Gonorgidild", "Gulonrilnid", "Imnilidlim", "Insvirrilid", "Insvirsyluld", "Istnellivnil", "Istrelisul", "Istvillenvim", "Jendvorralald", "Kilyolsinviz", "Lilyelralred", "Lulsinraleld", "Lultorlevred", "Lultormlevlim", "Lulvorleveld", "Mabothrallim", "Mazvorisald", "Mernopeluld", "Mezsusranil", "Molmyrrilvim", "Morvillevnid", "Morvirrinviz", "Noronpirrid", "Nothtenlavlim", "Nothvorisred", "Olothlavid", "Olporlivnil"
+   "Carmau", "Carmew", "Carshah", "Carsharr", "Carshau", "Dremew", "Dreran", "Ferlirr", "Fersaf", "Fershim", "Germau", "Gerslif", "Lithshurr", "Mausyau", "Meershau", "Meershurr", "Mewsheer", "Miahsharr", "Miaupurrh", "Mirrgar", "Mirrshah", "Nykserr", "Nykserr", "Nyksharr", "Nyksiyth", "Nyksiyth", "Purrhlyau", "Purrhsyau", "Purrhus", "Rousharr", "Safus", "Sashus", "Serrshurr", "Sfeemeer", "Shahlyau", "Shahmeer", "Sharrsiyth", "Sheerruth", "Sheerwan", "Sheeshim", "Shimembe", "Shimshah", "Shurrmiau", "Shurrsiyth", "Syausfee", "Syausiyth", "Zithlyau", "Zithmiu", "Zithpurrh", "Zithsaf"
 
-* "dragon female"
-
-.. code-block:: lua
-
-   "Adastralagonis", "Adastraphylaxis", "Ancamordaxis", "Andramalaxis", "Archomordaxis", "Archoneriaxis", "Archovorunga", "Archozzebraxis", "Baramanthysa", "Barzuthraxis", "Barzuthraxis", "Beruxenoris", "Bialagonis", "Bradobradaxis", "Brimamandrossa", "Cadravorunga", "Cadrazzebraxis", "Chrobazia", "Chronaluxis", "Chroneriaxis", "Chrozuthraxis", "Harvorunga", "Iulzzebraxis", "Iulzzemalis", "Jazrazzebraxis", "Keruxaphylaxis", "Majurixenoris", "Malachomalaxis", "Malachozuthraxis", "Phoroneriaxis", "Phrixunadralix", "Phrixuzzebraxis", "Porphyronaluxis", "Rhodobazia", "Sarcuzuthraxis", "Sarcuzuthraxis", "Sardazzemalis", "Scarvalagonis", "Skhiacalchaxis", "Skhiaxenoris", "Skhiazuthraxis", "Skhiazzebraxis", "Skhiazzemalis", "Tchalcedomanthysa", "Tchazarbazia", "Trocholagonis", "Trochozzemalis", "Zalarbazia", "Zalarzzemalis", "Zerulbradaxis"
-
-* "dragon male"
+"dragon female"
+----------------
 
 .. code-block:: lua
 
-   "Adastraxenor", "Aragcordax", "Aragphylax", "Aragzzebrax", "Archobradax", "Archophylax", "Atrabradax", "Barbazius", "Barcordax", "Beruxenor", "Beruzzemal", "Biavorax", "Bradomalax", "Brimabradax", "Brimamandros", "Chrysobradax", "Glaumalax", "Glaunadral", "Harmandros", "Kralkamandros", "Majurimalax", "Malachoneriax", "Marnadral", "Marzzebrax", "Orgrazzemal", "Ouronadral", "Ourovorung", "Peridobradax", "Peridoxenor", "Phorocordax", "Phorophylax", "Phoroxenor", "Phrixumandros", "Phrixumandros", "Pyracalchax", "Pyranalux", "Rhadalagon", "Rhadanadral", "Rheneriax", "Rhevorax", "Sardavorung", "Sidereoxenor", "Tchazarmandros", "Tchazarmandros", "Tchazarxenor", "Trochoboros", "Trochophylax", "Trochovorung", "Vranalux", "Zalarbradax"
+   "Abrazzemalis", "Archovoraxis", "Archozzebraxis", "Atraxenoris", "Baracalchaxis", "Barmanthysa", "Barxenoris", "Berulagonis", "Beruzzebraxis", "Bramordaxis", "Brimalagonis", "Glaumanthysa", "Glaumordaxis", "Glauxenoris", "Harlagonis", "Harxenoris", "Heliophylaxis", "Heliovorunga", "Heliozuthraxis", "Heliozzemalis", "Huromandrossa", "Jalanphylaxis", "Jarzemvorunga", "Jarzemzzebraxis", "Jazrazuthraxis", "Jurgalagonis", "Jurgavoraxis", "Keruxacalchaxis", "Keruxavorunga", "Kralkazuthraxis", "Lazulophylaxis", "Majurizuthraxis", "Melkarmanthysa", "Ouromandrossa", "Peridomordaxis", "Porphyroneriaxis", "Rhadazuthraxis", "Rhodocalchaxis", "Sarcuvorunga", "Sarmordaxis", "Scarvabazia", "Sidereoborossa", "Sulchrubazia", "Sulchrumandrossa", "Tchalcedophylaxis", "Tchazarmandrossa", "Tchazarnaluxis", "Trocholagonis", "Trochomalaxis", "Trochonaluxis"
 
-* "dwarf female"
-
-.. code-block:: lua
-
-   "Ama", "Annuda", "Ardi", "Bial", "Bila", "Bonuda", "Brynglian", "Bylthiel", "Danmala", "Detu", "Duervada", "Dulona", "Dwagret", "Farinda", "Fraflera", "Frebida", "Fubra", "Fuli", "Gemnyl", "Glodeth", "Glody", "Jaal", "Janirigg", "Jegna", "Kadomia", "Kaitria", "Killona", "Kilsi", "Kiltha", "Kivara", "Lischa", "Maden", "Marba", "Metha", "Naerbera", "Nagnon", "Oya", "Rasma", "Relona", "Renba", "Renryn", "Rovara", "Telli", "Thoal", "Thogret", "Torkala", "Veta", "Voniess", "Zatuna", "Zegrun"
-
-* "dwarf female 2"
+"dragon male"
+--------------
 
 .. code-block:: lua
 
-   "Brodris", "Brokkdis", "Bromdis", "Bromlis", "Bromna", "Burllis", "Dallif", "Dalrun", "Dolgbis", "Dorrith", "Drimis", "Drimrun", "Dromris", "Dromrun", "Durmdis", "Durrun", "Frorrun", "Fulddis", "Fuldrun", "Fundis", "Gimlind", "Gondrun", "Gordlis", "Gradrun", "Grimlis", "Grodrun", "Gromrun", "Guldna", "Guldrun", "Gurvis", "Hornda", "Hornda", "Horndis", "Hornlind", "Hrarith", "Nordlif", "Ormdis", "Skandis", "Skonddis", "Stromis", "Stromvis", "Sturga", "Sturrun", "Sundna", "Thorlind", "Throga", "Throis", "Throlis", "Thrubis", "Thundga"
+   "Abramanthys", "Adranalux", "Ancacordax", "Ancacordax", "Andramandros", "Andramordax", "Aragnalux", "Atramanthys", "Baramalax", "Barzuthrax", "Beruboros", "Biamandros", "Biazuthrax", "Braxenor", "Brazuthrax", "Cadrazuthrax", "Chrobradax", "Chroneriax", "Chrysonadral", "Chrysozuthrax", "Harneriax", "Hurocordax", "Hurovorung", "Jarzemboros", "Jarzemmanthys", "Jazrabradax", "Jurgabazius", "Jurganalux", "Keruxaboros", "Keruxaneriax", "Melkarxenor", "Ourocordax", "Ouromanthys", "Ourozzemal", "Porphyrozzemal", "Pyraboros", "Pyracordax", "Pyravorung", "Rhadaphylax", "Rhodobazius", "Sarcumordax", "Sulchrubazius", "Sulchruneriax", "Tchalcedomanthys", "Tchazarphylax", "Vramandros", "Vraneriax", "Zalarmandros", "Zalarzuthrax", "Zerulcalchax"
 
-* "dwarf male"
-
-.. code-block:: lua
-
-   "Bannar", "Bavin", "Bofri", "Bonchar", "Bonmur", "Borhec", "Bunek", "But", "Dali", "Danvi", "Dubur", "Duli", "Dwani", "Dwarimm", "Fiin", "Funfur", "Funni", "Garmur", "Gomil", "Gomur", "Goun", "Gwarbil", "Gwarfri", "Hjolnom", "Hurnik", "Jorlin", "Kari", "Karil", "Kramdahr", "Lodur", "Lorin", "Lorin", "Marulf", "Obur", "Renden", "Rolin", "Runri", "Tarvil", "Taur", "Telun", "Thifur", "Thomil", "Thonden", "Thothur", "Toresosi", "Viros", "Vonchar", "Vondur", "Vonlin", "Vonthur"
-
-* "dwarf male 2"
+"drow female"
+--------------
 
 .. code-block:: lua
 
-   "Bornbor", "Bornli", "Brimrur", "Brodor", "Brodror", "Brokkir", "Brokkor", "Brudin", "Bruli", "Burlin", "Burnir", "Dalror", "Dormvir", "Dralin", "Dralin", "Drimri", "Durnrok", "Frorlin", "Fuldrok", "Gimbor", "Glodin", "Glolin", "Gondror", "Gondror", "Gordor", "Gormdin", "Gradin", "Gradin", "Grodli", "Grodli", "Grodrur", "Gromin", "Gundin", "Hornin", "Hornvir", "Hranir", "Norri", "Norror", "Ormli", "Skondin", "Stornor", "Stromlin", "Sturlbor", "Sturlri", "Sturror", "Sundrur", "Thrain", "Throlrur", "Throvor", "Thrurvi"
+   "Balcilin", "Bersolira", "Bursinith", "Buryelene", "Charsylrin", "Chorruvia", "Coliza", "Colthalth", "Colyolia", "Cysinvia", "Divmarelis", "Divpanth", "Doliza", "Dollelhel", "Dolvaan", "Dolvril", "Driporhel", "Drommyrna", "Dulniss", "Durolgira", "Dursulene", "Ekthalrin", "Ennilis", "Envolis", "Enyshel", "Gullunia", "Imnoil", "Johtenis", "Losith", "Losyolislin", "Lulorgdeil", "Mabsinan", "Mabtelralan", "Mabvolira", "Marra", "Marsusertra", "Maztormth", "Merlenniss", "Mezsoltra", "Mezth", "Mezvana", "Mezvoria", "Molnilith", "Morsabbra", "Norrhaistra", "Norsulvra", "Nothvapeliln", "Olniss", "Ulvilidiln", "Votormiln"
 
-* "dwarf surname"
-
-.. code-block:: lua
-
-   "Bearmauler", "Boar-Executioner", "Boarsmasher", "Boulderdigger", "Bronzecrusher", "Bronzecutter", "Bronzehand", "Bronzesmasher", "Coalclub", "Coalheart", "Copperforger", "Elf-Strangler", "Ettin-Executioner", "Fieryheart", "Gemcutter", "Gemdigger", "Giant-Beheader", "Gnome-Grappler", "Gnomebane", "Gnomegutter", "Gnomemasher", "Goldsmasher", "Goldsmith", "Granitecarver", "Icefist", "Ironspear", "Koboldslicer", "Mithrilcutter", "Mithrilfist", "Mithrilfoot", "Mithrilsword", "Noblefist", "Oakbeard", "Ogre-Strangler", "Ogre-Strangler", "Ogrecrusher", "Orcslasher", "Redcheek", "Rockfoot", "Silverspear", "Steelbeard", "Steelsmith", "Stonecrusher", "Stonemace", "Thunderdigger", "Thunderfist", "Whitecheek", "Whitehood", "Wolfcrusher", "Wolfmasher"
-
-* "elf female"
+"drow male"
+------------
 
 .. code-block:: lua
 
-   "Alais", "Alea", "Alea", "Almithara", "Arielimnda", "Bellaluna", "Braerindra", "Braerindra", "Caerthynna", "Claire", "Daratrine", "Daratrine", "Darunia", "Deularla", "Elmyra", "Eloimaya", "Eloimaya", "Faraine", "Filauria", "Filauria", "Gaylia", "Hacathra", "Haera", "Jeardra", "Kasula", "Keishara", "Kethryllia", "Liluth", "Lixiss", "Lyndis", "Lyndis", "Lyre", "Nyna", "Phelorna", "Phyrra", "Rathiain", "Rubrae", "Sariandi", "Shadowmoon", "Shandalar", "Shanyrria", "Sheedra", "Sheedra", "Soliania", "Tsarra", "Urmicca", "Urmicca", "Viessa", "Viessa", "Wynnter"
+   "Arverurn", "Aryolnaz", "Bervekurn", "Charyelrinvim", "Chorverrim", "Colrennaz", "Decavim", "Divsussylurn", "Dolvir", "Dorrellim", "Driporviz", "Dritorild", "Dromtornaz", "Drorenvir", "Drosekid", "Dulelriv", "Dulmyrird", "Dultenriv", "Durnaz", "Durolgeld", "Durtelvid", "Eiltenriv", "Ekvekul", "Ekvrilred", "Filivin", "Firenild", "Gulyelvid", "Imlim", "Imsulrim", "Insvilred", "Jegsabred", "Jersulnil", "Kilnould", "Kilthalurn", "Lulvilnil", "Mazrim", "Mazsuneld", "Meznylid", "Mezrenild", "Mirvicrileld", "Molmyrvir", "Molnid", "Nothnonim", "Nothrysinurn", "Nothviculd", "Pharyelnaz", "Zcarid", "Zelul", "Zsolnid", "Zvrilnid"
 
-* "elf female 2"
-
-.. code-block:: lua
-
-   "Aegmeralril", "Aelseredwë", "Aersilaniel", "Aerthalesian", "Aethlitholriel", "Arnimthalriel", "Arthaelaseth", "Artherammir", "Bermindesien", "Bersaeralriel", "Caernimarmir", "Caerraelirsil", "Carlorerrial", "Carsararien", "Celiroliel", "Cirsaeramsil", "Claristolmir", "Crismelansil", "Crissaranedel", "Cristhaerelwen", "Earrindadril", "Earsilmelroël", "Earsindirian", "Elbimebwen", "Elbmaraniel", "Elthrindalwë", "Elththalolril", "Elththeremiel", "Eolsilmensil", "Erimalwen", "Erlarthoneth", "Erlimolroël", "Erlmindediel", "Erlrinenwen", "Ersilmemroël", "Feansilmthalrien", "Feanthelarien", "Findirasedel", "Ganmindirriel", "Gellaralwë", "Gelnirerian", "Ilmimemiel", "Ilmistasrien", "Ilmraelolrial", "Ilmriladian", "Ithseradian", "Ithserevwen", "Laegliththonril", "Lendralesiel", "Lendsindthonrian"
-
-* "elf male"
+"dwarf female"
+---------------
 
 .. code-block:: lua
 
-   "Alduin", "Almon", "Anlyth", "Arbane", "Arbane", "Ascal", "Bellas", "Bellas", "Bellas", "Bellas", "Bellas", "Cluhurach", "Connak", "Eroan", "Ettrian", "Folmon", "Goras", "Hagwin", "Ilimitar", "Iliphar", "Iliphar", "Inialos", "Jorildyn", "Kendel", "Khatar", "Khatar", "Khidell", "Khuumal", "Lathlaeril", "Maiele", "Malon", "Melandrach", "Melandrach", "Myriil", "Nopos", "Nym", "Orist", "Phaendar", "Respen", "Rhys", "Riluaneth", "Taegen", "Thalanil", "Theodred", "Theodred", "Theodred", "Theodred", "Theodred", "Theodred", "Traeliorn"
+   "Ama", "Bial", "Bila", "Bogna", "Bonuda", "Bylthiel", "Dargret", "Dedy", "Denuda", "Duetu", "Dulona", "Duvara", "Dwanuda", "Fariha", "Feridy", "Ferifra", "Filona", "Fraflera", "Frebida", "Freka", "Gemnyl", "Glodeth", "Glody", "Gronuda", "Henden", "Herev", "Janirigg", "Jegna", "Kadomia", "Kazda", "Kilda", "Kilnda", "Kilsi", "Kivara", "Maden", "Medeth", "Metha", "Olaani", "Oya", "Rasma", "Relona", "Renryn", "Rimala", "Rovara", "Sentha", "Taja", "Torkala", "Tyshwyn", "Veta", "Voniess"
 
-* "elf male 2"
-
-.. code-block:: lua
-
-   "Aegmaegevad", "Aegmelemdir", "Aersindthalfal", "Aerthalalor", "Aesraelesfal", "Aesserolrod", "Anmaroldil", "Arrilirrond", "Belseldarrior", "Caelralirdil", "Caelrimenlas", "Caersilalrond", "Caersindilion", "Calistadrond", "Callithandil", "Calranandir", "Carlaradrod", "Carninedras", "Carrelilad", "Cirinamnar", "Cirmaroldan", "Cirmelasdel", "Clarrinthonlas", "Crisraelemrod", "Earimilras", "Earirilrod", "Earnithebrod", "Elrimevrior", "Eolrindedor", "Eolthaereborn", "Erlloramion", "Erlnimandir", "Erlseradfal", "Erralenad", "Estmirerdil", "Farthirednar", "Feanmindardil", "Findistthondan", "Findmithasor", "Findseldthonros", "Finninanion", "Finninasras", "Galloresras", "Galrimaddil", "Garmarolrond", "Gilloreldir", "Ilmranenthir", "Ilmrimeblad", "Laegmithellin", "Lindthalesfal"
-
-* "giant female"
+"dwarf female 2"
+-----------------
 
 .. code-block:: lua
 
-   "Bulrei", "Burhrei", "Daoh-Ghug", "Daoh-Rhoo", "Doh-Naohronkh", "Doh-Shehi", "DohAhg", "DohHaogh", "DohKhan", "Fah-Rahooub", "FahIghoum", "Ghat-Lah", "Ghaw-Lah", "Ghishgunri-Rei", "Ghugrei", "Goun-Rei", "Hatoolugh-Lah", "Heh-Doh", "Khurigoushghad-Mih", "Lah-Digri", "Lah-Pughronkhgiree", "Lah-Wah", "LahSnaoh", "Mih-Digri", "MihDumfaogh", "MihKhem", "MihNaroosuth", "Obghishlah", "Orf-Fah", "Oughghish-Mih", "Rei-Meh", "Rei-Shom", "ReiGham", "ReiGhaw", "Shlotih", "Shulfah", "Soh-Hah", "Suhidoh", "Teb-Doh", "Tih-Khanig", "TihEghi", "TihGhish", "TihKham", "TihShul", "TihVuhchah", "Tuhlidaoh", "Urush-Mih", "Vuh-Lah", "Yaumdoh", "Yaumghish-Fah"
+   "Balrith", "Borddis", "Bordrith", "Bornis", "Brimda", "Brimga", "Brimlind", "Broddis", "Bromis", "Burlis", "Burllis", "Darith", "Dromdis", "Dromis", "Durmdis", "Durvis", "Frorrith", "Fundna", "Gimnis", "Glorun", "Gondis", "Gondnis", "Gormbis", "Gormhild", "Gormrun", "Gradhild", "Grimga", "Gurdis", "Gurhild", "Hornbis", "Hornda", "Horndis", "Hornna", "Nabis", "Narun", "Norrun", "Storndis", "Stornis", "Stromvis", "Sturna", "Thorlif", "Thornrun", "Thrais", "Thrarith", "Throllif", "Thrurdis", "Thruris", "Thrurrun", "Thundlis", "Thundrun"
 
-* "giant male"
-
-.. code-block:: lua
-
-   "Ahg-Yeeh", "Baod-Rhoo", "Bohrgoun", "Bul-Ghaw", "Bulghug", "Burh", "Chaheghi", "Digri", "Ghad", "Gham", "Gham-Tregh", "Ghan-Teb", "Ghat-Khuri", "Ghatgham", "Ghatghughah", "Ghee", "Gonkh", "Goun-Snaoh", "Goun-Yaumhaogh", "Haogh", "Heghiburh", "Kham", "Khan", "Khem", "Lughfaogh", "Maoh-Khee", "Naoh", "Naoh-Ghah", "Naroo", "Nhamchah", "Oli", "Oli-Chah", "Orf-Snaoh", "Ouh", "Peh", "Puh", "Rahoo", "Rifoo-Khaz", "Ronkh", "Roukyeeh", "Shul", "Shul", "Suth-Haoghahg", "Ub", "Ub", "Urush", "Urush-Shour", "Ush", "Zham", "Zham"
-
-* "gnome female"
+"dwarf male"
+-------------
 
 .. code-block:: lua
 
-   "Banus", "Banus", "Bimkiulo", "Binklitinkle", "Binklitinkle", "Binkwin", "Bixdink", "Bixgus", "Bodibik", "Bonyulo", "Bonyulo", "Bonyulo", "Dibink", "Dimbick", "Dimbick", "Dimbick", "Dindamink", "Dosizz", "Filgus", "Glinbynus", "Glinkfinkle", "Gynndeedus", "Gynndomink", "Gynnoago", "Hinkabrick", "Juldeeulo", "Katdomink", "Ketklinkle", "Klokiwack", "Lisble", "Liskink", "Lissgus", "Liswin", "Lololinkey", "Lymkeergo", "Lyssfizzy", "Mitash", "Mitthinkle", "Syrbik", "Syrbik", "Syrbyfinkle", "Syrbyfinkle", "Talkink", "Thenlinkey", "Thinkkeesizzle", "Thinkkeesizzle", "Tilkink", "Tindinkey", "Tindinkey", "Tindinkey"
+   "Achar", "Atri", "Atri", "Danvim", "Darbur", "Dari", "Dedir", "Delin", "Dochar", "Donur", "Duevil", "Dunur", "Dwaran", "Emkom", "Fain", "Fari", "Firimm", "Firtag", "Funbil", "Funrin", "Galbin", "Galur", "Gamrimm", "Gamvim", "Gartri", "Gimbil", "Gobil", "Gomran", "Grolin", "Groulf", "Jorni", "Kari", "Kilulf", "Kilvri", "Kotdrom", "Lochar", "Marbin", "Marrimm", "Nalli", "Nugnumri", "Ovi", "Rasdur", "Strodreac", "Tarril", "Therdur", "Thermun", "Thramur", "Vonulf", "Webur", "Werthur"
 
-* "gnome male"
-
-.. code-block:: lua
-
-   "Babimac", "Balibik", "Bawick", "Bawick", "Bilkeefinkle", "Binaris", "Binklbus", "Binwick", "Binwick", "Binwick", "Diledus", "Dimlank", "Dindink", "Dinkbitank", "Dinlebrick", "Dinlebrick", "Dobeeble", "Donkleedink", "Filgus", "Fillikink", "Fillikink", "Fillikink", "Finflonk", "Finkvash", "Finsizz", "Gimfizz", "Gimlulo", "Gnoonk", "Gnoonk", "Lago", "Lawizz", "Lawizz", "Lawizz", "Lawizz", "Lodeevizz", "Mittlegus", "Mittleklonk", "Nitdus", "Nitkeeklonk", "Nitkeeklonk", "Pithosizz", "Talwick", "Teenkvash", "Thinkflonk", "Tinfizz", "Tobgus", "Tocdeeflink", "Tockawick", "Todatonk", "Tovash"
-
-* "gnome surname"
+"dwarf male 2"
+---------------
 
 .. code-block:: lua
 
-   "Acerpipe", "Acerspindle", "Berryspinner", "Bizzblast", "Blackstrip", "Castfizzle", "Clicksteel", "Cogbonk", "Fastbonk", "Fastfuse", "Fastfuse", "Fizzleblast", "Fizzletorque", "Geartorque", "Mechaspark", "Mechasteel", "Mekkakettle", "Overspring", "Porterblast", "Porterspring", "Puddlehouse", "Puddlesteel", "Sadspinner", "Sadspinner", "Shinespring", "Shinespring", "Spannermaster", "Sparkfizzle", "Sparkspanner", "Steamfuse", "Steamfuzz", "Steamgauge", "Steamnozzle", "Steamwrench", "Steamwrench", "Stormgrinder", "Stormgrinder", "Stormpipe", "Stormpipe", "Stormsteel", "Stormsteel", "Swiftsprocket", "Swiftsprocket", "Swiftwizzle", "Twistcrank", "Twisttorque", "Twistwhistle", "Wobblefizzle", "Wobblefizzle", "Wobblespanner"
+   "Balin", "Bordin", "Bornnir", "Brimin", "Brimin", "Bromdin", "Dalor", "Dolgir", "Dolglin", "Dolgor", "Dorir", "Dormli", "Dormvir", "Dralir", "Dralnir", "Drimin", "Dromli", "Durin", "Durmin", "Durmror", "Durnror", "Fromri", "Fromri", "Gimir", "Gloir", "Gordli", "Gormror", "Grodir", "Guldri", "Gundri", "Gurrin", "Skandror", "Storndin", "Stornli", "Sturbor", "Sturlri", "Sturrok", "Sundror", "Sundvor", "Thornin", "Thorrin", "Throlin", "Throlin", "Throllin", "Throlvi", "Throlvir", "Throrin", "Throrli", "Thrunir", "Thrurin"
 
-* "goblin female"
-
-.. code-block:: lua
-
-   "Adzgligghy", "Balggadya", "Blidnagya", "Bligbalgah", "Bligdokhah", "Bligkrigghy", "Botbotghy", "Burkragya", "Dokhhigay", "Driklukah", "Flugbligay", "Flugvarkay", "Gagburkah", "Gahzitghy", "Garvarky", "Gatglakghy", "Gazzizya", "Ghagnaday", "Ghakarkgah", "Ghakrokah", "Gitbliggah", "Glakgakghy", "Glaksnatah", "Glizgloky", "Glizslogya", "Glokmuby", "Goggazghy", "Gratglokah", "Gukmazgah", "Krigdufya", "Krigghakghy", "Lagspikghy", "Laknokragy", "Ligyaggay", "Likknigah", "Nadbalgya", "Naggogya", "Nagyakghakay", "Nikkglakah", "Ragsnay", "Rokhiggah", "Slaibligay", "Sloggady", "Snigyadya", "Snitsnitghy", "Togbalgah", "Yaggsnagah", "Yarpzatah", "Zibgady", "Zizbolggah"
-
-* "goblin male"
+"dwarf surname"
+----------------
 
 .. code-block:: lua
 
-   "Achrak", "Balgbolg", "Balgloz", "Bilgsnik", "Blokghak", "Bloknag", "Bolglikk", "Bugdokh", "Dokhyip", "Dufyig", "Flugslogkak", "Gadluk", "Gadshrig", "Gaksog", "Ghagdokh", "Ghagduf", "Gitblot", "Gitghag", "Gligdokh", "Glizyarp", "Glokarkziz", "Gogblot", "Irkspik", "Khadnad", "Ligsnark", "Lukkhad", "Makgrak", "Mubblok", "Mubstogg", "Nadnaz", "Nadshuk", "Nagblid", "Nigrag", "Nokgit", "Nukkburk", "Rakkrig", "Rokadz", "Rokmizsnig", "Shriggat", "Skragslig", "Skragsnit", "Skugnikk", "Slogrok", "Snaark", "Snarkskug", "Snatsnig", "Snigdokh", "Yadslai", "Yarpsnitglok", "Zatgrak"
+   "Bloodfinger", "Bouldercrusher", "Boulderforger", "Bouldersmith", "Bronzeaxe", "Bronzebrand", "Bronzedigger", "Bronzepick", "Coalfist", "Coalheart", "Copperclub", "Coppercutter", "Elf-Battler", "Fairshield", "Gembreaker", "Gianteater", "Giantpuncher", "Giantslayer", "Gnomecrusher", "Goblin-Battler", "Goldbreaker", "Goldfist", "Hammercutter", "Hammerforger", "Hammersmasher", "Hardblade", "Hardhood", "Ironaxe", "Ironhood", "Marblecrusher", "Marblecrusher", "Marblecutter", "Marblesmasher", "Mithrilfoot", "Noblechest", "Noblehood", "Noblemace", "Orcripper", "Orcslasher", "Redhand", "Rockdigger", "Rockfist", "Silverhood", "Silversword", "Steelsmasher", "Stonehand", "Stoneheart", "Thundercutter", "Whitebelly", "Wolf-Garrotter"
 
-* "half-demon female"
-
-.. code-block:: lua
-
-   "Aaggiu", "Azziu", "Brazskiu", "Bruhizil", "Draananil", "Draannalu", "Draanrula", "Drulgizil", "Guznalu", "Jurggiu", "Jurlyrr", "Kaazanil", "Kharklihyl", "Kraubau", "Krauija", "Kraujiul", "Kuazlyrr", "Kudulin", "Luriija", "Nidija", "Nidziu", "Ninjskiu", "Ninjsula", "Ranagizil", "Ranagziu", "Rilthudiu", "Ruzzihyl", "Saagbau", "Skaurskiu", "Ulthuulla", "Urzbau", "Urzizil", "Urzlihyl", "Urzlyrr", "Urznalu", "Vlagnalu", "Vlashdiu", "Vlukskiu", "Vluzakzihyl", "Vrazdiu", "Vulkrula", "Vulkziu", "Xauzihyl", "Xidlin", "Xulrula", "Xurajija", "Zugdiu", "Zuldudusla", "Zuldurula", "Zuvlyrr"
-
-* "half-demon male"
+"elf female"
+-------------
 
 .. code-block:: lua
 
-   "Aagzuk", "Alurinu", "Aziklank", "Azikundak", "Azlurug", "Azsul", "Bruhlank", "Draanlank", "Draansul", "Guzarag", "Guzull", "Idrunal", "Jhaalbru", "Jidarag", "Jidull", "Jurzinu", "Kargruzuk", "Krivull", "Kudulurr", "Kuduruzuk", "Luriinu", "Lurizu", "Mulkdrul", "Mulkrul", "Nidundak", "Ninjlank", "Ninjlurr", "Nullurug", "Ranagrul", "Ranagundak", "Rulkdrul", "Rulkzu", "Ruzsalk", "Saaglurr", "Vlaajxulg", "Vlagdrul", "Vlagsalk", "Vlashnal", "Vlashrul", "Vlashzu", "Vulknal", "Xaudrul", "Xauzu", "Xullank", "Xulxulg", "Xurajruzuk", "Xurajruzuk", "Zuldulun", "Zulduxulg", "Zulduzuk"
+   "Alais", "Alais", "Alea", "Alea", "Almithara", "Amlaruil", "Arielimnda", "Arielimnda", "Axilya", "Bellaluna", "Bellaluna", "Braerindra", "Caerthynna", "Claire", "Cyithrel", "Deularla", "Elanil", "Elanil", "Elasha", "Elmyra", "Elmyra", "Eloimaya", "Eloimaya", "Esta", "Falenas", "Filauria", "Haera", "Jeardra", "Kasula", "Keishara", "Liluth", "Lyndis", "Lyre", "Nushala", "Nyna", "Phyrra", "Rubrae", "Shadowmoon", "Shandalar", "Shandalar", "Shanyrria", "Sheedra", "Sheedra", "Soliania", "Soliania", "Syndra", "Tsarra", "Urmicca", "Viessa", "Wynnter"
 
-* "halfling female"
-
-.. code-block:: lua
-
-   "Adelheid", "Alexis", "Allison", "Alyssa", "Amanda", "Audofleda", "Begga", "Berenga", "Berenga", "Bertha", "Bertha", "Bertha", "Bertha", "Caitlin", "Camelia", "Camelia", "Chrodechildis", "Chrodechildis", "Darby", "Ellinrat", "Erica", "Erica", "Esmee", "Genofeva", "Genofeva", "Gomatrudis", "Haley", "Kaitlyn", "Laura", "Leesha", "Lily", "Mary", "Mary", "Melissa", "Menegilda", "Mimosa", "Mimosa", "Myrna", "Myrtle", "Natalie", "Pervinca", "Ragnachilde", "Rotrud", "Rotrudis", "Shelby", "Terri", "Theodelinda", "Theodrada", "Theutberga", "Vulfegundis"
-
-* "halfling female 2"
+"elf female 2"
+---------------
 
 .. code-block:: lua
 
-   "Adela", "Adela", "Adra", "Aila", "Ailia", "Ailwisa", "Alma", "Almwina", "Ambia", "Bandia", "Barda", "Benia", "Benice", "Biffice", "Biffina", "Biffwina", "Bildily", "Blanca", "Blanca", "Blanca", "Bomba", "Bungia", "Drogwina", "Durlwina", "Emma", "Everily", "Everwisa", "Ferda", "Froba", "Fulbice", "Fulbina", "Gama", "Gamily", "Gamwisa", "Hascina", "Hodice", "Hodily", "Ivina", "Milice", "Odia", "Saba", "Sabice", "Sabina", "Sabwina", "Toba", "Tobia", "Wania", "Wanice", "Wigice", "Wydia"
+   "Aelrindadriel", "Aerrindasiel", "Aessaredmir", "Aesseldirriel", "Aesserarrial", "Aesthelirwen", "Anlirelloth", "Ansaerthonedel", "Armindaswë", "Arnirilriel", "Bernitherril", "Calraelalrian", "Celiroliel", "Celmeresriel", "Celrelarriel", "Celrilalwen", "Cirimelril", "Clarninedian", "Crissaranedel", "Cristhaelebien", "Cristhaerelwen", "Elthsareliel", "Eolinoliel", "Eolsilareth", "Erlimolroël", "Erlreleriel", "Erlrilevwen", "Erlseroledel", "Erninebeth", "Faerthelenriel", "Farimthonriel", "Farraelirsil", "Feannithalriel", "Feansarolmir", "Findliremedel", "Findrindanel", "Findsarolrien", "Findseldinroël", "Findthaleneth", "Finistalrial", "Finrilinrien", "Finthaelanwen", "Finthaeraredel", "Gillorerriel", "Ilmlarerroël", "Ithrelersil", "Ithserevwen", "Ithsilmthaleth", "Lendseldoledel", "Lindrindaseth"
 
-* "halfling male"
-
-.. code-block:: lua
-
-   "Agilbert", "Andica", "Angilbart", "Balbo", "Balbo", "Balbo", "Berchar", "Bero", "Bertin", "Blanco", "Bucca", "Clodio", "Clodio", "Erard", "Goisfrid", "Gundovald", "Guntramn", "Harding", "Heribert", "Heribert", "Hildebald", "Hildebald", "Hildibrand", "Huebald", "Humbert", "Imbert", "Imnachar", "Imnachar", "Isengrim", "Isengrim", "Marcus", "Nick", "Pancras", "Riquier", "Sadoc", "Siegfried", "Sunno", "Taurin", "Taurin", "Thankmar", "Theudebald", "Theudebald", "Tobold", "Tobold", "Togo", "Waldolanus", "Waltgaud", "Willibrord", "Zwentibold", "Zwentibold"
-
-* "halfling male 2"
+"elf male"
+-----------
 
 .. code-block:: lua
 
-   "Adald", "Adelo", "Adro", "Adro", "Adrwin", "Adwise", "Ailold", "Albwin", "Albwise", "Almald", "Bardold", "Benald", "Beno", "Benold", "Blanco", "Blancwin", "Boffo", "Bombard", "Bombfast", "Bramo", "Bungard", "Drogo", "Durlo", "Durlo", "Durlwin", "Emmald", "Emmwin", "Erdo", "Ernard", "Falco", "Ferdert", "Ferdo", "Fulbo", "Haldard", "Haldo", "Haldo", "Hamfast", "Hamo", "Hascard", "Hugfast", "Hugo", "Markert", "Milert", "Milo", "Samfast", "Sego", "Serlo", "Serlo", "Tobo", "Tobold"
+   "Agandaur", "Agandaur", "Aimon", "Bellas", "Cluhurach", "Connak", "Ettrian", "Ettrian", "Folmon", "Goll", "Goll", "Ilimitar", "Iliphar", "Inialos", "Jorildyn", "Juppar", "Khatar", "Khidell", "Kolvar", "Kolvar", "Kolvar", "Kuornos", "Lathlaeril", "Lhoris", "Lhoris", "Lhoris", "Maiele", "Maiele", "Molostroi", "Nym", "Oenel", "Oenel", "Orym", "Phaendar", "Phraan", "Rhys", "Rhys", "Rilitar", "Riluaneth", "Ruvyn", "Ruvyn", "Ruvyn", "Samblar", "Shaundyl", "Tehlmar", "Thalanil", "Theodred", "Theodred", "Theodred", "Vesstan"
 
-* "halfling surname"
-
-.. code-block:: lua
-
-   "Banks", "Bilberry", "Bilberry", "Boffin", "Boulderhill", "Brandagamba", "Brown", "Brown", "Brownlock", "Bunce", "Burrowes", "Diggle", "Diggle", "Farfoot", "Fleetfoot", "Galbassi", "Goodbody", "Goodbody", "Goodbody", "Goodchild", "Goodchild", "Greenhill", "Greenhill", "Hairyfoot", "Hayward", "Headstrong", "Hogpen", "Hornblower", "Hornwood", "Knotwise", "Langham", "Leafwalker", "Lightfoot", "Littlefoot", "Littlefoot", "Lothran", "Oldbuck", "Proudbody", "Proudfoot", "Proudmead", "Puddifoot", "Puddifoot", "Rumblebelly", "Sackville", "Sackville-Baggins", "Sandheaver", "Silentfoot", "Smallburrow", "Took", "Wanderfoot"
-
-* "human female"
+"elf male 2"
+-------------
 
 .. code-block:: lua
 
-   "Aelfsige", "Aenescyne", "Aranor", "Armnoth", "Bayhere", "Bealdhun", "Bealdric", "Belin", "Beorhtglaed", "Beryan", "Betyna", "Chesten", "Cuthgyth", "Cyrevea", "Cyrussra", "Deorflaed", "Eadhere", "Ealdfrith", "Ealdgifu", "Ealdwacer", "Ealdwythe", "Ealhweald", "Eilinorerin", "Emewyn", "Emora", "Eseld", "Godmon", "Hildhere", "Holrta", "Iville", "Iville", "Leodheard", "Leofburg", "Leofwig", "Mayibeth", "Mildburg", "Mildleofu", "Mildric", "Osor", "Saecromb", "Saegyth", "Saeor", "Saestrang", "Salunn", "Sigesnel", "Sunugyth", "Swetor", "Tekver", "Tilastrang", "Xanalle"
+   "Aelnithenrior", "Aelraelanor", "Aelsindolrond", "Aesraelesras", "Aesrindiror", "Aesthiranthir", "Aethmaeginad", "Aethsarolrod", "Anlirandir", "Arrinaldel", "Belmindaldir", "Bermindebrond", "Bersilmilion", "Berthalinion", "Caelmaegendil", "Caerraelirion", "Caerseroldil", "Celistebor", "Clarreledlin", "Earmerirorn", "Earsilandan", "Elbmerarlad", "Elbralirdan", "Elninenthir", "Elrilanlas", "Elsaeralrond", "Elsarerdir", "Eolraelilras", "Erlarevorn", "Erlrilirdan", "Estrimadfal", "Faerthaelebad", "Faerthalednar", "Feanmaegebros", "Findmirevthir", "Findmirthonlas", "Findnithenorn", "Finrinasrior", "Galnimaddan", "Galnimemfal", "Galrelanorn", "Galrelevlin", "Ganistarros", "Garlirasorn", "Gilrelamad", "Ilmninthonlin", "Ithninasthir", "Ithralthaldel", "Laeglithilthir", "Lindtheresrond"
 
-* "human male"
-
-.. code-block:: lua
-
-   "Aelfweard", "Aethelrand", "Aethelweald", "Baerhdeor", "Balrek", "Belgeat", "Burgbeald", "Caddaraed", "Daegwulf", "Dagrkath", "Daimvon", "Dairntir", "Dealgeat", "Drbar", "Dunbert", "Eadgard", "Ealhgeat", "Earwict", "Erelqzor", "Garhere", "Garwald", "Gawen", "Gerens", "Godbote", "Godmael", "Goldgar", "Hereric", "Hrofhere", "Isszor", "Malfkor", "Ormewine", "Osbeald", "Perran", "Saeweald", "Saeweald", "Selgar", "Sigeheah", "Sigmund", "Thurgar", "Thurmaer", "Triston", "Turhir", "Ulasus", "Ulsus", "Wella", "Wigmaer", "Winehard", "Withell", "Wulfgrim", "Wulfrun"
-
-* "human surname"
+"fetchling female"
+-------------------
 
 .. code-block:: lua
 
-   "'Beard' Blount", "'Bloodmouth' Crookbain", "'Bright' Smalley", "'Cook' Saransson", "'Good' Duke", "'Ironic' Bontick", "'Old' Allerton", "'Pegram' Motiuelle", "'Stonearm' Artre", "'Stout' Crisp", "Aciltrius", "Alranerdottir", "Berriman", "Blunt", "Buck", "Caeredius", "Carrellius", "Cerrianus", "Clive", "Cnililia", "Curtlilius", "Decintanus", "Double-Legs", "Ellis", "Fry", "Goodwin", "Grant", "Hackney", "Haggard", "Halfhand", "Harorkesdottir", "Northerner", "Northerner", "Norton", "Peagrim", "Perrin", "Pratt", "Pudding", "Pure-Smith", "Ratodicus", "Raven", "Rock-Hewer", "Rowe", "Snow-Crusher", "Snow-Crusher", "Strong", "Trollope", "Unseen", "Vinkwell", "the Cook"
+   "Bronora", "Drizonur", "Ehitil", "Ehugi", "Ehuza", "Gramohel", "Grimah", "Grudura", "Grura", "Hajone", "Hevi", "Hodoco", "Ikacotim", "Ikehon", "Ikuvotal", "Ileke", "Jamum", "Jovih", "Mena", "Qegoc", "Qizec", "Quti", "Rilih", "Sagem", "Tezunam", "Trahomoh", "Trenohe", "Trohel", "Truhe", "Ucezunir", "Ugata", "Ugezol", "Uguloha", "Umazar", "Umuno", "Umuzel", "Usesit", "Usuhohi", "Utidu", "Utiseh", "Uveta", "Xati", "Xoduli", "Xudu", "Yedi", "Yoteh", "Yuda", "Zanuhac", "Zejutot", "Zuhohi"
 
-* "infernal 1"
-
-.. code-block:: lua
-
-   "Aiazjuyil", "Aiazrualu", "Avuzeyee", "Azaz-rugro", "Azazuvutu", "Baelzaitha", "Bazozgro", "Breazlurhz", "Bul-algarl", "Drauvuziel", "Druirbuz", "Ghaaujhuz", "Ghauuvshai", "Grelogarl", "Gura-arglau", "Guzruvul", "Gzirahra", "Hriz-uvyee", "Hziyunal", "Idrau-urhez", "Iuzazdre", "Juujaalz", "Kraaruthalu", "Kraayomau", "Kulorjuu", "Kuluzduoi", "Liluuzhruz", "Lurhzujvuul", "Lurhzzudrau", "Malruyaa", "Nasuyusoaz", "Oxu-zuglau", "Oxuzenee", "Pazulrez", "Rhuuayjuu", "Rizzaraal", "Rizzossu", "Ruezmoz", "Ruyusoaz", "Ssuezaiaz", "Szuluzghu", "Thaluernal", "Thaluzibaal", "Thoeybuz", "Tholugzi", "Ulchruzighaa", "Yilorghu", "Zielribaz", "Zuujsau", "Zuuvobaph"
-
-* "infernal 2"
+"fetchling male"
+-----------------
 
 .. code-block:: lua
 
-   "Aghlizug", "Algjukrolg", "Baugozmag", "Blogiraig", "Boajlokwarg", "Brelgvorung", "Bubivtzolg", "Chag-ilbaug", "Drog-ozthaug", "Drogevszug", "Frubazfulg", "Glabuliub", "Haagoygrolb", "Haagurkrolg", "Hurgilbarg", "Iugujthaug", "Julbyotrob", "Krolgavdruj", "Kwargruigg", "Leeghliogg", "Lolgvafulg", "Morgazdrog", "Nalbzumoab", "Nudulraug", "Nulbzaraug", "Obbaltzolg", "Oggriuag", "Riggyathog", "Roggroiog", "Sagjabulg", "Sagjoraag", "Shub-vehrud", "Shubilvulb", "Shubyumag", "Sug-zuraag", "Szugzotzolg", "Thargvujub", "Thaugijsug", "Thaugzofulg", "Thogvojub", "Uagijtharg", "Uagolszug", "Uagulnog", "Uagyitrob", "Ulbizdaurg", "Vogtozrung", "Vulb-juhurg", "Vulbrumaug", "Yibbyoyeeg", "Zub-orolb"
+   "Bratoh", "Brevu", "Draka", "Drejum", "Drimo", "Ecaco", "Ecohu", "Ehilu", "Ehucu", "Gralu", "Grehoh", "Ikasoc", "Ikuzom", "Ilage", "Ileco", "Mato", "Meve", "Micu", "Nadul", "Nezoh", "Oroto", "Qehin", "Qraso", "Qratur", "Qrezit", "Recom", "Recur", "Serot", "Socu", "Ucavuc", "Ucuhul", "Ucuro", "Ugahu", "Uguhu", "Umemit", "Umode", "Usidul", "Utedac", "Utila", "Uvugeh", "Xelec", "Xetum", "Yasu", "Yaval", "Yizom", "Yizu", "Yokot", "Zimoc", "Zuna", "Zuto"
 
-* "infernal 3"
-
-.. code-block:: lua
-
-   "Bahor-urkrych", "Boakzaloch", "Charnyiutuk", "Chonarluth", "Dakarinax", "Dek-jiurt", "Draumujhoth", "Duumvirhast", "Fesh-roruaak", "Gaanvotash", "Glaurargoch", "Glaurorlach", "Glaurrudun", "Gochulrhast", "Gothormoth", "Hothzutlizit", "Hraxveyalm", "Hunujlech", "Igmuvuzt", "Irschijvrok", "Lechlunoc", "Lis-ulazt", "Liskozmat", "Lokuygek", "Metrasark", "Nervusoth", "Nilvlegor", "Nocjaralk", "Nuurlidraum", "Och-zulach", "Ochuyrauk", "Rutturvrok", "Ruun-ollach", "Ruun-riazt", "Saurzidun", "Soth-linilv", "Soth-ovtash", "Sothovoch", "Sothvabrax", "Suttzeslarv", "Sutulmat", "Tashzahoth", "Thalkyukos", "Turojmat", "Utukovlok", "Utukyahrax", "Vapovsot", "Vrok-zutash", "Xaasyacharn", "Yalmrabas"
-
-* "ogre female"
+"giant female"
+---------------
 
 .. code-block:: lua
 
-   "Arghkrodghy", "Barshkurghy", "Barshnargah", "Burzhrungah", "Burzluzya", "Dofarghah", "Droksludya", "Dubzugy", "Dugobbya", "Dulgruzay", "Dulsnadya", "Durshgomah", "Ghakhgrukay", "Ghakhnargah", "Ghukkshuzgholghy", "Gludghashay", "Gluggrutghy", "Groggyugghy", "Grolslugah", "Grufobbgah", "Grulgroggdrugay", "Grulslugya", "Gruthulkgah", "Grutkulky", "Grutslugy", "Grutury", "Gruzshurah", "Guhlkugghakhgah", "Hrungurkhghy", "Kulkgrumya", "Lugsnoggah", "Lushslubay", "Makhmakhy", "Makhmudgah", "Molgrolbay", "Muddushsnadah", "Muzddubah", "Narglurzya", "Rolbzudghy", "Ruzrukhah", "Shrufshuggah", "Shuggrufya", "Urdurshghy", "Urghgrokgah", "Urghklobay", "Urkhkulkya", "Yugobbghy", "Zudgrukah", "Zudthulkay", "Zuggrufy"
+   "Bulmih", "Chahfah", "Daoh-Ahg", "Daoh-Naohyih", "DaohEhm", "DaohGhanshul", "DaohUbbuli", "Doh-Shour", "DohTuhliig", "Ehmlah", "Ehmsoh", "Fah-Guh", "Fah-Pehpugh", "Fah-Thom", "Ghahdumtih", "Gham-Daoh", "Gham-Tih", "Ghammih", "Hehburh-Mih", "Hoosoh", "Khaz-Daoh", "Khurigireesoh", "Lah-Naroo", "LahEhm", "LahMeh", "MihDhak", "Naroo-Tih", "Nhamdoh", "Nuhmouh-Soh", "Oliush-Rei", "Oughrahoo-Daoh", "Ouhtoudhfah", "Puh-Doh", "Rei-Pugh", "Rei-Shour", "ReiBohrshlo", "Ronkhmih", "Saorilah", "Shom-Doh", "SohBuli", "SohGhadnaroo", "SohGuhpogh", "SohYih", "Suhimih", "Suhisoh", "Suthpehdoh", "Thom-Soh", "Tih-Ghish", "Treghyaum-Mih", "Urushzhamlah"
 
-* "ogre male"
-
-.. code-block:: lua
-
-   "Dofmud", "Drokguhlhurg", "Drugslub", "Durshyug", "Duzulg", "Ghakhlurz", "Ghashargh", "Ghormaug", "Ghorur", "Ghukkshug", "Ghukkyug", "Glugkulk", "Grufdush", "Grufslud", "Grukghakh", "Grulkur", "Grummakh", "Gulvdof", "Hrungargh", "Hurggluz", "Hurggrash", "Kaigruf", "Kulkgruf", "Kurhur", "Lorgdrok", "Luggrokuz", "Lugurd", "Mugbarsh", "Mugnakh", "Obbglug", "Obbgraddub", "Obbmaugbog", "Rolbgruk", "Rolbgrut", "Shargglud", "Shurslub", "Sludgrut", "Slugdrok", "Snadmolg", "Snadslub", "Thragdub", "Thragkrod", "Thurkghakh", "Urghmug", "Urghur", "Urgrok", "Yuggludgru", "Yurdrok", "Zudglub", "Zudshargkur"
-
-* "orc female"
+"giant male"
+-------------
 
 .. code-block:: lua
 
-   "Basht", "Bogdakh", "Bogdk", "Bolar", "Bugdurash", "Bugdurash", "Bugdurash", "Bulba", "Bumph", "Burub", "Durgrz", "Durz", "Durz", "Gashbul", "Gluronk", "Gluronk", "Gonk", "Gonk", "Grat", "Grat", "Homlur", "Lagagakh", "Lambug", "Lash", "Lash", "Mogabog", "Mogak", "Mogak", "Mogak", "Mogak", "Morntharz", "Murmalah", "Oragha", "Orbuh", "Orbuh", "Ragarol", "Shagdub", "Sharak", "Shardurz", "Sharog", "Shazgob", "Shelmalah", "Shelur", "Ulumpha", "Umog", "Umog", "Uroga", "Ushat", "Volrog", "Voltur"
+   "Ahg-Pugh", "Beegh-Beegh", "Burh", "Buri", "Buriurush", "Digrilogh", "Dum", "Feehm-Zham", "Ghat", "Ghat-Orf", "Giree-Suhiheh", "Goun", "Gounush", "Goush-Feehm", "Guh-Yeeh", "Heghi", "Heghi-Buri", "Heghisuhi", "Hree-Ghan", "Kham", "Khem", "Khem-Digri", "Logh", "Loghshul", "Maoh-Ronkh", "Mouh", "Naohkhee", "Oli", "Peh", "Peh", "Pogh", "Pughhani", "Pughpuh", "Puh", "Puh-Yih", "Quagi-Ahg", "Ronkh", "Rouk-Ghaw", "Rouk-Ob", "Shehi", "Suhi-Ghat", "Suth", "Suth-Heh", "Tebouh", "Thom", "Thom-Yauth", "Tregh", "Vuh", "Yaum", "Yauth"
 
-* "orc female 2"
-
-.. code-block:: lua
-
-   "Augrashay", "Badsnurray", "Bakhgrathgah", "Bashgnarlgah", "Bashmuzghy", "Bazbazy", "Bazkragay", "Bazyobya", "Bragkhaggah", "Bragyobya", "Broggudghy", "Bruzguty", "Dargdrabah", "Dogrugah", "Drabgolah", "Dugruftay", "Durrutghazghy", "Ghazdagay", "Globbadghy", "Gnarlbruzlakhay", "Gnashbruzgah", "Gnubrashah", "Gobrotbragy", "Golkgutah", "Grashlashghy", "Grotgrathah", "Khaggudlobah", "Kragmukah", "Kragungay", "Krudtrogghy", "Lakholgay", "Lufglurghy", "Mukstulgghy", "Mukungah", "Rotdaggah", "Rudsnurry", "Ruftbakhay", "Rugbashay", "Rutglufya", "Rutgorah", "Shagsnorlghy", "Skulgzahkhruggah", "Snargrazya", "Snorllashya", "Snublobghy", "Thakungsnorlah", "Trogglazay", "Yobbashah", "Zahkghazghy", "Zahkgrazghy"
-
-* "orc male"
+"gnome female"
+---------------
 
 .. code-block:: lua
 
-   "Abghat", "Azukb", "Barokub", "Baroulakh", "Bogakh", "Bogakh", "Buomaugh", "Clog", "Crothu", "Ghazat", "Ghazat", "Gluh", "Graus", "Graus", "Grogumph", "Guabagorn", "Hugmug", "Khaguk", "Khaong", "Largug", "Mahk", "Maszum", "Muluin", "Mulunok", "Nagrmborz", "Nakgu", "Oglha", "Olpel", "Olurgash", "Oogugbu", "Orokmba", "Shamrkub", "Sorgulg", "Spathu", "Spathu", "Spathu", "Ughagnak", "Ughagog", "Urburum", "Urgan", "Uzgba", "Vorgarag", "Wanug", "Xoruk", "Xuag", "Yargron", "Yatan", "Yatan", "Yerug", "Yolmar"
+   "Banus", "Bilgus", "Bilgus", "Bimkiulo", "Binkwin", "Binkwin", "Bipflonk", "Bipvizz", "Byloflink", "Cargus", "Carvizz", "Dinkulo", "Elbeefinkle", "Elsizzle", "Fenflynk", "Fenyvizzle", "Fenyvizzle", "Fildilinkey", "Filgus", "Gelulo", "Gynndeedus", "Gynndomink", "Gynnulo", "Juldeeulo", "Katkiflonk", "Katlofizzy", "Kelwick", "Ketris", "Klofizzy", "Klokiwack", "Lisble", "Lokeefizzy", "Lymtink", "Lysflonk", "Lysskyago", "Merdiwack", "Mitbus", "Mitbus", "Mittlesizzle", "Mittlesizzle", "Nitly", "Talkink", "Tankoflonk", "Thenlinkey", "Thinkkeesizzle", "Thinklinkey", "Thinklinkey", "Tilthink", "Tindinkey", "Tyllofizzy"
 
-* "orc male 2"
-
-.. code-block:: lua
-
-   "Agglur", "Aglud", "Badung", "Bagslur", "Bagzahk", "Braglash", "Bruzmuz", "Daghag", "Dakklub", "Darglob", "Dargstulg", "Dogzahk", "Dugskulgthak", "Glakhmuz", "Glazag", "Glolzog", "Grakhug", "Grathdag", "Gudkrag", "Haglash", "Hratghaz", "Khagdakk", "Krudbruz", "Lobhrug", "Lubbash", "Lufshak", "Molkluk", "Mukkrud", "Muzshad", "Olgdob", "Raggut", "Raghrug", "Ragshaz", "Roggrud", "Roggyashrud", "Rudyobgokh", "Rugyakh", "Shazlufgut", "Shoggrub", "Snorlbrag", "Snurrogg", "Snurryash", "Sodbash", "Sodgokh", "Stulgroggkhar", "Thakshad", "Troggokh", "Yashgrakh", "Yobthak", "Yobyash"
-
-* "orc surname"
+"gnome male"
+-------------
 
 .. code-block:: lua
 
-   "Bagrsh", "Baraek", "Baraek", "Bargzuf", "Bargzuf", "Bargzuf", "Barogham", "Barorba", "Batrak", "Bogath", "Bolbak", "Bolbak", "Bolmrolg", "Borgham", "Buglul", "Bumptur", "Bural", "Buzrat", "Dughol", "Durgzol", "Dushgub", "Gharfish", "Ghodu", "Glogob", "Gorum", "Gorum", "Gulfgakh", "Gurudu", "Gurwog", "Kasmgog", "Khagat", "Khatmakh", "Lumdborgob", "Luzgbek", "Luzgub", "Luzph", "Magagramph", "Maroilslag", "Mogan", "Orbuduk", "Orkgramph", "Rusmbak", "Sharzol", "Shaza", "Shulharzol", "Ufthdum", "Ugduku", "Ugrump", "Uzgrat", "Yaglob"
+   "Bawick", "Bimliarn", "Binaris", "Binkflonk", "Binklbus", "Binklbus", "Bolink", "Bolink", "Bomdable", "Bonboris", "Buris", "Buris", "Buris", "Buwick", "Carlobrick", "Carlobrick", "Dimlank", "Dinlebrick", "Dobeeble", "Fenklink", "Fenklink", "Fenlflonk", "Fensizz", "Filgus", "Filkeewick", "Finflonk", "Finflonk", "Gimfizz", "Glinnus", "Glinnus", "Gnofinkle", "Gnokargo", "Gnokargo", "Hinklosizz", "Hinlidink", "Lago", "Lago", "Lago", "Lawizz", "Mittlegus", "Pitfinkle", "Pithosizz", "Thinkflonk", "Tinfizz", "Tinfizz", "Tolosizz", "Tolosizz", "Tolosizz", "Tomink", "Tovash"
 
-* "sprite female 1"
-
-.. code-block:: lua
-
-   "Flissanel", "Flissasti", "Fossinel", "Frissafer", "Frissasti", "Frissenti", "Frissinel", "Gesserel", "Glanamer", "Glaninel", "Glissenti", "Glissifer", "Hexarel", "Hexefer", "Heximer", "Minifer", "Mininel", "Mininel", "Raffifer", "Raffimer", "Ressefer", "Ressifer", "Riffarel", "Riffasti", "Riffasti", "Rillamer", "Rillimer", "Saffafer", "Saffarel", "Saffefer", "Shimanel", "Shimefer", "Shimimer", "Tinkenti", "Tinkenti", "Tinkirel", "Tisserel", "Trillifer", "Trillimer", "Tristasti", "Twillanel", "Twillarel", "Twispanel", "Twissifer", "Twixifer", "Twixirel", "Weskafer", "Wispafer", "Wispafer", "Wispinel"
-
-* "sprite female 2"
+"gnome surname"
+----------------
 
 .. code-block:: lua
 
-   "Crylkiss", "Cryltiss", "Crylynx", "Elsiniss", "Emberliss", "Embernyx", "Eskriss", "Ferisla", "Ferissa", "Frimiliss", "Ganree", "Glinkliss", "Glinkmee", "Glinksa", "Glinkynx", "Helkiss", "Helsa", "Helynx", "Histnyx", "Ispella", "Ispelmee", "Ispelynx", "Istlenyx", "Istleree", "Jatree", "Jostniss", "Jusnyx", "Lirradee", "Malila", "Malisa", "Minkdee", "Minkniss", "Ninkadee", "Ninkaynx", "Ninkaynx", "Opalla", "Opalnyx", "Orifynx", "Orisnyx", "Sprinla", "Sprinree", "Sprinriss", "Sprinynx", "Stithmee", "Stithnyx", "Tirraniss", "Trumpree", "Zandoniss", "Zandoriss", "Zandotiss"
+   "Berrycrank", "Berrycrank", "Bizzblast", "Bizzgauge", "Bizzgauge", "Bizzspan", "Castfuse", "Castspring", "Castspring", "Draxlepipe", "Draxlepipe", "Fastspring", "Finegauge", "Finestrip", "Fizzletorque", "Gearwhistle", "Gearwhistle", "Grinddwadle", "Mechacrank", "Mechasteel", "Mechasteel", "Mekkakettle", "Mekkapipe", "Overkettle", "Porterblast", "Puddlefuzz", "Puddlespinner", "Puddlesteel", "Shinespring", "Shorthouse", "Shortspark", "Spannercrank", "Spannerwizzle", "Sparkfizzle", "Sparkspanner", "Sparkspanner", "Sparksprocket", "Springcrank", "Springgear", "Springhouse", "Sprygrinder", "Steamfuzz", "Stormbonk", "Swiftnozzle", "Swiftwizzle", "Thistlegrinder", "Thistlenozzle", "Tinkkettle", "Twistwhistle", "Wobblecrank"
 
-* "sprite male 1"
-
-.. code-block:: lua
-
-   "Dexamo", "Dexasto", "Flaxaldo", "Flaxaron", "Flisseron", "Flixendo", "Flixondo", "Fossasto", "Fosseroll", "Friskeroll", "Frissendo", "Frisseroll", "Gessamo", "Gessaron", "Gessesto", "Glanando", "Glaxaldo", "Glaxamo", "Glaxaroll", "Glaxasto", "Glimamo", "Glimaroll", "Raffamo", "Raffondo", "Ressando", "Ressando", "Riffaldo", "Shimasto", "Shimondo", "Tissaldo", "Tissaldo", "Tissaroll", "Tissasto", "Tissesto", "Trillaroll", "Trilleron", "Twillondo", "Twispallo", "Twispendo", "Twixeron", "Weftesto", "Weftesto", "Weskaldo", "Weskando", "Weskeroll", "Weskeron", "Winnaroll", "Winnaron", "Winnondo", "Wispamo"
-
-* "sprite male 2"
+"goblin female"
+----------------
 
 .. code-block:: lua
 
-   "Briswin", "Cryltwik", "Embermit", "Emberwin", "Eskmist", "Ferisrix", "Frimimist", "Ganbrix", "Haltwik", "Halwin", "Halzisk", "Histfret", "Histmist", "Histrix", "Histwin", "Iphilbik", "Iphiltross", "Iphilzisk", "Ispelkin", "Ispeltross", "Ispelwin", "Istlefrell", "Istlekin", "Istletwik", "Jostrix", "Jusfrell", "Jusmist", "Jusmit", "Jusmit", "Malitross", "Malitross", "Minkkin", "Minkmist", "Minktross", "Minktwik", "Mirrafret", "Mirrakin", "Mistlekin", "Ninkazisk", "Orifkin", "Sarmbrix", "Sarmmit", "Sprinbrix", "Sprinwin", "Stithbik", "Stithtwik", "Tansitross", "Tirrafret", "Whiskin", "Zandofrell"
+   "Balgya", "Bloksloge", "Blotya", "Boormubgah", "Botee", "Gaday", "Gakgligee", "Garya", "Gawy", "Gazee", "Ghornazy", "Gityipe", "Glagshrigah", "Glate", "Gligay", "Glizay", "Glizay", "Gnatay", "Grakah", "Grakghy", "Gratah", "Gratmakya", "Likke", "Luky", "Naggratee", "Nige", "Nikky", "Noggdufe", "Nukkligya", "Nukky", "Nukkya", "Shrigay", "Slaie", "Sligghy", "Snigay", "Sniggrakah", "Snikkhady", "Sogay", "Sogya", "Spikee", "Unkee", "Yaggah", "Yakee", "Yarkee", "Yigah", "Yipgah", "Yipyakah", "Zatghy", "Zibsligy", "Zitvarkghy"
+
+"goblin male"
+--------------
+
+.. code-block:: lua
+
+   "Achnazadz", "Akrag", "Azbot", "Bilgroksog", "Bliggat", "Blot", "Blotdokh", "Boorghag", "Burksnark", "Dokhsligark", "Dokhyak", "Drikak", "Driznok", "Gadslog", "Gagg", "Garloz", "Gatziz", "Ghakbilg", "Gitsnig", "Glaklikk", "Gligrat", "Glizgah", "Gogus", "Kavdokhburk", "Khadblot", "Khadglat", "Lag", "Luksna", "Lunligluk", "Mazmiz", "Mogghak", "Mogloz", "Murskrag", "Nagrat", "Nagshukdrik", "Nazguk", "Nokblid", "Noksnit", "Rakgit", "Roknaz", "Rokyak", "Rotffy", "Snityiggub", "Stoggmub", "Vogffy", "Yadbalgrak", "Yadslaigag", "Yarkhig", "Zatratgaz", "Zordyig"
+
+"half-demon female"
+--------------------
+
+.. code-block:: lua
+
+   "Alurrhyl", "Alurrula", "Alurskiu", "Azdusla", "Braldusla", "Bruhanil", "Bruhjiul", "Drulglyrr", "Idrulihyl", "Jhaaljiul", "Jhaallin", "Jidanil", "Jiudusla", "Jiusula", "Jurrhyl", "Kharkgiu", "Kharklin", "Kharkrhyl", "Kharkxhiu", "Krivdiu", "Krivulla", "Kuduzihyl", "Mulkzihyl", "Nidizil", "Nidlihyl", "Nymziu", "Ranagulla", "Ranagziu", "Ranagziu", "Rukrula", "Rulkzihyl", "Skaurdiu", "Skaurizil", "Skaurizil", "Ulthulin", "Urzbau", "Utiulla", "Uznidizil", "Vlagrhyl", "Vlagziu", "Vlashzihyl", "Vrazanil", "Vrazlin", "Vulkanil", "Vulklihyl", "Vulkziu", "Xaudiu", "Xidxhiu", "Xulskiu", "Zugizil"
+
+"half-demon male"
+------------------
+
+.. code-block:: lua
+
+   "Aaglurr", "Aagnal", "Alursuruk", "Araklank", "Araknal", "Braluvik", "Brazlurug", "Bruhinu", "Bruhlurr", "Idrusuruk", "Jiulun", "Jiuruzuk", "Jiuuvik", "Jurguvik", "Jurguvik", "Kaazsuruk", "Kargarag", "Kargsuruk", "Kharksuruk", "Kraunal", "Krivlurr", "Krivlurug", "Kuazarag", "Kuazarag", "Kuazrul", "Kuazull", "Kuduzu", "Nauarag", "Nausalk", "Nidrul", "Nidsalk", "Ninjsul", "Nymxulg", "Rilthusalk", "Ruksuruk", "Skaursalk", "Skaurzu", "Ulthuull", "Urzsuruk", "Utiarag", "Utiinu", "Utisuruk", "Utiull", "Uznidlun", "Vlaguvik", "Xausuruk", "Xidull", "Xurajdrul", "Xurajsul", "Xurajull"
+
+"halfling female"
+------------------
+
+.. code-block:: lua
+
+   "Adelheid", "Adelheid", "Aregund", "Audofleda", "Bave", "Begga", "Berenga", "Bertha", "Camelia", "Cheryl", "Chrodechildis", "Chrodechildis", "Cora", "Darby", "Emma", "Engelberga", "Erica", "Esmee", "Esmee", "Fatima", "Genofeva", "Gomatrudis", "Gudula", "Haley", "Jenna", "Jenna", "Kunegund", "Leesha", "Leesha", "Madison", "Mary", "Mary", "Melissa", "Menegilda", "Monica", "Natalie", "Ragnachilde", "Regnetrudis", "Rotrud", "Saffron", "Saffron", "Scarlet", "Shelby", "Tabitha", "Tasha", "Teutberga", "Theodelinda", "Tiffany", "Tiffany", "Vulfegundis"
+
+"halfling female 2"
+--------------------
+
+.. code-block:: lua
+
+   "Adela", "Adra", "Adrice", "Aila", "Aila", "Aila", "Alba", "Alba", "Almice", "Ambia", "Bardia", "Biffa", "Bildina", "Bombice", "Bombily", "Bunga", "Droca", "Drocily", "Durlia", "Durlwisa", "Emmina", "Emmina", "Erdice", "Evera", "Ferdwina", "Frobice", "Gamwina", "Halda", "Hascia", "Hodia", "Huga", "Hugice", "Hugwina", "Hugwisa", "Ivina", "Marka", "Markily", "Markwina", "Munga", "Munga", "Otha", "Otha", "Sega", "Serla", "Serla", "Tobice", "Tobina", "Tobwina", "Wania", "Wiga"
+
+"halfling male"
+----------------
+
+.. code-block:: lua
+
+   "Arculf", "Arculf", "Arnoul", "Audoneus", "Basso", "Bero", "Blanco", "Carambo", "Carambo", "Cassyon", "Corbus", "Dalfin", "Enurchus", "Enurchus", "Erard", "Farabert", "Fredegar", "Giseler", "Giseler", "Guntram", "Guntramn", "Habaccuc", "Harding", "Hildebald", "Hildibrand", "Ilberic", "Imbert", "Imbert", "Imbert", "Imbert", "Lo", "Lo", "Lo", "Madoc", "Magnus", "Marachar", "Merimac", "Riquier", "Riquier", "Samson", "Suidger", "Sunnegisil", "Thankmar", "Thankmar", "Waldolanus", "Waldolanus", "Waldolanus", "Waltgaud", "Willibrord", "Willibrord"
+
+"halfling male 2"
+------------------
+
+.. code-block:: lua
+
+   "Adrwin", "Ailo", "Ailwise", "Almard", "Almo", "Ambwin", "Ambwise", "Beno", "Beno", "Biffert", "Blanco", "Blanco", "Blanco", "Boffald", "Boffo", "Drocard", "Drocert", "Drocold", "Drocold", "Drocwin", "Drogald", "Drogo", "Emmo", "Emmold", "Erdo", "Erdwin", "Ernfast", "Everfast", "Ferdfast", "Ferdold", "Fulbard", "Gamo", "Hamwise", "Hasco", "Hasco", "Markard", "Markwise", "Milo", "Milold", "Mungo", "Mungo", "Odald", "Odo", "Sabo", "Sabo", "Samo", "Serlald", "Wigo", "Wydo", "Wydwin"
+
+"halfling surname"
+-------------------
+
+.. code-block:: lua
+
+   "Banks", "Bilberry", "Boffin", "Boffin", "Boffin", "Boulderhill", "Bracegirdle", "Brandagamba", "Brockhouse", "Brown", "Brownlock", "Brownlock", "Cotton", "Dewfoot", "Dewfoot", "Dewfoot", "Elvellon", "Fleetfoot", "Fleetfoot", "Fleetfoot", "Gaukrogers", "Gawkroger", "Gawkroger", "Goodchild", "Goodchild", "Greenhill", "Greenhill", "Hairyfoot", "Heathertoes", "Hlothran", "Hlothran", "Labingi", "Labingi", "Langham", "Leafwalker", "Lightfoot", "Littlefoot", "Longfoot", "Longfoot", "Longfoot", "Longfoot", "Longfoot", "Lothran", "Puddifoot", "Rumblebelly", "Sandheaver", "Silentfoot", "Thornburrow", "Twofoot", "Underlake"
+
+"hobgoblin female"
+-------------------
+
+.. code-block:: lua
+
+   "Afatot", "Afhora", "Afra", "Ceyrima", "Daruki", "Dirda", "Dirimat", "Esma", "Esuti", "Haemi", "Hahore", "Haleta", "Harima", "Harota", "Kethhor", "Kethhori", "Kethleta", "Kethlita", "Kethme", "Kolgrame", "Kolgtari", "Malglete", "Malglite", "Malgrima", "Okatak", "Okatin", "Okema", "Okhat", "Poldhara", "Poldharer", "Roldha", "Roldhori", "Roldima", "Saltati", "Salthore", "Tetima", "Tetmi", "Totate", "Toteme", "Totratar", "Turgdora", "Turgima", "Turglata", "Turgrima", "Uteme", "Utleta", "Utrate", "Uttare", "Zildrate", "Zilduki"
+
+"hobgoblin male"
+-----------------
+
+.. code-block:: lua
+
+   "Akat", "Akok", "Akok", "Akrot", "Bekla", "Bekot", "Bektar", "Dorram", "Durlut", "Fethi", "Fetok", "Fetom", "Fetrot", "Haot", "Hatar", "Hauk", "Kolgot", "Kolgrim", "Kurlut", "Malghi", "Mevla", "Mevtar", "Okat", "Okhar", "Okluk", "Oklut", "Okut", "Poldok", "Poldom", "Roldhor", "Roldram", "Roldrot", "Rolduk", "Saltok", "Saltram", "Tetram", "Tetrim", "Tetrim", "Totri", "Turgot", "Turguk", "Turgung", "Utram", "Utung", "Zildram", "Zildri", "Zoldhi", "Zoldlut", "Zoldram", "Zoldri"
+
+"human female"
+---------------
+
+.. code-block:: lua
+
+   "Belor", "Breguson", "Ce'Nebeth", "Cenleod", "Cwenthryth", "Derwa", "Eadsig", "Eadstrang", "Eadwig", "Ealdgyth", "Ealdric", "Ealdric", "Glavena", "Gloramivea", "Glorarin", "Glorobretha", "Godburg", "Godor", "Gotha", "Islita", "Isomina", "Joan-Marie", "Layemira", "Mabyn", "Mayawen", "Mayuwyn", "Melyar", "Melyonen", "Mildflaed", "Mildhaele", "Mildwini", "Mildwyn", "Nerylaith", "Oshild", "Polita", "Saewyn", "Salekira", "Sigebeorht", "Sigebeorn", "Sigeraed", "Sigwise", "Thurwaru", "Thurweald", "Wenna", "Wilweald", "Wineecg", "Wulfbeorn", "Wulfsige", "Yvura", "Yvytha"
+
+"human male"
+-------------
+
+.. code-block:: lua
+
+   "Aethelrand", "Armbeald", "Armran", "Bealdheah", "Bealdhere", "Bealdwulf", "Beorhthere", "Beorhtuald", "Beranweard", "Cuthgeat", "Cynenoth", "Cyneweard", "Deorraed", "Eadweald", "Eadwig", "Ealdgild", "Eanhere", "Ecgnoth", "Godhere", "Godweard", "Godwine", "Goran", "Grinubar", "Heathuheard", "Heorthere", "Heresige", "Inheard", "Jacca", "Jacca", "Jory", "Leofwulf", "Lorrion", "Malbar", "Marsden", "Nothhard", "Perran", "Samtir", "Thureofer", "Thurfrith", "Thurwulf", "Tortsig", "Trath", "Trilri", "Tristan", "Urkan", "Waltsunu", "Wigsige", "Wineheard", "Zanndil", "Zhir"
+
+"human surname"
+----------------
+
+.. code-block:: lua
+
+   "'Long' Rudd", "'Sharp' Anvil-Nose", "'Sweltering' Sidney", "Aerlalian", "Aerlalian", "Alrardessen", "Baird", "Bentham", "Blake", "Bradman", "Cundy", "Earle", "Facilalian", "Fine-Sage", "Free-Jumper", "Frenzied", "Frozen-Plank", "Garside", "Graeme", "Hammer-Tooth", "Helton", "Honey-Colossus", "Inch", "Jeraler", "Kempthorne", "Lang", "Moor", "Moorrush", "Noall", "Northerner", "Peagrim", "Philne", "Quick", "Riendicci", "Rock-Hewer", "Rose", "Storm-Fist", "Summer-Skinner", "Swift-Spring", "Tredinnick", "Troll-Toes", "Trollsbane", "Valteance", "Vonver", "Vonver", "Wheatley", "Whitley", "Williams", "Yeardley", "the 'Elfkiller' Catelian"
+
+"ifrit female"
+---------------
+
+.. code-block:: lua
+
+   "Ala", "Citya", "Edu", "Emwirh", "Emwirh", "Faah", "Feem", "Fetyula", "Firlu", "Funyi", "Futhe", "Gami", "Getyi", "Guhi", "Guly", "Hiqriwirh", "Hirlun", "Irry", "Irya", "Lahu", "Larlu", "Lawume", "Laye", "Lurhanhi", "Madru", "Marlutyulyu", "Nidu", "Qiryrludre", "Qityu", "Saya", "Sidre", "Sihe", "Siqehta", "Siqhi", "Siyi", "Sudruta", "Uqdru", "Uqra", "Utatwa", "Wilhi", "Wilin", "Willu", "Wuemra", "Zehu", "Zeryn", "Zuis", "Zumi", "Zuqhi", "Zutathe", "Zuthi"
+
+"ifrit male"
+-------------
+
+.. code-block:: lua
+
+   "Acij", "Aja", "Ana", "Arut", "Avu", "Banu", "Bela", "Bena", "Bule", "Bunu", "Darut", "Decil", "Gake", "Gekin", "Gekuj", "Gijig", "Giqig", "Jaket", "Jakin", "Jana", "Jejig", "Jekug", "Jemag", "Jinim", "Kele", "Kivin", "Makel", "Mala", "Mavit", "Mejig", "Merut", "Micil", "Mule", "Muva", "Nefit", "Nevin", "Raja", "Raneh", "Rikin", "Rile", "Rufit", "Tavig", "Tecij", "Tere", "Vamag", "Vamiq", "Vefim", "Veqil", "Vikun", "Zalum"
+
+"infernal 1"
+-------------
+
+.. code-block:: lua
+
+   "Aiazyamuz", "Alu-ujgaru", "Aluladuoi", "Baalirgla", "Baaluyiuz", "Breuytzau", "Bulishu", "Buljeduoi", "Buuzidrau", "Buzipaz", "Drau-uzshai", "Dromu-alnasu", "Dromu-iridrau", "Dromu-vocha", "Fraz-urhra", "Frazaydru", "Gellakul", "Ghauzughaa", "Ghuijtze", "Glaujhriz", "Glauuvnee", "Gro-yodre", "Gura-jughau", "Guraluitha", "Guzovchru", "Guzuralz", "Gyauvoxu", "Gyayonahu", "Hezzadrau", "Lurhzluaiaz", "Mau-jirez", "Muzaldrau", "Nalzaidrau", "Neeyaulchru", "Oazoavgel", "Oxuzirezu", "Pazoygla", "Razarzu", "Rezualshu", "Rezuayriz", "Ruiydre", "Rujogura", "Shaioyrezu", "Tha-ludru", "Thaluvohuz", "Vul-zudre", "Vulizpaz", "Vuulurvul", "Yilejgro", "Zulijulchru"
+
+"infernal 2"
+-------------
+
+.. code-block:: lua
+
+   "Aagovdaurg", "Aig-yugrag", "Aigivbub", "Baugzirung", "Brelgjoiub", "Bulg-josaug", "Draug-urjub", "Drelb-iyagh", "Drogazmog", "Drogivxub", "Droguyszug", "Ghadjoleegh", "Ghadurfelg", "Glabijszug", "Haaguzleegh", "Hrudirhrud", "Iugulolb", "Jubjeboaj", "Jubriboaj", "Kolgardregh", "Kolgluvogt", "Leeghjuurb", "Leeghviszug", "Magariog", "Mauglanalb", "Mauglubaug", "Mogjonud", "Naagrisaug", "Nog-laraug", "Nudzustug", "Nug-luyibb", "Nuglohrud", "Nulb-rutrulg", "Oggalzub", "Riggzanalb", "Sag-rorigg", "Saugajfulg", "Strogizmag", "Sugviaug", "Tharg-jibaug", "Thaug-ujdraug", "Thaug-zenog", "Thogyeszug", "Thogzubarg", "Uagazmaug", "Urberbrelg", "Vulb-elsaug", "Zubortharg", "Zug-oysug", "Zugteldaurg"
+
+"infernal 3"
+-------------
+
+.. code-block:: lua
+
+   "Ashivtlizit", "Azt-ilhaerx", "Bahoreyirsch", "Basolsut", "Blik-yitash", "Boralglaur", "Charnvunoc", "Dekjedak", "Dun-rahoth", "Gaanorlach", "Geklutash", "Githlaszut", "Goch-lolith", "Gor-ojloch", "Goriynuur", "Gorrunuur", "Gothulutuk", "Gureyrolk", "Gurzasaur", "Hothuzrhast", "Iex-ulnoc", "Inaxizruun", "Krychujlith", "Krychurgor", "Krychzesaur", "Lechlimuth", "Liskuzmoth", "Lithurluth", "Lochzigaur", "Matvibar", "Mocharash", "Nuurleyalm", "Nyth-ojruaak", "Raukezdraum", "Rothlairsch", "Ruaak-ejech", "Ruaak-yuszut", "Ruaakyaigm", "Saurezxaas", "Sauryislyth", "Sotherloch", "Tashezoth", "Teravmuth", "Thalk-yutur", "Turejbar", "Uztilurt", "Vach-ivach", "Vapizhaerx", "Vapjerolk", "Vrokozchon"
+
+"kobold male"
+--------------
+
+.. code-block:: lua
+
+   "Akxeb", "Croxnesk", "Dheltrad", "Dhinri", "Dhire", "Drianapan", "Drizad", "Droxze", "Eazin", "Eazor", "Gakrud", "Getrud", "Gezax", "Gheapnri", "Gheze", "Ghezor", "Ipzenrud", "Ipzepar", "Irud", "Jekolk", "Makerk", "Makrezeah", "Olpdoo", "Olphudik", "Olpxeb", "Ordoo", "Qeholk", "Qenosk", "Qetradzad", "Qrakolkholk", "Qrardoo", "Qrarzax", "Qrarze", "Qrelni", "Qrilraszi", "Rornuld", "Rorra", "Rorzen", "Vadkex", "Veme", "Vera", "Yraapan", "Zalark", "Zalnal", "Zalze", "Zamakzo", "Zeemerk", "Zora", "Zorgag", "Zorrame"
+
+"ogre female"
+--------------
+
+.. code-block:: lua
+
+   "Arghury", "Barshmugghy", "Barshnakhya", "Dofbarshlugay", "Drubmuzday", "Dugzuday", "Ghakhlorgay", "Gharluzghy", "Glubmuzdy", "Grashgroky", "Grashurkhay", "Groblurzay", "Grolgrobghy", "Grolhury", "Grubarshghy", "Grufdulgah", "Gruhurgy", "Grumfarghya", "Grumfshudya", "Grumhurgah", "Grutsnadghy", "Gruzlummuzdghy", "Haighakhhurgah", "Hurkurgah", "Kailorggah", "Krodgrughy", "Krodhuray", "Kulklorggah", "Kulkuzghy", "Kurdruby", "Kurhrungah", "Luggrumfay", "Lushfugah", "Luzgrughy", "Luzgrukgah", "Luzsnadah", "Makhobbya", "Mudsharggah", "Murklugay", "Narggrashgah", "Rukhghukkghy", "Shudgulvgah", "Shuzgluggah", "Sluggluzay", "Snadgludghy", "Snadmolgya", "Snoggluzay", "Thurkgroggya", "Urghhurgya", "Urkhhaiay"
+
+"ogre male"
+------------
+
+.. code-block:: lua
+
+   "Arghbog", "Arghgrok", "Arghgruf", "Bogguhl", "Drokdrug", "Drokhurg", "Dugyug", "Dulghar", "Dushthulk", "Ghakhgruf", "Ghashlug", "Ghorgrum", "Ghukkghul", "Ghukksnad", "Gludghakh", "Gludmuzd", "Gluzurgh", "Gommakh", "Grokdrub", "Grokgrob", "Grufruz", "Hrunglurz", "Hurgglub", "Lukhduzgrum", "Lukhzug", "Lumbarsh", "Lumhai", "Lurzlum", "Lushobb", "Makhghor", "Maugslub", "Mudghakh", "Mudzugbog", "Muggrob", "Mugmaug", "Nargyug", "Rolbhai", "Rolbmug", "Rolbyug", "Shrufgrogg", "Shudklob", "Shurlurz", "Sludsnad", "Sluggluz", "Thurkgrol", "Thurkhur", "Urgruz", "Yugtrug", "Zudtrug", "Zugkur"
+
+"orc female"
+-------------
+
+.. code-block:: lua
+
+   "Bugdurash", "Bula", "Bum", "Dulug", "Durgrz", "Garakh", "Gashnakh", "Globh", "Gloz", "Glubut", "Gluronk", "Gluronk", "Gluronk", "Glurza", "Gonk", "Gonk", "Grat", "Gul", "Gul", "Gul", "Lagrzug", "Lashdurz", "Mogabog", "Morn", "Mornzob", "Morza", "Morza", "Muraz", "Oghash", "Oraftharz", "Oraftharz", "Ragarol", "Ragpha", "Rogmesh", "Rolfzug", "Shagdub", "Shagdub", "Sharn", "Sharog", "Shazgob", "Slout", "Ugakkh", "Ugozush", "Urog", "Uroggdub", "Urzoth", "Urzoth", "Ushat", "Yazdbak", "Yotul"
+
+"orc female 2"
+---------------
+
+.. code-block:: lua
+
+   "Bashlukghy", "Blaggruday", "Braglashya", "Dakkhratshagah", "Dogbadgah", "Dogshogy", "Drabshazya", "Duglakhay", "Ghazgokhghy", "Ghazlakhay", "Ghazlubah", "Glakholgah", "Globgnubgah", "Glufgnarly", "Gluflakhah", "Golyoby", "Grashugya", "Grazkharlufya", "Grotgrakhghy", "Hrogglakhghy", "Hrogglolya", "Hrogruftah", "Hruggolkah", "Hruglobah", "Khagskarghy", "Khargobgah", "Lubglolkragya", "Lubludgah", "Muksodghy", "Mukzahkya", "Oggbragay", "Rashsnarya", "Roggbagy", "Rorgbashya", "Rorgbruzya", "Rorglobghy", "Rudbruzya", "Ruggolky", "Shakdrabshagya", "Snarbragghy", "Snarrotghy", "Snorlskulgya", "Snurrdurah", "Snurrshakghy", "Stulgshagghy", "Umshgrubah", "Uthdakkah", "Yakhsnarah", "Zogduggah", "Zogshakay"
+
+"orc male"
+-----------
+
+.. code-block:: lua
+
+   "Azukborz", "Broburz", "Brugbagorn", "Buruub", "Dalthu", "Durz", "Frug", "Ghamrlorz", "Ghamulakh", "Gluh", "Gluh", "Gratgnak", "Graus", "Kofflakh", "Lurbamog", "Lurush", "Mahkdul", "Mashgob", "Mug", "Mugarod", "Mulfutto", "Mulunok", "Murzrag", "Murzrag", "Muzgrbash", "Muzorz", "Muzorz", "Nag", "Nagrmborz", "Oglum", "Olaugh", "Olaugh", "Olpel", "Olug", "Onog", "Opilge", "Orokat", "Owkbanok", "Peghed", "Pretkag", "Ughagog", "Ulaghumph", "Vabugbu", "Welub", "Yargag", "Yargzum", "Yasog", "Yatan", "Yatborz", "Zorgulg"
+
+"orc male 2"
+-------------
+
+.. code-block:: lua
+
+   "Aghrog", "Agluf", "Augrag", "Badgrot", "Baggash", "Baggraz", "Bagyobag", "Basholg", "Blagdob", "Braggud", "Dagslur", "Dobnar", "Dobzahk", "Drabgnarl", "Durung", "Gashdog", "Gashzahk", "Ghazgut", "Glakhyob", "Glufhag", "Gnashbag", "Gnubluk", "Grakhyash", "Grazhakk", "Hakkbrag", "Hroglud", "Kragluf", "Krudluklob", "Lubzog", "Ludgnash", "Mukbash", "Muksnar", "Muzdug", "Muzyob", "Raggnash", "Rashblag", "Roggdug", "Roggolg", "Rotbrag", "Rotumsh", "Ruggraz", "Shaklob", "Shogdrab", "Shogsnurr", "Skulggash", "Skulgshak", "Slurdur", "Sodrot", "Ugdog", "Uthglakh"
+
+"orc surname"
+--------------
+
+.. code-block:: lua
+
+   "Aglharzol", "Aglharzol", "Aglhel", "Atulor", "Azolor", "Azorrish", "Bagrgul", "Bagrol", "Baguub", "Bogath", "Borgham", "Broog", "Buglul", "Bumpshnar", "Burbrzog", "Buzrat", "Duguh", "Gamshnar", "Gashur", "Gashur", "Gloum", "Glurgarz", "Gurash", "Gurash", "Kasmgog", "Khalob", "Khargak", "Logrgul", "Lumoim", "Lurkk", "Lurkk", "Luzph", "Malobug", "Morgarz", "Morgarz", "Muzurn", "Naydborgob", "Naydborgob", "Ogarfish", "Olorzgub", "Rimharz", "Shadra", "Shaza", "Shubrgakh", "Uftbag", "Ushuamakh", "Uzgrat", "Uzughol", "Yarzak", "Yarzak"
+
+"sprite female 1"
+------------------
+
+.. code-block:: lua
+
+   "Dexamer", "Flaxefer", "Flaxinel", "Flimanel", "Flimasti", "Flissarel", "Flissimer", "Friskarel", "Friskerel", "Friskimer", "Friskirel", "Frissanel", "Frissifer", "Gessarel", "Glanamer", "Glanerel", "Glaninel", "Glaxanel", "Glaxerel", "Glimasti", "Glimerel", "Hexafer", "Hexenti", "Hexerel", "Lissinel", "Miskasti", "Raffanel", "Ressamer", "Ressefer", "Riffenti", "Rillefer", "Safferel", "Tissarel", "Tissenti", "Tisserel", "Tissifer", "Tissimer", "Trillafer", "Trillefer", "Tristarel", "Tristinel", "Twillarel", "Twillinel", "Twispifer", "Twissinel", "Twiximer", "Weftamer", "Weftarel", "Weftimer", "Winnanel"
+
+"sprite female 2"
+------------------
+
+.. code-block:: lua
+
+   "Brisynx", "Crylree", "Elsiree", "Elsiree", "Elsiree", "Elsitiss", "Emberkiss", "Emberkiss", "Emberla", "Embernyx", "Emberriss", "Eskkiss", "Ferismee", "Ferismee", "Ferisniss", "Ferisree", "Frimiynx", "Glinkliss", "Glinkree", "Glinktiss", "Helmee", "Helniss", "Helnyx", "Helree", "Histynx", "Iphilnyx", "Istlemee", "Istlemee", "Istlesa", "Istletiss", "Jatdee", "Jostriss", "Jostsa", "Jusdee", "Lirrariss", "Malinyx", "Maliriss", "Minkree", "Ninkakiss", "Ninkasa", "Opalkiss", "Opalkiss", "Opalliss", "Orifnyx", "Stithliss", "Trumpkiss", "Trumpree", "Whiskiss", "Whisnyx", "Whisynx"
+
+"sprite male 1"
+----------------
+
+.. code-block:: lua
+
+   "Dexallo", "Dexesto", "Flaxendo", "Flimaldo", "Flimaron", "Flimeroll", "Flissaldo", "Flixaron", "Fossamo", "Fossesto", "Friskamo", "Friskendo", "Friskendo", "Gessaldo", "Gessando", "Gessaroll", "Gessaroll", "Glanamo", "Glaneroll", "Glanesto", "Glimaldo", "Glimaron", "Gossaldo", "Hexaron", "Lissamo", "Lissamo", "Lissaron", "Miskeron", "Raffondo", "Riffasto", "Riffendo", "Rilleroll", "Rillondo", "Saffamo", "Shimondo", "Tinkondo", "Tissaron", "Tisseroll", "Tissondo", "Trillallo", "Trillaroll", "Tristasto", "Tristendo", "Twillondo", "Twisparoll", "Twisparoll", "Twisparon", "Weftaroll", "Winnamo", "Wispesto"
+
+"sprite male 2"
+----------------
+
+.. code-block:: lua
+
+   "Briskin", "Bristross", "Crylfret", "Emberfret", "Eskmit", "Eskrix", "Ferisbik", "Ferismist", "Ferismist", "Ferisrix", "Frimibrix", "Glinkbrix", "Halrix", "Halrix", "Histzisk", "Istlezisk", "Istlezisk", "Jatwin", "Jusfrell", "Juskin", "Justwik", "Lirrafret", "Lirrafret", "Malibik", "Minktross", "Mistlebik", "Mistlefrell", "Mistlemist", "Ninkafret", "Opalmist", "Opalmist", "Orifbrix", "Orifbrix", "Orifbrix", "Orifkin", "Peribik", "Peribrix", "Peritross", "Sarmfrell", "Sarmtross", "Sprinmist", "Stithkin", "Stithwin", "Tirrafret", "Tirrawin", "Whisbrix", "Whisfret", "Zandofret", "Zandofret", "Zandotwik"

@@ -9,7 +9,9 @@ local namegen = require("namegen")
 local sets = namegen.get_sets()
 table.sort(sets)
 for _, set in ipairs(sets) do
-    print("\n" .. "* " .. string.format([["%s"]], set))
+    -- do break end
+    print("\n" .. string.format([["%s"]], set))
+    print(string.gsub(set, ".", "-") .. "---")
     print("\n" .. ".. code-block:: lua" .. "\n")
     local names = {}
     for i = 1, 50 do
@@ -19,3 +21,20 @@ for _, set in ipairs(sets) do
     print("  " .. inspect(names):gsub("[{}]", ""))
 end
 
+for i = 1, 10 do
+    do break end
+    print(inspect({
+        namegen.generate("kobold male"),
+        namegen.generate("kobold male"),
+        namegen.generate("kobold male"),
+        namegen.generate("kobold male"),
+        namegen.generate("kobold male"),
+        namegen.generate("kobold male"),
+        namegen.generate("kobold male"),
+        namegen.generate("kobold male"),
+        namegen.generate("kobold male"),
+        namegen.generate("kobold male"),
+        namegen.generate("kobold male"),
+        namegen.generate("kobold male")
+    }))
+end

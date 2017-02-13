@@ -225,47 +225,20 @@ end
 
 -- check for repeated syllables (case-insensitive)
 local function word_repeated_syllables(str)
-    local str = str:lower()
+    local word = str:lower()
 
     for step = 2, math.min(5, math.floor(#str / 2)) do
-        for i = 1, #str - step + 1 do
-            local search = str:sub(i, i + step - 1)
-            local sub = str:sub(i + step)
+        for i = 1, #word - step + 1 do
+            local search = word:sub(i, i + step - 1)
+            local sub = word:sub(i + step, (i + step) + step - 1)
             if search == sub then
                 return true
             end
+            ng_debug("not repeatted", str, step, search, sub)
         end
     end
     return false
 end
---[[
--- check for repeated syllables (case-insensitive)
-local function word_repeated_syllables(str)
-    local size = #str
-    local str = str:lower()
-    for step = 2, math.min(5, math.floor(size / 2)) do
-        for i = 1, #str - step + 1 do
-            local search = str:sub(i, i + step - 1)
-            local sub = str:sub(i + step)
-            -- print(step, search, sub)
-            if sub:find(search) then
-                return true
-            end
-        end
-    end
-    return false
-end
-
-local function ng_debug(str, ...)
-    if DEBUG == true then
-        if ... then
-            print(string.format(str, ...))
-        else
-            print(str)
-    end
-end
-]]--
-
 
 -- verify if the word passes the above checks
 local function word_is_ok(data, str)
@@ -360,15 +333,18 @@ local function generate_custom(name, rule)
                         ng_debug("buf case 4.2.8")
                         lst = ((random(1, 2) == 1) and data.vocals or
                                data.consonants)
+                    elseif it >= "A" and it < "P" then
+                        ng_debug("buf case 4.2.9")
+                        lst = data["cg" .. it:lower()]
+                    elseif it == "'" then
+                        ng_debug("buf case 4.2.10")
+                        lst = {"'"}
                     else
-                        if it >= "A" and it < "P" then
-                            lst = data["cg" .. it:lower()]
-                        else
-                            error(string.format(
+                        error(string.format(
                             [[Wrong rules syntax(it:"%s", rule:"%s")]],
                             it, rule))
-                        end
                     end
+                    -- got the list, now choose something on it
                     if #lst == 0 then
                         error(string.format(
                             "No data found in the requested string (wildcard %s). Check your name generation rule %s.",
