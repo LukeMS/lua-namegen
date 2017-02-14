@@ -8,7 +8,7 @@ local sets = namegen.get_sets()
 local gen = {}
 for _, set in ipairs(sets) do
     gen[set] = gen[set] or {}
-    for i = 1, 1000 do
+    for i = 1, 100 do
         local str = namegen.generate(set)
         gen[set][str] = (gen[set][str] or 0) +1
     end

@@ -2,12 +2,14 @@
 
 .. |MIT| image:: https://img.shields.io/badge/License-MIT-green.svg
 
-LuaNameGen - Lua Name Generator v1.0.0
+
+LuaNameGen - Lua Name Generator v1.1.0
 =======================================
 
 LuaNameGen is a tool to quickly generate random names for characters, objects and places. It is useful for both table-top games (run the script, grab the name) or to be used as a library for game development.
 
 Never again face an Ancient Red Dragon named Bob!
+
 
 Table of contents
 ==================
@@ -34,13 +36,14 @@ Table of contents
 
 * `How to help`_
 
-* `Example of generated names`_
-
 * `Release News`_
+
+* `Example of generated names`_
 
 
 Inspiration
 ============
+
 
 Code
 -----
@@ -73,8 +76,10 @@ Inspiration came from sources such as:
 .. _`fantasynamegen.com`: https://www.fantasynamegen.com/
 .. _`creative-role-playing.com`: http://web.archive.org/web/20141009095317/https://www.creative-role-playing.com/fantasy-sounding-names/
 
+
 Usage
 ======
+
 
 Basic usage
 ------------
@@ -87,6 +92,7 @@ To get a dwarf name and surname, using default sets, just do:
 
    local name = namegen.generate("dwarf male")  --  Dolin
    local surname = namegen.generate("dwarf surname")  --  Steelcutter
+
 
 Like-a-boss usage
 ------------------
@@ -109,6 +115,7 @@ To get whatever you want, call for a name set with the rule you want:
 
 How does it works?
 ===================
+
 
 Basics
 -------
@@ -137,6 +144,7 @@ This set with its only rule would generate names such as:
 
 * Duerin;
 
+
 Syllable Groups
 ----------------
 
@@ -161,6 +169,7 @@ Every syllable group has a matching symbol (used rules, `s` and `e` in the previ
    ?       phonemesVocals/     parser_data["vocals"]/
            phonemesConsonants  parser_data["consonants"]
 
+
 Rules
 ------
 
@@ -182,14 +191,15 @@ Each rule would have an equal chance to be used at each generation. If desired, 
 
 Instead of each rule having 1/2 chance to be used, the first one would have 1/2*50% chance.
 
+
 How to help
 ============
 
-* Improve the lua code, performance-wise, fix bugs, etc.
+Help is always appreciated. Those are the main forms to get involved:
 
-* You can help to test or improve content:
+* Test and improve content:
 
-  - test existing syllable sets;
+  - test existing name sets;
 
   - improve them:
 
@@ -201,17 +211,39 @@ How to help
 
     + add some illegal results to avoid weird combinations;
 
-  - submit a new set.
+  - create a new set.
 
-  - `improve the documentation`.
+* Make changes to the Lua code, improving performance, fixing bugs, etc;
 
-On both cases the optimal way to it is by following github's workflow_: fork, fix, submit a pull request.
+* `Improve the documentation`.
 
-You can also report an issue_.
+On all cases, the optimal way to proceed is by following github's workflow_: fork this repo, change it and then submit a pull request.
+
+You can also report an issue_ (and add a fix for it on the comments).
 
 .. _workflow: https://help.github.com/articles/fork-a-repo/
 .. _issue: https://github.com/LukeMS/lua-namegen/issues
-.. _`improve the documentation`: https://github.com/LukeMS/lua-namegen/edit/master/README.rst
+.. _`Improve the documentation`: https://github.com/LukeMS/lua-namegen/edit/master/README.rst
+
+
+Release News
+============
+
+1.1.0
+------
+* Added books, potions and towns name sets:
+
+  - `towns.cfg` is a copy of Mingos and Jice town name sets for libtcod's namegen;
+
+  - `books.cfg` and `potions.cfg` were based on common roguelike names for unidentified items.
+
+1.0.1
+------
+
+* Fixed a critical error that prevented the data files (.cfg, .index) from being loaded at all while calling the library from outside of its own directory.
+
+* Made a doc generator to provide sphynx-like basic `literalinclude` (github don't support it)
+
 
 Example of generated names
 ===========================
@@ -221,14 +253,3 @@ This is a list of a few names genereated by the default sets:
 .. literalinclude:: examples.rst
 
 
-Release News
-============
-
-This describes the latest LuaNameGen changes.
-
-1.0.1
-------
-
-* Fixed an critical error that prevented the data files (.cfg, .index) from being loaded at all while calling the library from outside of its own directory.
-
-* Made a doc generator to provide sphynx-like basic `literalinclude` (github don't support it)
