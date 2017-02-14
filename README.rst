@@ -1,16 +1,13 @@
 |MIT|
 
+.. |MIT| image:: https://img.shields.io/badge/License-MIT-green.svg
 
 LuaNameGen - Lua Name Generator v1.0.0
 =======================================
 
-What if, instead of Bilbo and Frodo, Tolkien's characters were named Bill and Fred?
+LuaNameGen is a tool to quickly generate random names for characters, objects and places. It is useful for both table-top games (run the script, grab the name) or to be used as a library for game development.
 
-Or if, during the climax of a role-playing session, you face an Ancient Red Dragon called Bob...
-
-LuaNameGen is an effort to quickly create random names for characters, objects and places. It is useful for both table-top games (run the script, grab the name) or to be used as a library for game development.
-
-Free the syllables, create fantastic names, have fun, provide fun.
+Never again face an Ancient Red Dragon named Bob!
 
 Table of contents
 ==================
@@ -84,6 +81,7 @@ Basic usage
 
 To get a dwarf name and surname, using default sets, just do:
 
+.. code-block:: lua
 
    local namegen = require("namegen")
 
@@ -95,6 +93,7 @@ Like-a-boss usage
 
 To get whatever you want, call for a name set with the rule you want:
 
+.. code-block:: lua
 
    local namegen = require("namegen")
 
@@ -120,6 +119,7 @@ Each line of 'namegen.index' indicates the location of a set file to be readed. 
 
 Each set file (also plain text files) follows a simple syntax (libtcod's syntax, so any .cfg file from it can be used), and may contains multiple sets. This is an example of a basic set:
 
+.. code-block:: none
 
    name "dwarf male" {
        syllablesStart  = "Do, Due"
@@ -142,6 +142,7 @@ Syllable Groups
 
 Every syllable group has a matching symbol (used rules, `s` and `e` in the previous example) that matches it, and will, after parsed, be stored under a specific key on the parser data table:
 
+.. code-block:: none
 
    symbol  group name          parser field
    ------  ----------          ------------
@@ -169,11 +170,13 @@ It is possible to set a chance of adding a syllable. The rule "$s$e$50e" would h
 
 If you want to have multiple rules for a same set, simply separate them with a comma:
 
+.. code-block:: none
 
     rules = "$e$s, $s$e"
 
 Each rule would have an equal chance to be used at each generation. If desired, you can give specific chances for each rule (by default they all have the same chance of being used):
 
+.. code-block:: none
 
     rules = "%50$e$s, $s$e"
 

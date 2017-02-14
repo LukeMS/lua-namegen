@@ -5,13 +5,9 @@
 LuaNameGen - Lua Name Generator v1.0.0
 =======================================
 
-What if, instead of Bilbo and Frodo, Tolkien's characters were named Bill and Fred?
+LuaNameGen is a tool to quickly generate random names for characters, objects and places. It is useful for both table-top games (run the script, grab the name) or to be used as a library for game development.
 
-Or if, during the climax of a role-playing session, you face an Ancient Red Dragon called Bob...
-
-LuaNameGen is an effort to quickly create random names for characters, objects and places. It is useful for both table-top games (run the script, grab the name) or to be used as a library for game development.
-
-Free the syllables, create fantastic names, have fun, provide fun.
+Never again face an Ancient Red Dragon named Bob!
 
 Table of contents
 ==================

@@ -36,14 +36,12 @@ local function parse_lines()
             end
         else
             local field, arg = line:match("^%.%. *(.+):: *(.+)$")
-            if field then
-                if parsers[field] then
-                    block_args = {}
-                    block_args["fn"] = field
-                    block_args["fn_arg"] = arg
-                    inside_block = true
-                    -- print("inside_block", field, parsers[field])
-                end
+            if field and parsers[field] then
+                block_args = {}
+                block_args["fn"] = field
+                block_args["fn_arg"] = arg
+                inside_block = true
+                -- print("inside_block", field, parsers[field])
             else
                 dest = dest .. line .. "\n"
             end
