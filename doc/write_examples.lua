@@ -21,13 +21,13 @@ for _, set in ipairs(sets) do
         Books = groups[1]
         Books[#Books + 1] = set
     elseif string.find(set, "potions$") then
-        Potions = groups[2]
+        Potions = groups[3]
         Potions[#Potions + 1] = set
     elseif string.find(set, "towns$") then
-        Towns = groups[3]
+        Towns = groups[4]
         Towns[#Towns + 1] = set
     else
-        Creatures = groups[4]
+        Creatures = groups[2]
         Creatures[#Creatures + 1] = set
     end
 end
