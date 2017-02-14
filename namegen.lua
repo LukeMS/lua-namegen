@@ -1,3 +1,6 @@
+local PATH = string.match(debug.getinfo(1,"S").source,
+                          "^@(.+/)[%a%-%d_]+%.lua$") or "./"
+
 local namegen = {
     _VERSION     = 'LuaNameGen - Lua Name Generator v1.0.0',
     _DESCRIPTION = 'A name generator written in Lua',
@@ -24,11 +27,11 @@ local function loadrequire(module)
     return loaded
 end
 
-local RangedTable = require("rangedtable")
+local RangedTable = require("namegen.rangedtable")
 
 local inspect = loadrequire('inspect') or function(t)
     s = "{"
-    for k, v in t do
+    for k, v in pairs(t) do
         s = s .. string.format("%s: %s;", k, v)
     end
     s = s .. "}"
@@ -64,9 +67,9 @@ end
 
 local function get_path(filename)
     if filename:find("%.cfg$") then
-        return filename
+        return PATH .. filename
     else
-        return filename .. ".cfg"
+        return PATH .. filename .. ".cfg"
     end
 end
 
@@ -184,7 +187,7 @@ end
 local function parse_index()
     ng_debug("starting `parse_index`")
 
-    for line in io.lines("namegen.index") do
+    for line in io.lines(PATH .. "namegen.index") do
         parse_file(line)
     end
     ng_debug("ending `parse_index`")

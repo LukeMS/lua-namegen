@@ -1,40 +1,21 @@
-math.randomseed(1)
-math.random()
-
-
-local inspect = require("inspect")
 local namegen = require("namegen")
 
+math.randomseed(os.time())
+math.random()
 
 local sets = namegen.get_sets()
-table.sort(sets)
+
+local gen = {}
 for _, set in ipairs(sets) do
-    -- do break end
-    print("\n" .. string.format([["%s"]], set))
-    print(string.gsub(set, ".", "-") .. "---")
-    print("\n" .. ".. code-block:: lua" .. "\n")
-    local names = {}
-    for i = 1, 50 do
-        names[#names + 1] = namegen.generate(set)
+    gen[set] = gen[set] or {}
+    for i = 1, 100 do
+        local str = namegen.generate(set)
+        gen[set][str] = gen[set][str] or 0 +1
     end
-    table.sort(names)
-    print("  " .. inspect(names):gsub("[{}]", ""))
 end
 
-for i = 1, 10 do
-    do break end
-    print(inspect({
-        namegen.generate("oread female"),
-        namegen.generate("oread female"),
-        namegen.generate("oread female"),
-        namegen.generate("oread female"),
-        namegen.generate("oread female"),
-        namegen.generate("oread female"),
-        namegen.generate("oread female"),
-        namegen.generate("oread female"),
-        namegen.generate("oread female"),
-        namegen.generate("oread female"),
-        namegen.generate("oread female"),
-        namegen.generate("oread female")
-    }))
+for set, t in pairs(gen) do
+    for k, v in pairs(t) do
+        print(set, k, v)
+    end
 end
