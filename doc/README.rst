@@ -40,6 +40,14 @@ Table of contents
 
 * `Example of generated names`_
 
+  - `Books`_
+
+  - `Creatures`_
+
+  - `Potions`_
+
+  - `Towns`_
+
 
 Inspiration
 ============
@@ -248,8 +256,17 @@ Release News
 Example of generated names
 ===========================
 
-This is a list of a few names genereated by the default sets:
+  - `Books`_
+
+  - `Creatures`_
+
+  - `Potions`_
+
+  - `Towns`_
+
+
+Below are examples of generated names for each of the sets packed with LuaNameGen:
+
 
 .. literalinclude:: examples.rst
-
 

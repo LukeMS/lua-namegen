@@ -10,33 +10,37 @@ math.random()
 local sets = namegen.get_sets()
 table.sort(sets)
 local groups = {
-    Books = {},
-    Potions = {},
-    Towns = {},
-    Creatures = {}
+    {"Books"},
+    {"Creatures"},
+    {"Potions"},
+    {"Towns"},
 }
 
 for _, set in ipairs(sets) do
     if string.find(set, "books$") then
-        Books = groups["Books"]
+        Books = groups[1]
         Books[#Books + 1] = set
     elseif string.find(set, "potions$") then
-        Potions = groups["Potions"]
+        Potions = groups[2]
         Potions[#Potions + 1] = set
     elseif string.find(set, "towns$") then
-        Towns = groups["Towns"]
+        Towns = groups[3]
         Towns[#Towns + 1] = set
     else
-        Creatures = groups["Creatures"]
+        Creatures = groups[4]
         Creatures[#Creatures + 1] = set
     end
 end
 
-for group, t in pairs(groups) do
-    dest = dest .. ("\n" .. string.format([["%s"]], group))
+
+for _, t in ipairs(groups) do
+    local group = t[1]
+    dest = dest .. ("\n" .. string.format([[%s]], group))
     dest = dest .. ("\n" .. string.gsub(group, ".", "-") .. "---\n")
 
-    for _, set in ipairs(t) do
+    for i = 2, #t do
+        local set = t[i]
+        -- print(group, set)
         dest = dest .. ("\n" .. string.format([["%s"]], set))
         dest = dest .. ("\n" .. string.gsub(set, ".", "*") .. "***\n")
         dest = dest .. ("\n" .. ".. code-block:: lua" .. "\n")
