@@ -715,12 +715,28 @@ Creatures
    "Ahvu", "Anmallus", "Bondatmom", "Bontor", "Bontormu", "Dantorrin", "Gundurhat", "Jeydurnom", "Lordanlen", "Lorhutmus", "Menha", "Menhutlom", "Monvotdon", "Nudtordur", "Nynomdur", "Pyllun", "Pylmon", "Pylrinlur", "Rotys", "Rundanfam", "Rundusvros", "Runnatdom", "Runrmu", "Sarlenlun", "Solhatys", "Urdum", "Vydat", "Vylurhut", "Vyrud", "Ylmumem" 
 
 
+"ratfolk female"
+*****************
+
+.. code-block:: lua
+
+   "Ageekiz", "Binc", "Driv", "Gleev", "Gneldeen", "Hivin", "Icrind", "Ikeesnik", "Ikelgeek", "Iteeh", "Iteen", "Jar", "Jelnig", "Jih", "Keec", "Kreldet", "Peeq", "Pinl", "Preheek", "Relh", "Rinden", "Sceln", "Skelk", "Stelvin", "Stesneek", "Tineed", "Tis", "Velneek", "Vins", "Zrit" 
+
+
+"ratfolk male"
+***************
+
+.. code-block:: lua
+
+   "Amel", "Branz", "Djeetir", "Dreel", "Geg", "Gleez", "Gnimeeq", "Honik", "Hotch", "Icreskreek", "Ikil", "Itinhing", "Knand", "Nen", "Nik", "Pang", "Peris", "Peter", "Pretch", "Rimvim", "Rinmev", "Skind", "Sreqink", "Stel", "Tinansins", "Tinez", "Vreenez", "Vrir", "Zehnih", "Zreec" 
+
+
 "sprite female 1"
 ******************
 
 .. code-block:: lua
 
-   "Flaxifer", "Flissasti", "Flissifer", "Flixanel", "Flixasti", "Fossarel", "Friskanel", "Frissefer", "Glisserel", "Glissifer", "Miskanel", "Miskasti", "Miskinel", "Raffinel", "Raffirel", "Ressirel", "Rillamer", "Saffarel", "Saffirel", "Shimarel", "Tissafer", "Tissifer", "Trillerel", "Tristarel", "Twispirel", "Twisserel", "Twixamer", "Weftinel", "Weskinel", "Winnerel" 
+   "Dexefer", "Flaxafer", "Flaximer", "Flaxirel", "Flissamer", "Flissinel", "Flixarel", "Flixirel", "Friskifer", "Frissanel", "Glanefer", "Glanimer", "Glissirel", "Gossinel", "Heximer", "Lissamer", "Minafer", "Raffirel", "Resserel", "Riffarel", "Shimafer", "Shimenti", "Tinkimer", "Tristirel", "Twissanel", "Twissinel", "Twixasti", "Weftanel", "Weskasti", "Weskenti" 
 
 
 "sprite female 2"
@@ -728,7 +744,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Cryltiss", "Elsidee", "Esktiss", "Ferisla", "Ferissa", "Friminiss", "Friminyx", "Frimisa", "Ganree", "Halliss", "Halynx", "Iphilnyx", "Ispelliss", "Jatniss", "Jostliss", "Lirraynx", "Minkniss", "Opalla", "Opalliss", "Opalynx", "Orifkiss", "Orissa", "Sarmnyx", "Tirrakiss", "Tirramee", "Trumpdee", "Whisla", "Whisree", "Zandola", "Zandomee" 
+   "Brismee", "Crylnyx", "Crylynx", "Elsitiss", "Eskdee", "Eskriss", "Frimikiss", "Frimila", "Frimisa", "Gannyx", "Ganynx", "Halkiss", "Helsa", "Histriss", "Histsa", "Iphilnyx", "Ispeltiss", "Jostla", "Lirrariss", "Mistlekiss", "Mistlenyx", "Opalla", "Orifdee", "Sarmliss", "Sprinliss", "Stithsa", "Tansidee", "Tirramee", "Zandoniss", "Zandosa" 
 
 
 "sprite male 1"
@@ -736,7 +752,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Flaxando", "Flimaron", "Flimeron", "Flissaroll", "Frissaron", "Frissendo", "Frissondo", "Gessendo", "Glaxaron", "Glimallo", "Glissendo", "Hexasto", "Hexendo", "Hexeron", "Lissallo", "Raffendo", "Ressamo", "Rillando", "Rillaron", "Rillasto", "Shimamo", "Shimaron", "Trillaroll", "Tristendo", "Twissasto", "Twixamo", "Twixando", "Twixasto", "Weftondo", "Wispesto" 
+   "Dexendo", "Flaxaron", "Flaxasto", "Flixaron", "Flixeroll", "Flixeron", "Fossaroll", "Fossaron", "Gessaroll", "Gessendo", "Glaxaldo", "Glaxallo", "Glaxendo", "Glimallo", "Glimeroll", "Glissallo", "Gossaron", "Hexaroll", "Lissendo", "Minaldo", "Raffando", "Resseron", "Riffando", "Riffesto", "Twilleron", "Twissamo", "Twixallo", "Weftaroll", "Wisparoll", "Wispesto" 
 
 
 "sprite male 2"
@@ -744,7 +760,23 @@ Creatures
 
 .. code-block:: lua
 
-   "Brisfret", "Crylbik", "Elsibrix", "Emberkin", "Ferismist", "Frimikin", "Halbik", "Halfrell", "Helrix", "Heltross", "Histbrix", "Iphilkin", "Istlerix", "Istlezisk", "Jusfrell", "Lirrabrix", "Minkrix", "Mirrabrix", "Ninkafret", "Ninkakin", "Orisbik", "Perikin", "Sarmkin", "Sprinzisk", "Stithtross", "Tansirix", "Tansitross", "Trumpwin", "Whisfret", "Zandokin" 
+   "Crylmit", "Elsitross", "Elsizisk", "Emberbik", "Emberzisk", "Ferisbik", "Ganwin", "Glinkbik", "Helmist", "Heltwik", "Histfrell", "Iphilbik", "Iphilmit", "Istlebik", "Jatbrix", "Jatrix", "Jostmit", "Jusbrix", "Lirrabik", "Malitwik", "Minktross", "Mirrazisk", "Oriftross", "Orisfrell", "Oristross", "Oriswin", "Tansibik", "Tirramit", "Trumpzisk", "Zandokin" 
+
+
+"sylph female"
+***************
+
+.. code-block:: lua
+
+   "Anuju", "Caadju", "Ceammi", "Cenalmi", "Cisenmu", "Cuzadife", "Dadenidi", "Damul", "Fakadsa", "Fusedfamu", "Gaeduna", "Ganunded", "Gaudju", "Haansa", "Heldulvu", "Helfinsi", "Helkelsa", "Hifalvu", "Huzdedkada", "Idalfi", "Iinkima", "Iisvuna", "Laashi", "Sukuda", "Vaazinu", "Vadedfi", "Vawenvu", "Wuad", "Wuine", "Zugelvama" 
+
+
+"sylph male"
+*************
+
+.. code-block:: lua
+
+   "Adan", "Analma", "Cila", "Faduniv", "Feifmi", "Fijid", "Gaven", "Geim", "Gevilin", "Hafalid", "Hemi", "Hezadis", "Huansum", "Iden", "Lased", "Liwen", "Luul", "Mased", "Mimunal", "Muudmun", "Muunam", "Muwingum", "Nifinif", "Niudfil", "Sejid", "Sima", "Ulaash", "Vuadim", "Wavun", "Zudul" 
 
 
 Potions
@@ -755,7 +787,7 @@ Potions
 
 .. code-block:: lua
 
-   "amber", "blubbery blue", "blubbery dark mercury", "bubbly turquoise", "clotted dark orange", "clotted green", "flickering dark cyan", "flickering dark magenta", "flickering mercury", "heavy dark mercury", "heavy dark red", "heavy dark white", "heavy light white", "oily gray", "opaque brown", "opaque light cyan", "sandy dark pink", "sandy dark white", "sandy light mercury", "sparkling white", "swirly blue", "swirly dark turquoise", "swirly gray", "swirly light green", "thin dark red", "thin light silvery", "thin orange", "translucent light turquoise", "viscous light red", "watery" 
+   "blood red", "bright", "clear", "clotted dark red", "dull", "flickering brown", "flickering dark yellow", "flickering light blue", "glowing", "heavy light cyan", "heavy light pink", "icky", "milky", "murky", "oily light gray", "rusty", "sandy dark red", "sandy light golden", "shiny", "smelly light purple", "smelly pink", "sparkling dark gray", "sparkling light green", "sparkling light mercury", "speckled", "swirly silvery", "thick light violet", "thin green", "translucent dark brown", "translucent light violet" 
 
 
 Towns
@@ -766,7 +798,7 @@ Towns
 
 .. code-block:: lua
 
-   "Ashcliff", "Belhill", "Belmist", "Blackash", "Blackpond", "Blackshade", "Clearash", "Clearwick", "Coldash", "Coldburn", "Fairhaven", "Fallhollow", "Glasshill", "Goldsummer", "Ironcoast", "Millbarrow", "Milliron", "Morford", "Rayhold", "Rayhollow", "Raylake", "Rayshore", "Shadowburn", "Spellbarrow", "Spellshade", "Springash", "Westercrest", "Westerhill", "Wintercliff", "Wintermount" 
+   "Aelmill", "Aelsummer", "Ashmill", "Barrowshade", "Belpond", "Crystallake", "Edgemist", "Falconfall", "Falltown", "Icecoast", "Icemarsh", "Ironmist", "Millfall", "Millgate", "Millhaven", "Millshade", "Moonburn", "Moonhollow", "Rosehollow", "Shadowcoast", "Shadowwick", "Silvercastle", "Spelltown", "Springash", "Springcliff", "Springmount", "Strongcliff", "Strongmarsh", "Swyncastle", "Wintermount" 
 
 
 "mingos towns"
@@ -774,6 +806,6 @@ Towns
 
 .. code-block:: lua
 
-   "Alesburg View", "Bellmoor", "Brassborough", "Brasslyn", "Brightriver", "Cherrycester", "Clarkcester Forest", "Clayshire", "Copperdorf", "Darkness", "East Claywich Springs", "Ellesthorpe", "Greyness Corner", "High Laynepool", "High Normont", "Lintness", "Mapleborne", "New Guildburgh Meadow", "New Kentwood", "Nortown", "Rosebury", "Royal Blueshore Grove", "Royal Lorwich", "Saint Deerbury View", "Sowsville", "Stillstead", "Stockmere", "Watergate", "Wheatcrest", "Whitehall" 
+   "Campshore Crossing", "Crossholm", "Crossminster", "Draccrest", "East Mapleside", "Esterkirk", "Faircliff", "Hammerdale", "Hammershire", "Hawkskeep", "Hawksvale Forest", "Hazeburgh", "Hazecester", "Mablebank", "Mableminster", "Marbleshore", "Mistburgh", "North Birdlinghollow", "Norwich", "Oaktown", "Pinekirk", "Richham", "Rockhall", "Rockmont", "Rosestoke", "Saint Brassville", "Smithness", "Snowcliff", "Wolfborne", "Woolston" 
 
 
