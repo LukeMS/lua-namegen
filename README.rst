@@ -36,7 +36,7 @@ Table of contents
 
 * `How to help`_
 
-* `Release News`_
+* `Release notes`_
 
 * `Example of generated names`_
 
@@ -234,7 +234,7 @@ You can also report an issue_ (and add a fix for it on the comments).
 .. _`Improve the documentation`: https://github.com/LukeMS/lua-namegen/edit/master/README.rst
 
 
-Release News
+Release notes
 ============
 
 1.1.0
@@ -277,7 +277,7 @@ Books
 
 .. code-block:: lua
 
-   "ancient green", "black", "blue", "blue", "blue", "brown", "charred brown", "compact gray", "compact orange", "compact slender black", "compact tattered orange", "compact worn orange", "embossed red", "gilted brown", "gilted green", "green", "heavy decorated white", "heavy tattered orange", "hide-covered blue", "hide-covered white", "huge black", "huge brown", "iron-bound yellow", "large embroidered black", "large purple", "leather green", "mangled gray", "orange", "orange", "orange", "purple", "purple", "ragged green", "red", "silvery", "small blue", "small brass-bound white", "thick dusty white", "thick leather gray", "thick silvery", "thick white", "thick yellow", "tiny brass-bound yellow", "tiny leather-bound gray", "tiny red", "tiny yellow", "used green", "used white", "white", "yellow" 
+   "black", "blue", "brown", "charred brown", "compact gray", "compact orange", "compact slender black", "compact tattered orange", "compact worn orange", "gilted brown", "gilted green", "green", "heavy decorated white", "heavy tattered orange", "huge brown", "iron-bound yellow", "large embroidered black", "leather green", "mangled gray", "orange", "purple", "red", "small blue", "thick dusty white", "thick yellow", "tiny red", "tiny yellow", "used green", "used white", "white" 
 
 
 Creatures
@@ -288,7 +288,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Alantel", "Amadenth", "Amareth", "Ansamenth", "Ar-amart", "Arsah", "Arsah", "Imeen", "Imema", "Imetyra", "Imevina", "Jaranereth", "Jasaneth", "Kalma", "Kaltyra", "Katarneleth", "Maereth", "Maeth", "Masozi", "Masozi", "Nialla", "Nieleth", "Nien", "Nier", "Nieseth", "Nisozi", "Ondrea", "Onel", "Paljena", "Ranaler", "Rhieth", "Rhieth", "Rhijena", "Saraneth", "Sarnatereth", "Solarenth", "Talaset", "Taltyra", "Tardrea", "Tarken", "Valarenth", "Valmareth", "Valnoren", "Valnoreseth", "Valsinoe", "Vanaren", "Var-sarnat", "Varalla", "Varateleth", "Voltarel" 
+   "Adrasteleth", "Ansameth", "Ar-valnor", "Aret", "Arken", "Daen", "Daeth", "Drinma", "Imesinoe", "Jal-atar", "Jaljena", "Jasarmeth", "Kalareth", "Kaljena", "Masah", "Nier", "Niereth", "Nieth", "Niramour", "Nivina", "Onalla", "Palken", "Ral-talar", "Sardareleth", "Tarma", "Valdorel", "Valdoreleth", "Valnares", "Valsah", "Varaleth" 
 
 
 "aasimar male"
@@ -296,7 +296,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Ansamal", "Ar-katarn", "Aramar", "Arathar", "Arral", "Asanar", "Astaral", "Avlantan", "Ceral", "Cerkrin", "Cernan", "Certin", "Cronanth", "Cronathal", "Cronathal", "Cronathar", "Cronwier", "Eathar", "Egan", "Ilanth", "Jaldril", "Jasanathal", "Jasarmanth", "Javralathar", "Kaladar", "Kalastath", "Kalitian", "Kasalat", "Mauat", "Oath", "Oathal", "Oran", "Pagan", "Paladath", "Ral-amar", "Ralwier", "Sarnatar", "Sartin", "Solarath", "Talasan", "Talasat", "Talwier", "Taramin", "Tarwier", "Tavalathas", "Valarathas", "Varamathas", "Varanat", "Zaiar", "Zaigan" 
+   "Amaranth", "Ar-valon", "Aradal", "Aral", "Belgan", "Cernan", "Cerran", "Ilamin", "Jalrant", "Jasanathar", "Kaladathar", "Kalwier", "Mauar", "Maunan", "Paath", "Paldril", "Ravanathal", "Sar-palad", "Sar-saran", "Sardanat", "Solarath", "Talanath", "Talonath", "Tuath", "Tutin", "Valnarathal", "Valnarathas", "Valnorathal", "Vanarathal", "Vardaral" 
 
 
 "catfolk female"
@@ -304,7 +304,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Asharr", "Ashee", "Dulaha", "Dulissi", "Dusiyth", "Duyi", "Holithi", "Homiah", "Hosash", "Hoslif", "Jilaha", "Jimeera", "Jimeere", "Jisharr", "Jishurr", "Lisslahe", "Lithlissi", "Lithslif", "Lyaushah", "Maulina", "Miahsharr", "Milirra", "Militha", "Mirrniri", "Misfee", "Misharr", "Mislif", "Purrhline", "Sashmiau", "Sashsiyth", "Serrlyana", "Serrniri", "Serrsiyth", "Sfeelissa", "Sfeeniri", "Sfeeyi", "Sheelyare", "Sheeya", "Shurrsheer", "Siphelyau", "Siphesash", "Sipheshee", "Siythlyau", "Slifmiah", "Swishmew", "Syaulyau", "Syauslif", "Tilahe", "Timirr", "Tiserr" 
+   "Dumihr", "Dusash", "Duslif", "Holina", "Homiah", "Hoslif", "Jilirri", "Jisharr", "Jishim", "Jiyi", "Lithlahi", "Lithyera", "Maulyana", "Meerline", "Miaumihr", "Mihrsharr", "Milaha", "Misfee", "Saflahe", "Safyeri", "Sashlyara", "Sfeelyani", "Sheerlirre", "Sheerlithi", "Sheeyi", "Siphemau", "Sipheyeri", "Siythlirri", "Tilini", "Tiyera" 
 
 
 "catfolk male"
@@ -312,7 +312,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Cargar", "Carmirr", "Carsash", "Carshau", "Carshim", "Drepurrh", "Dreshee", "Ferruth", "Fersaf", "Ferserr", "Fershah", "Fershau", "Ferus", "Gerembe", "Gerus", "Lirrsfee", "Lithpurrh", "Lyausyau", "Meershah", "Miaupurrh", "Miauus", "Mirrgar", "Mirrlyau", "Mirrmiah", "Mirrpurrh", "Miulith", "Miushah", "Nykshah", "Nykshurr", "Nykslif", "Purrhserr", "Rougar", "Roulirr", "Roumiau", "Roupurrh", "Roushurr", "Serrshah", "Serrshurr", "Sharrmau", "Shausyau", "Sheerliss", "Shimmiau", "Shimsyau", "Shurrgar", "Siythmiah", "Siythswish", "Sliflyau", "Swishliss", "Swishserr", "Syaulyau" 
+   "Dreran", "Dreruth", "Dreshah", "Ferswish", "Gerlyau", "Germiau", "Gerslif", "Lirrmau", "Lirrwan", "Maumew", "Maumiu", "Miauserr", "Mirrlirr", "Nykmiu", "Nykshee", "Nykus", "Safgar", "Sashgar", "Sfeesiyth", "Shahsash", "Sharrmeer", "Sharrserr", "Sheermau", "Slifshim", "Syausash", "Syaushim", "Zithmihr", "Zithpurrh", "Zithshau", "Zithtan" 
 
 
 "dragon female"
@@ -320,7 +320,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Adravoraxis", "Ancamalaxis", "Ancamalaxis", "Andranadralix", "Aragvoraxis", "Barbazia", "Berucalchaxis", "Biabazia", "Bianadralix", "Brabazia", "Bracordaxis", "Braphylaxis", "Brazzemalis", "Brimamordaxis", "Chrocordaxis", "Chromanthysa", "Chrovorunga", "Chrysobazia", "Harvorunga", "Huromalaxis", "Hurozzebraxis", "Jalanmandrossa", "Jarzemcalchaxis", "Jarzemnaluxis", "Jazracordaxis", "Jurgavoraxis", "Keruxacalchaxis", "Keruxavorunga", "Keruxaxenoris", "Majurinadralix", "Melkarzzemalis", "Ouromalaxis", "Ouromandrossa", "Porphyrobradaxis", "Pyracalchaxis", "Pyrazzebraxis", "Rhadaxenoris", "Rhevorunga", "Rhodobradaxis", "Rhodobradaxis", "Sulchrubradaxis", "Sulchruvorunga", "Tchalcedoborossa", "Tchalcedonaluxis", "Tchazarxenoris", "Vranadralix", "Vravorunga", "Zalarbazia", "Zalarnadralix", "Zerullagonis" 
+   "Adastralagonis", "Adastramanthysa", "Adrazzemalis", "Andracalchaxis", "Archozuthraxis", "Atrazzebraxis", "Brimacalchaxis", "Cadranadralix", "Chrysonaluxis", "Chrysovoraxis", "Glaucalchaxis", "Heliophylaxis", "Huromanthysa", "Hurovoraxis", "Jalanmordaxis", "Jalanvoraxis", "Kralkavoraxis", "Majurizzemalis", "Ouromalaxis", "Phrixumandrossa", "Pyranaluxis", "Rhadaneriaxis", "Sarcuzzebraxis", "Sardacalchaxis", "Sidereomordaxis", "Sidereovorunga", "Tchalcedomandrossa", "Tchazarlagonis", "Tchazarmordaxis", "Vramalaxis" 
 
 
 "dragon male"
@@ -328,7 +328,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Adastracordax", "Adastralagon", "Andranadral", "Archocalchax", "Archomalax", "Atrabradax", "Atramordax", "Barbradax", "Bradomordax", "Bramandros", "Bramandros", "Branadral", "Brimazuthrax", "Cadramordax", "Cadraneriax", "Cadrazzebrax", "Chrocordax", "Chromalax", "Chrysozzemal", "Glauxenor", "Hurovorung", "Iulboros", "Jarzemboros", "Jarzemneriax", "Jazraneriax", "Jurgalagon", "Jurgaphylax", "Keruxacalchax", "Keruxacalchax", "Keruxacordax", "Keruxamandros", "Keruxazzebrax", "Malachomanthys", "Orgravorax", "Orgrazzebrax", "Ourocordax", "Phrixuxenor", "Porphyronadral", "Sarcordax", "Sarmordax", "Sarvorax", "Scarvazuthrax", "Sidereomalax", "Sidereovorung", "Skhiacordax", "Sulchrumordax", "Vracordax", "Vramordax", "Vrazzemal", "Zerulvorax" 
+   "Abrabazius", "Ancazzemal", "Atramalax", "Beruvorax", "Bhakricalchax", "Bramalax", "Brimacalchax", "Cadracordax", "Chroxenor", "Chrysolagon", "Heliobradax", "Jazrabradax", "Jurganalux", "Lazulozuthrax", "Majuribazius", "Malachobazius", "Phrixuvorung", "Porphyrocalchax", "Porphyromandros", "Pyraneriax", "Pyraphylax", "Rhadalagon", "Sarcucordax", "Sarcuneriax", "Sarcuvorax", "Sardanadral", "Sidereophylax", "Sulchruphylax", "Tchalcedolagon", "Trochocordax" 
 
 
 "drow female"
@@ -336,7 +336,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Balcilin", "Balversil", "Balyolira", "Belsunrin", "Bervoril", "Burith", "Charyelrinvia", "Chorruvia", "Chorverna", "Coliza", "Cysinvia", "Dornillunil", "Dorsolvra", "Dritendril", "Dromelniss", "Dromtormniss", "Dromumira", "Dulolgbra", "Dultelth", "Eilcivia", "Eiltormniss", "Ekvriliza", "Ennilis", "Envolis", "Gonsolbra", "Gonsolhel", "Gullunia", "Gulrin", "Gulyelth", "Insviriza", "Johtenis", "Johysdeil", "Losith", "Lospeldril", "Mabtelralan", "Mabthaldra", "Marhel", "Maznyldril", "Mazsolhel", "Maztormth", "Mezth", "Mezvilrilbra", "Molistra", "Morvekia", "Morvorhel", "Nothverrin", "Ulvilidiln", "Vocilya", "Votenira", "Voyasistra" 
+   "Balsekth", "Burvilistra", "Colthalistra", "Dulmyrdeil", "Dulmyrvra", "Dulrhaira", "Dulthalis", "Dulysvia", "Durnildril", "Enothvra", "Erilra", "Ermyran", "Gonlya", "Ilorgvril", "Jegteltra", "Jendorniss", "Jysonlavil", "Kilna", "Lilnevia", "Lilvekira", "Maboria", "Mazmyrth", "Molpelith", "Molsabra", "Molthaltra", "Nothpeliln", "Ulsunbra", "Voira", "Voothiln", "Vosullevlin" 
 
 
 "drow male"
@@ -344,7 +344,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Balrim", "Bervekurn", "Charsylred", "Chortulvir", "Colrennaz", "Colrhanim", "Colvekald", "Decavim", "Divnelrilird", "Divsussylurn", "Dolvir", "Drivornaz", "Dromild", "Dromrensylviz", "Dronim", "Dulmyrird", "Durnaz", "Eilverrid", "Eknovir", "Ekvekul", "Ernoxnim", "Filivin", "Finid", "Firynim", "Imlim", "Jegrellinvir", "Jegsabred", "Jendpaneld", "Jersulnil", "Kilnould", "Kilreneld", "Kilthalurn", "Lilmyrald", "Lulztnid", "Maztorred", "Mazvorred", "Mernoviz", "Mervir", "Miothird", "Molmyrvir", "Molnelred", "Molsunrid", "Morolgpelvid", "Morvereld", "Nothnonim", "Nothruin", "Oltenmould", "Pharyelnaz", "Zelul", "Zvekird" 
+   "Arred", "Chorlim", "Divsoluld", "Doryolild", "Dromryild", "Dulsinnid", "Durtorvid", "Eilorgald", "Ernourn", "Ernoxird", "Fipelul", "Immyrurn", "Imyelul", "Inssabvir", "Istnelvim", "Jernelvid", "Jervrileld", "Kaornid", "Lilald", "Lilrelurn", "Lulcaid", "Mazreluld", "Mirorgvim", "Nortulird", "Noruld", "Nothvekid", "Nothyolralim", "Olvilnil", "Syryeld", "Zvriler" 
 
 
 "dwarf female"
@@ -352,7 +352,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Barirana", "Bata", "Dahild", "Doda", "Duernka", "Dwagret", "Dwata", "Famae", "Fariev", "Fivada", "Fraflera", "Frisi", "Fuli", "Funvada", "Futuna", "Gaya", "Gladfan", "Gladfan", "Glogra", "Gomna", "Gonka", "Grorzanna", "Grotu", "Grotuna", "Gwaral", "Gwariess", "Ibali", "Jaal", "Jahild", "Kelaja", "Kilden", "Kiltha", "Kivara", "Mistrin", "Renhild", "Retuna", "Revada", "Rynmera", "Teliess", "Thiev", "Thigret", "Thogret", "Thrasi", "Vebra", "Vefra", "Vonal", "Wedi", "Yenden", "Zana", "Zegrun" 
+   "Anvara", "Arra", "Bylthiel", "Danden", "Deba", "Dona", "Fretala", "Futha", "Gadi", "Garyn", "Gimca", "Hema", "Hirinka", "Hralna", "Kathsyl", "Kilta", "Kituna", "Lasryn", "Ligret", "Maba", "Miali", "Olina", "Relov", "Reniess", "Rilinda", "Ritu", "Sita", "Thogra", "Thondy", "Yenev" 
 
 
 "dwarf female 2"
@@ -360,7 +360,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Baldis", "Bordrun", "Bornis", "Brodis", "Brudis", "Burnis", "Dalis", "Dana", "Dolgis", "Dormga", "Dormhild", "Durmna", "Durnrith", "Frorlind", "Fuldis", "Fuldrun", "Fundga", "Gimbis", "Gimlif", "Gimlind", "Gimris", "Glolis", "Gondda", "Gondlif", "Gordrun", "Gormbis", "Gormris", "Gradris", "Grimris", "Guldrun", "Guldrun", "Gundlis", "Gundlis", "Gundris", "Gurris", "Hordris", "Hrabis", "Hralis", "Nordis", "Nordlind", "Skanddis", "Skondga", "Stornda", "Sturdis", "Sturlrun", "Sundris", "Thorlind", "Thorna", "Throldis", "Throris" 
+   "Ballind", "Broddis", "Brunis", "Daga", "Darith", "Dorhild", "Dormnis", "Dralrun", "Drimdis", "Fromrith", "Gonddis", "Gondvis", "Gordbis", "Gordhild", "Gradlis", "Grimda", "Grimis", "Gurdis", "Horddis", "Hornga", "Hrais", "Norddis", "Skanddis", "Sundna", "Thranis", "Throda", "Throlda", "Thrordis", "Thrulis", "Thundis" 
 
 
 "dwarf male"
@@ -368,7 +368,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Aur", "Baur", "Bavi", "Bharkuhm", "Bidir", "Bobin", "Bomril", "Bonun", "Bonvri", "Borhec", "Dandrum", "Defri", "Dobin", "Duden", "Duenur", "Dwadur", "Falli", "Firil", "Fivri", "Funlin", "Gaden", "Gardir", "Garvin", "Gaur", "Gavim", "Glomur", "Godur", "Goin", "Gomthur", "Gomur", "Ibri", "Kadir", "Kiin", "Nalni", "Ovrom", "Renmil", "Renur", "Roin", "Rutronlir", "Tani", "Tarimm", "Taur", "Telulf", "Thirimm", "Thralumlir", "Thravim", "Tordahr", "Volso", "Werfur", "Yenri" 
+   "Bifur", "Biril", "Bonthur", "Danbur", "Darethog", "Darrimm", "Dein", "Duerran", "Duerthur", "Duerulf", "Duervim", "Faril", "Fibroir", "Galvri", "Gimin", "Gwarri", "Hargurn", "Kiur", "Lothur", "Ori", "Renden", "Tadur", "Taur", "Telrimm", "Thoden", "Thoni", "Torun", "Ummun", "Vonin", "Vonrimm" 
 
 
 "dwarf male 2"
@@ -376,7 +376,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Balri", "Balrin", "Balror", "Bordror", "Bornvir", "Brimror", "Brodvir", "Brokkbor", "Bruvir", "Burlir", "Dallin", "Dari", "Dolgli", "Dormin", "Dormli", "Dorvir", "Drallin", "Dromdin", "Dromvor", "Durmdin", "Fromin", "Fromli", "Frorir", "Frorlin", "Frornir", "Frorri", "Fuldin", "Fuldvir", "Funddin", "Gondor", "Gradvor", "Gromri", "Gunddin", "Gurror", "Nari", "Norvi", "Ormbor", "Ormin", "Skandri", "Skondli", "Skondnir", "Stromin", "Sturlir", "Sturlvir", "Sturror", "Sundli", "Sundri", "Thraror", "Thruror", "Thrurrok" 
+   "Bordnir", "Bornbor", "Bornlin", "Brimin", "Brimnir", "Brokkri", "Bromor", "Burlli", "Dolgvor", "Dorin", "Dormvor", "Dralin", "Fromli", "Gimrur", "Gondir", "Gordrok", "Gordvi", "Gradror", "Guldvir", "Gundnir", "Hornror", "Norbor", "Nordrok", "Norrin", "Skandnir", "Skondvor", "Strombor", "Sundror", "Thornror", "Throlin" 
 
 
 "dwarf surname"
@@ -384,7 +384,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Boargutter", "Bronzebreaker", "Bronzecarver", "Bronzeheart", "Bronzesmasher", "Coldhammer", "Dragonslayer", "Ettin-Executioner", "Firmfist", "Firmmace", "Foe-Strangler", "Foeburner", "Foeslayer", "Giantcutter", "Giantslasher", "Gnomehammer", "Goblin-Executioner", "Goblinboxer", "Ironbender", "Ironblade", "Marblecutter", "Marbleminer", "Mithrilfoot", "Mithrilforger", "Mithrilsword", "Oakchest", "Onyxpick", "Redhood", "Redspike", "Rockheart", "Silverbelly", "Silverblade", "Silverhood", "Silverpick", "Spider-Executioner", "Spiderbasher", "Spidermasher", "Steelfoot", "Steelheart", "Stonechest", "Stoneminer", "Thunderchest", "Thunderfist", "Troll-Battler", "Trollmasher", "Trollmauler", "Wolfcleaver", "Wolfslasher", "Wyvern-Beheader", "Wyvernkiller" 
+   "Bearcleaver", "Bearstriker", "Bloodspear", "Dragonripper", "Ettinsmasher", "Fairaxe", "Foe-Grappler", "Foeboxer", "Gemminer", "Gnome-Grappler", "Goblinbasher", "Goldfoot", "Goldsmith", "Greychest", "Greysword", "Ironfoot", "Kobold-Strangler", "Koboldslayer", "Mithrilbender", "Oakshield", "Ogre-Strangler", "Silvershield", "Spiderslasher", "Steelsmith", "Stonecutter", "Strongfoot", "Trollmauler", "Wyvern-Garrotter", "Wyvernbutcher", "Wyverncutter" 
 
 
 "elf female"
@@ -392,7 +392,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Aenwyn", "Alaglossa", "Alais", "Alais", "Almithara", "Almithara", "Alyndra", "Arielimnda", "Axilya", "Bellaluna", "Cyithrel", "Cyithrel", "Cyithrel", "Darunia", "Deularla", "Eirika", "Eirika", "Elanil", "Elasha", "Elasha", "Elmyra", "Eloimaya", "Eloimaya", "Faraine", "Filauria", "Gaylia", "Gweyr", "Haera", "Ilmadia", "Isilynor", "Keishara", "Lura", "Lura", "Lyndis", "Nithenoel", "Nushala", "Phelorna", "Pyria", "Rathiain", "Rubrae", "Shadowmoon", "Shanyrria", "Sheedra", "Syndra", "Teryani", "Tsarra", "Urmicca", "Vestele", "Vestele", "Viessa" 
+   "Alais", "Alea", "Bellaluna", "Braerindra", "Chandrelle", "Cyithrel", "Daratrine", "Darunia", "Delshandra", "Eirika", "Elanil", "Eloimaya", "Gweyr", "Ilmadia", "Keishara", "Kethryllia", "Liluth", "Lura", "Lyndis", "Lyre", "Morgwais", "Nephenee", "Phelorna", "Pyria", "Rathiain", "Shadowmoon", "Shandalar", "Sheedra", "Tsarra", "Urmicca" 
 
 
 "elf female 2"
@@ -400,7 +400,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Aegmaegevedel", "Aegrindthalsil", "Aegthaerthalriel", "Aerthaerasedel", "Aesmaegemwen", "Aesranthaliel", "Aesrimarmir", "Aethmaegthalriel", "Aethmindeviel", "Aethserevroël", "Aethsindadian", "Arrilirwë", "Arrimedwen", "Artherammir", "Berlithileth", "Berrindelrien", "Callithanian", "Carlaradsil", "Carninedril", "Celnimiledel", "Celseraliel", "Clarrinthonrial", "Crisraelemsil", "Earsindermir", "Elbnirerrien", "Elbthelalrial", "Ellarthalwen", "Elmindeveth", "Elthraelariel", "Elthsindemedel", "Erimalwen", "Erlistesroël", "Erlmirinwë", "Faerraelevwen", "Feanlorthonwen", "Feanmindarian", "Findthaerevroël", "Finniramriel", "Finrimiriel", "Galrimadian", "Galrinoledel", "Garmarolwë", "Gartheredwë", "Gelraelemriel", "Gillarilmir", "Ilmmaredwen", "Laegmithelrian", "Laegnithirril", "Lendniralrien", "Lindrindirriel" 
+   "Aegthelebmir", "Aerthaelerwen", "Aerthaelthalwen", "Aethraelerrian", "Anrimevwen", "Arsareliel", "Caelrelolrian", "Calireviel", "Carmarthalrien", "Celrinaliel", "Cirninaniel", "Clarinolriel", "Earmaegemroël", "Elbrinelsil", "Elthlitheswë", "Erimaswen", "Erlrilirel", "Ermaranwë", "Estloreleth", "Farmithalriel", "Farnithenmir", "Feanthalthonrian", "Findranthonmir", "Findsaresmir", "Galrinthonian", "Gannitherrian", "Gilralthonwë", "Ithmindadloth", "Laeglitharrial", "Laegsaeriledel" 
 
 
 "elf male"
@@ -408,7 +408,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Ailluin", "Alabyran", "Alduin", "Dakath", "Dakath", "Ettrian", "Fhaornik", "Folmon", "Folmon", "Goras", "Ilrune", "Ilrune", "Juppar", "Kendel", "Kendel", "Khatar", "Khidell", "Kiirion", "Kiirion", "Maeral", "Maeral", "Malon", "Myriil", "Myriil", "Nremyn", "Nym", "Oenel", "Olaurae", "Olaurae", "Orist", "Phaendar", "Pleufan", "Pleufan", "Quynn", "Respen", "Rhys", "Rhys", "Rhys", "Taegen", "Tehlmar", "Theodred", "Theodred", "Theodred", "Triandal", "Vaalyun", "Vaalyun", "Vesstan", "Vulluin", "Vulluin", "Vulluin" 
+   "Aimon", "Alabyran", "Almon", "Aywin", "Bellas", "Connak", "Dakath", "Ettrian", "Hagwin", "Iliphar", "Ilrune", "Jorildyn", "Keletheryl", "Kendel", "Khatar", "Khidell", "Lhoris", "Malon", "Melandrach", "Myriil", "Pleufan", "Samblar", "Shaundyl", "Taegen", "Theodred", "Triandal", "Vaalyun", "Vander", "Vulmon", "Xhalth" 
 
 
 "elf male 2"
@@ -416,7 +416,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Aelirennar", "Aelrindarfal", "Aerthaelebrior", "Aerthaeraslad", "Aerthalthonfal", "Aesrilenros", "Aethnirevion", "Arimthalad", "Belmithasor", "Caelsaerilion", "Caerlithinlin", "Calninedlas", "Carloranrior", "Carranelras", "Cirimaddan", "Clarinthalthir", "Clarrilthonlas", "Crisnithinrond", "Elbimerlin", "Elbistthonorn", "Elblirevros", "Ellirolion", "Elrelesthir", "Elthmaegerros", "Eolsaeradion", "Eolserthonrior", "Eolsindadros", "Eolthelenrond", "Erlnimasros", "Erlniramrod", "Erlralerad", "Estsaeresfal", "Faerrindamion", "Faertherendir", "Faerthirerrond", "Farmindedthir", "Findrindevlas", "Ganimamdil", "Ganniranrod", "Ganrinadlad", "Gansaeremras", "Garmaegthonlas", "Garnineblad", "Gilmaegthondir", "Gilmindadion", "Ithmaegthalion", "Laegthalenlin", "Lendmindanrod", "Lendmiramorn", "Lindtheralor" 
+   "Aegsilerrod", "Aethlorallin", "Aethraelamnar", "Aethseldelnar", "Belmitholdil", "Caelsaeremrior", "Caelsaerthaldan", "Caerlithirrod", "Caerrindesros", "Calimilorn", "Calrinerdir", "Cellaredorn", "Celmithanros", "Earthaeramion", "Elbnithinrond", "Elrilirion", "Elsarerdil", "Eolmelandel", "Erimirfal", "Eristindel", "Faersilinorn", "Findninevion", "Findnithamdel", "Findthaleslad", "Galinolrior", "Gelseldenion", "Ithmelalthir", "Ithserevlad", "Laegranaslin", "Lendtherirdan" 
 
 
 "fetchling female"
@@ -424,7 +424,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Braci", "Braka", "Bronora", "Drinun", "Ecimohat", "Ehucurum", "Ehugi", "Ehuza", "Gramohel", "Grimah", "Grumoca", "Hajone", "Hevi", "Ikacotim", "Ikasoco", "Ikoma", "Ilezi", "Jisam", "Mena", "Mutorec", "Nulal", "Oromir", "Qizec", "Quti", "Rogut", "Soduco", "Teroci", "Tigic", "Toze", "Trahomoh", "Trocu", "Ucezunir", "Uguloha", "Ugusel", "Umazar", "Umoku", "Umuno", "Usesit", "Usozan", "Utuna", "Uveta", "Xati", "Xidulim", "Xilomi", "Xudu", "Yaka", "Yoteh", "Zejutot", "Zodolen", "Zuhohi" 
+   "Drevoha", "Ecotel", "Eheter", "Hulohir", "Ikadolo", "Ikecutam", "Ikuculin", "Ilerac", "Jejuti", "Jolurac", "Mukurat", "Oronora", "Qitomeh", "Qraholim", "Ravoh", "Rede", "Rode", "Siten", "Suseh", "Trigal", "Ucenoma", "Ucilolah", "Ucosoha", "Usohomal", "Utecucil", "Utigi", "Yerum", "Yuci", "Zavotec", "Zovi" 
 
 
 "fetchling male"
@@ -432,7 +432,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Bredu", "Brorut", "Bruko", "Druha", "Ecujot", "Ecuzom", "Ehaku", "Ehazoc", "Ehoku", "Ehosur", "Griro", "Ikavur", "Ikigoh", "Ikirut", "Ikokut", "Ikugo", "Ilire", "Ilonoh", "Iluco", "Jagem", "Jaho", "Jaroc", "Necot", "Nige", "Nihor", "Qaco", "Qame", "Rako", "Rali", "Ramu", "Riguc", "Rotur", "Tregum", "Trutec", "Truzo", "Ucizi", "Ucumot", "Ugihoh", "Uginu", "Ugodu", "Ugurum", "Umasoh", "Umicon", "Usikun", "Utojom", "Xedo", "Yimo", "Yuvan", "Zovo", "Zukun" 
+   "Bridu", "Brusol", "Drasot", "Ecotim", "Ehozon", "Graju", "Ikadu", "Iliki", "Jajoh", "Jizu", "Joko", "Natol", "Oravur", "Oreho", "Oruju", "Qrera", "Trame", "Treci", "Treja", "Trovi", "Truso", "Ucoku", "Ugemu", "Uguket", "Utezu", "Uvuho", "Yejoh", "Yiko", "Zese", "Zesuc" 
 
 
 "giant female"
@@ -440,7 +440,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Bohr-Rei", "DaohGounnuholi", "DaohUrush", "Doh-Poghfaogh", "DohKhuri", "Dummih", "Ehmlah", "Fah-Gunri", "FahBeegh", "FahWuhsuthheh", "Faoghroukdaoh", "Feehm-Daoh", "Ghanfah", "Ghishmih", "Hanimih", "Heh-Tih", "Kham-Fah", "Khaztih", "Khem-Lah", "Khurilah", "LahGunri", "LahLoghshul", "LahMaoh", "LahNhamyuh", "Maoh-Lah", "Mih-Ghah", "Mih-Wuh", "MihUb", "Moghehmlah", "Mouh-Fah", "Naohmih", "Nham-Lah", "Ob-Tih", "Obburi-Doh", "Obtih", "Olinham-Mih", "Pughsuthfah", "Rahoosuhirei", "Rei-Yaum", "Snaohmih", "Soh-Rifoo", "Soh-Rouk", "SohBohr", "SohPuh", "Suth-Daoh", "Tih-Buli", "Tih-Olishom", "Toudhlah", "Treghwuhtih", "Yuhsuhitih" 
+   "Baod-Daoh", "Baod-Doh", "Bulimih", "Daoh-Ig", "Doh-Mugh", "FahEghinuh", "Ghadrei", "Ghadtih", "Ghat-Daoh", "Gireekheedoh", "Hahsuthrei", "Haoghfah", "Khanfah", "LahFeehmburi", "MihGiree", "MihOb", "MihOugh", "MihWuh", "Ouh-Doh", "Rei-Tebrahoo", "Rei-Thom", "ReiChah", "ReiMehsuth", "Rifoonarootih", "Shul-Mih", "Soh-Nham", "Tih-Shehi", "Tuhlighadsoh", "Tuhlimughsoh", "Ushrahoodaoh" 
 
 
 "giant male"
@@ -448,7 +448,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Ahg", "Ahg-Tregh", "Bohr-Dhak", "Dhakghat", "Eghi-Giree", "Ehm", "Feehm", "Feehm-Buri", "Ghad-Shour", "Ghah-Ush", "Gonkh", "Goun", "Goush-Tregh", "Guh", "Gunrimouh", "Hah-Khan", "Hahgoush", "Ig", "Igmeh", "Khankhee", "Khuriahg", "Logh-Yauth", "Meh-Pugh", "Mogh", "Moghsaori", "Naoh", "Nham-Ehm", "Nuhpeh", "Ob", "Oli", "Pogh-Gunri", "Puh-Buli", "Quagi", "Quagi-Chah", "Quagi-Hanifaogh", "Rhoo", "Rifoogoun", "Ronkh", "Roukrhoo", "Shom", "Shul", "Shulsuth", "Thom", "Thom", "Tuhli-Naroo", "Ush-Shlo", "Vuh-Tuhlinaroo", "Wuh", "Yaum", "Zham-Feehm" 
+   "Bohr", "Bul-Yeeh", "Ehm-Shom", "Ghatrifoo", "Ghee", "Ghish", "Goush-Faogh", "Gunri", "Hoo", "Hoo-Heh", "Hooshehi", "Khankham", "Khaz", "Lugh", "Moghquagi", "Mouh", "Nham", "Peh-Yaum", "Pogh", "Puh", "Rhoo-Shom", "Shlo", "Suhi-Meh", "Thom", "Tuhli", "Ub-Ahg", "Ubghat", "Wah", "Yaum-Loghkhaz", "Zhamchah" 
 
 
 "gnome female"
@@ -456,7 +456,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Bilgus", "Bimrgo", "Bixdink", "Bodibik", "Byloflink", "Dibink", "Dindamink", "Dosizz", "Elbeefinkle", "Elsizzle", "Elsizzle", "Fenflynk", "Fenflynk", "Fenflynk", "Filliflink", "Fynkkink", "Gellergo", "Gellergo", "Gelulo", "Gelulo", "Gynbithinkle", "Gynnoago", "Kathobrik", "Katkiflonk", "Katlofizzy", "Ketris", "Ketris", "Lisble", "Lysflonk", "Lyssfizzy", "Merdiwack", "Mitash", "Mitthinkle", "Nitly", "Nitly", "Nitly", "Nittlebik", "Nittlebik", "Syrbyfinkle", "Syrbyfinkle", "Talkink", "Tallinkey", "Thenash", "Thinbick", "Thinbick", "Thinbythin", "Thinkkeesizzle", "Thinklinkey", "Tindinkey", "Tyllofizzy" 
+   "Bilbeefonk", "Billeklinkle", "Bimrgo", "Bipflonk", "Bipsizz", "Cargus", "Dinkulo", "Ditink", "Dosizz", "Filble", "Filgus", "Gynndomink", "Juladink", "Katdomink", "Ketris", "Klofizzy", "Liskink", "Lokeefizzy", "Lymtink", "Lyssfizzy", "Lysskyago", "Merdiwack", "Mitthinkle", "Nittlebik", "Talkink", "Tallinkey", "Tannus", "Thinbythin", "Tilkitinkle", "Tindinkey" 
 
 
 "gnome male"
@@ -464,7 +464,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Babimac", "Babimac", "Balibik", "Bawack", "Binaris", "Binbeedink", "Binkbrick", "Binwick", "Bolink", "Bonkbibrik", "Bonleble", "Burkibick", "Buwick", "Carlobrick", "Diash", "Dinlebrick", "Fenbink", "Finflonk", "Finkvash", "Finkvash", "Finsizz", "Gelklink", "Gelsizz", "Hinklosizz", "Hinklosizz", "Klobnk", "Klobnk", "Laflink", "Lodeevizz", "Nitdus", "Nitdus", "Nitkeeflonk", "Nitkeeklonk", "Pitfinkle", "Pithkeebick", "Pithosizz", "Teenkvash", "Tenbaarn", "Tenkathink", "Tenlink", "Tenlink", "Thenflink", "Thenflink", "Thinkflonk", "Thinkflonk", "Tocdeeflink", "Tocdeeflink", "Tolosizz", "Tomink", "Tovash" 
+   "Babimac", "Balibik", "Bawack", "Bimleeble", "Bimliarn", "Binkflonk", "Binwick", "Bolink", "Bonkbus", "Bonleble", "Burtink", "Dinkbitank", "Dobeeble", "Dodibrick", "Donkleedink", "Fenklink", "Fenlflonk", "Filbik", "Filgo", "Finflonk", "Finkvash", "Gelklink", "Gelsizz", "Hinbmink", "Hinklosizz", "Laflink", "Nitkeeklonk", "Tenlink", "Tockawick", "Tovash" 
 
 
 "gnome surname"
@@ -472,7 +472,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Acerkettle", "Acerkettle", "Berrybonk", "Berryspinner", "Bizzgauge", "Bizzgauge", "Bizzgrinder", "Bizzspring", "Blackbus", "Blacksprocket", "Castdwadle", "Castdwadle", "Castfuse", "Clickspring", "Clickspring", "Clicksteel", "Cogbonk", "Cogstrip", "Draxlepipe", "Fastbonk", "Fastfuse", "Finesteel", "Finesteel", "Mechaspan", "Mechaspan", "Mechaspring", "Mechawhistle", "Mekkapipe", "Overfizz", "Overwizzle", "Puddlehouse", "Puddlenozzle", "Sadspring", "Shortspring", "Shortwhistle", "Spannerwizzle", "Sparkfuzz", "Sparkkettle", "Sparkkettle", "Sparksprocket", "Springcrank", "Springneedle", "Sprysteel", "Steamnozzle", "Stormhouse", "Stormhouse", "Stormpipe", "Thistlegrinder", "Thistlenozzle", "Tinkspark" 
+   "Acerpipe", "Blackbus", "Castfuse", "Castspinner", "Castspring", "Clickgear", "Clicksteel", "Draxlespindle", "Gearwhistle", "Gearwizzle", "Overgear", "Porterfuzz", "Puddlepipe", "Sadbonk", "Shinenozzle", "Shinepipe", "Shinespinner", "Shortpipe", "Spannerblast", "Sparkfizzle", "Sparkspanner", "Sparksprocket", "Stormgrinder", "Stormtorque", "Stormwizzle", "Thistleblast", "Thistlebus", "Thistlegrinder", "Thistlenozzle", "Thistlepipe" 
 
 
 "goblin female"
@@ -480,7 +480,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Adzy", "Aky", "Azgah", "Balgay", "Bligah", "Bolgy", "Boorah", "Botah", "Drizya", "Gaksnaay", "Gargah", "Garslaiah", "Gatghy", "Ghakgah", "Ghorgah", "Glaggah", "Glakee", "Gogsligah", "Grate", "Gratgah", "Higglakah", "Kavmurchghy", "Lagy", "Lakgah", "Likkluke", "Lunah", "Lunay", "Makah", "Makay", "Mizshukghy", "Moglaggah", "Mubee", "Mury", "Nazah", "Nigah", "Ratya", "Snikgratya", "Sniknagghy", "Sogay", "Spiky", "Unkay", "Varke", "Varky", "Vogay", "Yarpay", "Yipe", "Zatghy", "Zitay", "Zitbalgya", "Zizee" 
+   "Akghy", "Arkghakah", "Bilgyipee", "Blidgah", "Bugghy", "Chutogghy", "Dokhay", "Drikrakgah", "Drubkrige", "Fluge", "Glaggaday", "Glagya", "Gnaty", "Graty", "Kakghy", "Kavee", "Lukay", "Mizya", "Mubay", "Mubzatee", "Naggah", "Nikkghy", "Nogge", "Nure", "Ragya", "Slogya", "Sniky", "Sogay", "Zity", "Zobghy" 
 
 
 "goblin male"
@@ -488,7 +488,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Achbus", "Arknok", "Balg", "Blokthus", "Bolgbalg", "Bolgghakflug", "Bolggub", "Boorirk", "Chumaz", "Drizbug", "Dufgak", "Dufsna", "Flugdrikspik", "Flugnogg", "Flugsnik", "Flugsnik", "Garglig", "Ghakyagg", "Glagsnig", "Glakgub", "Glizun", "Glokzib", "Gratgrakdrik", "Lagach", "Lakyad", "Ligyarp", "Lozblig", "Lozflug", "Lozgad", "Lozlag", "Lukglak", "Mizsnit", "Mogyig", "Mubkhad", "Murzat", "Nigffynikk", "Nikkhig", "Poglakyak", "Ronkvark", "Skraggliz", "Slaiduf", "Sligark", "Slogsnark", "Snagrat", "Snik", "Snit", "Yaggak", "Zatratslog", "Zib", "Zizgar" 
+   "Blidgah", "Blotbolg", "Bolgadz", "Bolgsnitnikk", "Bot", "Chunag", "Drizark", "Gazbilg", "Ghaklikk", "Ghorirk", "Glagrag", "Glakkak", "Glakus", "Glatkak", "Gloksog", "Kriggag", "Nazflug", "Niggat", "Rotadz", "Rotgak", "Shukrok", "Slogark", "Snignukk", "Snitshuk", "Togbilg", "Yaggbolg", "Zatgnat", "Zatspik", "Zizblig", "Zobsna" 
 
 
 "half-demon female"
@@ -496,7 +496,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Azikdiu", "Bralizil", "Bralsula", "Brazbau", "Drulgija", "Haugbau", "Jidija", "Jurgiu", "Jurgrula", "Krivgiu", "Krivizil", "Kudujiul", "Kuduulla", "Kuduziu", "Lurigiu", "Luriizil", "Mulkija", "Ninjsula", "Rilthudiu", "Rilthuskiu", "Rukdiu", "Rulkbau", "Rulkdiu", "Rulklihyl", "Saaganil", "Saaganil", "Saagziu", "Ulthuizil", "Ulthulin", "Ulthulyrr", "Urzdiu", "Utiizil", "Utixhiu", "Virnxhiu", "Vlaajdiu", "Vlagnalu", "Vlashizil", "Vlashlin", "Vlashrhyl", "Vulkjiul", "Vulklyrr", "Vulksula", "Xidlyrr", "Xidlyrr", "Xidnalu", "Xulgiu", "Xulziu", "Zauvgiu", "Zauvsula", "Zulduanil" 
+   "Aagnalu", "Alurnalu", "Arakskiu", "Draanzihyl", "Idruxhiu", "Jhaaldiu", "Jidija", "Jiulihyl", "Jiuzihyl", "Kaazsula", "Mulkjiul", "Mulklin", "Nidija", "Nulxhiu", "Rukdiu", "Saaggiu", "Saagzihyl", "Urzlihyl", "Urzzihyl", "Urzziu", "Uznidizil", "Virndiu", "Virngiu", "Virnrhyl", "Virnzihyl", "Virnziu", "Vlaajanil", "Vlagdiu", "Vrazgiu", "Vulkgiu" 
 
 
 "half-demon male"
@@ -504,7 +504,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Alurinu", "Azikundak", "Draansalk", "Drulglurug", "Haugsul", "Idruinu", "Idrunal", "Jiulurr", "Jiurul", "Jurglun", "Jurzlun", "Krauuvik", "Krivzu", "Kuazbru", "Lurirul", "Mulkzu", "Niduvik", "Nidzu", "Ninjsuruk", "Nulbru", "Nulxulg", "Nymsalk", "Ranagarag", "Rilthuinu", "Rilthuundak", "Rukinu", "Rukzuk", "Ruzzuk", "Urzarag", "Urzlank", "Utiundak", "Uznidarag", "Virnxulg", "Vlaajlun", "Vlaajsalk", "Vlagarag", "Vlagxulg", "Vrazlurug", "Vrazull", "Vrazzuk", "Vulksuruk", "Xaurul", "Xauull", "Xulzu", "Xurajbru", "Zugrul", "Zulduull", "Zuvinu", "Zuvzuk", "Zuvzuk" 
+   "Azikruzuk", "Azuvik", "Brallank", "Bruhlurug", "Draanlurr", "Draanlurug", "Drulgsul", "Jhaalundak", "Jurglurr", "Jurzbru", "Karglurr", "Krauruzuk", "Krivnal", "Luridrul", "Lurilurr", "Nauxulg", "Ninjdrul", "Ranaguvik", "Urzarag", "Utilurr", "Utinal", "Utixulg", "Uznidsul", "Uznidundak", "Virnundak", "Vluklun", "Vrazbru", "Xidsuruk", "Zauvinu", "Zauvlank" 
 
 
 "halfling female"
@@ -512,7 +512,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Alexis", "Alpaide", "Alyssa", "Amanda", "Amy", "Bave", "Berenga", "Bertha", "Bertha", "Bertha", "Bertha", "Brunhilda", "Chlodosind", "Chrodechildis", "Diamanda", "Diamond", "Emma", "Goiswinth", "Gomatrudis", "Gomatrudis", "Haley", "Irmgard", "Laura", "Madison", "Marcatrude", "Marcatrude", "Menegilda", "Mimosa", "Moira", "Morgan", "Myrna", "Myrna", "Myrtle", "Myrtle", "Pervinca", "Pervinca", "Prima", "Prima", "Regnetrudis", "Regnetrudis", "Regnetrudis", "Saffron", "Scarlet", "Scarlet", "Tabitha", "Tabitha", "Terri", "Tiffany", "Vulfegundis", "Vulfegundis" 
+   "Allison", "Amanda", "Amber", "Berenga", "Bertha", "Caitlin", "Chrodechildis", "Darby", "Emma", "Engelberga", "Fatima", "Kaitlyn", "Luitgarde", "Madison", "Marcatrude", "Marigold", "Mary", "Moschia", "Myrna", "Myrtle", "Natalie", "Prima", "Rotrud", "Rotrudis", "Saffron", "Scarlet", "Selina", "Shelby", "Tasha", "Theutberga" 
 
 
 "halfling female 2"
@@ -520,7 +520,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Adily", "Aila", "Alba", "Ambily", "Barda", "Bardice", "Bardice", "Benice", "Biffa", "Biffa", "Biffwina", "Blanca", "Blancwisa", "Boffa", "Boffa", "Boffia", "Bomba", "Bramwisa", "Drocina", "Drogily", "Durla", "Emmia", "Emmina", "Emmwisa", "Erdwisa", "Ernina", "Ernwisa", "Everily", "Falcia", "Ferdwisa", "Froba", "Gamwisa", "Halda", "Hama", "Hama", "Hasca", "Hoda", "Hoda", "Hodwina", "Huga", "Iva", "Mila", "Milina", "Odice", "Saba", "Sabia", "Samice", "Samwina", "Sega", "Wigwisa" 
+   "Adice", "Adily", "Adra", "Adria", "Alba", "Amba", "Banda", "Brama", "Bramia", "Bramwisa", "Durla", "Durlily", "Erna", "Fulbia", "Halda", "Hama", "Hoda", "Hodina", "Ivia", "Markily", "Munga", "Oda", "Otha", "Sabina", "Samia", "Sega", "Tobice", "Wiga", "Wydia", "Wydina" 
 
 
 "halfling male"
@@ -528,7 +528,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Adalhaid", "Adalhaid", "Aega", "Agilbert", "Andica", "Andica", "Angilbart", "Basso", "Bero", "Bero", "Bero", "Blanco", "Bucca", "Bucca", "Carambo", "Cassyon", "Corbus", "Drogon", "Emme", "Erard", "Erard", "Fastred", "Fortinbras", "Gozolon", "Gringamor", "Grossman", "Gundovald", "Habaccuc", "Hildibrand", "Huebald", "Huebald", "Lo", "Lo", "Lotho", "Magnus", "Majorian", "Marachar", "Marachar", "Marcus", "Matfrid", "Mauger", "Meginhard", "Merimac", "Munderic", "Munderic", "Rathar", "Sadoc", "Samson", "Suidger", "Zwentibold" 
+   "Aega", "Arnoul", "Balbo", "Bero", "Bertin", "Bilbo", "Blanco", "Drogon", "Erard", "Faro", "Fastred", "Fredegar", "Giseler", "Guntram", "Heribert", "Hildibrand", "Madoc", "Majorian", "Marachar", "Mauger", "Melampus", "Merimac", "Rathar", "Sadoc", "Taurin", "Thankmar", "Togo", "Unroch", "Waltgaud", "Willibrord" 
 
 
 "halfling male 2"
@@ -536,7 +536,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Adelfast", "Adelo", "Adelo", "Ado", "Adrold", "Ailo", "Albo", "Almwin", "Ambard", "Ambert", "Bildo", "Boffo", "Boffo", "Bombo", "Bungald", "Bungert", "Bungwin", "Drocold", "Drocwise", "Drogwise", "Durlo", "Durlo", "Durlwise", "Emmald", "Emmfast", "Falco", "Ferdo", "Ferdwin", "Frobwise", "Gamert", "Haldert", "Hasco", "Hodo", "Hugard", "Ivo", "Marko", "Markwise", "Milo", "Mungard", "Odo", "Odo", "Sabard", "Sabo", "Samo", "Segald", "Segard", "Segfast", "Serlard", "Wigo", "Wigo" 
+   "Ado", "Ailard", "Ailwise", "Albo", "Albwise", "Bardfast", "Bardo", "Bildert", "Blancald", "Blanco", "Boffald", "Drogert", "Drogo", "Durlo", "Emmald", "Erdard", "Erdo", "Falco", "Ferdard", "Ferdold", "Gamo", "Hamo", "Hamold", "Hugert", "Ivwise", "Markfast", "Marko", "Otho", "Serlard", "Wigold" 
 
 
 "halfling surname"
@@ -544,7 +544,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Baggins", "Banks", "Bophin", "Boulderhill", "Brandagamba", "Brandagamba", "Brandybuck", "Brandybuck", "Brockhouse", "Brownlock", "Brownlock", "Butcher", "Button", "Dewfoot", "Elvellon", "Fairbairn", "Fleetfoot", "Gammidge", "Gluttonbelly", "Goldworthy", "Goodbody", "Goodbody", "Hairyfoot", "Hairyfoot", "Harfoot", "Hayward", "Hornwood", "Knotwise", "Knotwise", "Leafwalker", "Leafwalker", "Littlefoot", "Littlefoot", "Littlefoot", "Lothran", "Maggot", "Noakes", "Oldbuck", "Proudbottom", "Proudbottom", "Proudbottom", "Proudmead", "Sackville-Baggins", "Silentfoot", "Stoor", "Twofoot", "Underfoot", "Underfoot", "Wanderfoot", "Zaragamba" 
+   "Banks", "Barrowes", "Boffin", "Bophin", "Bramblethorn", "Brandagamba", "Brown", "Brownlock", "Chubb", "Cotton", "Diggle", "Fairbairn", "Gawkroger", "Gluttonbelly", "Greenhill", "Harfoot", "Hayward", "Hlothran", "Hornwood", "Leafwalker", "Longfoot", "Noakes", "Oldbuck", "Puddifoot", "Sandheaver", "Sandyman", "Took-Brandybuck", "Underfoot", "Underlake", "Wanderfoot" 
 
 
 "hobgoblin female"
@@ -552,7 +552,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Afatu", "Afhe", "Afrate", "Afrimen", "Ceylitem", "Ceyrima", "Ceyuke", "Ceyute", "Darharok", "Darrata", "Dirhe", "Dirlate", "Esdora", "Eslatam", "Fethare", "Fetron", "Hadora", "Halatem", "Haleta", "Halite", "Harami", "Harato", "Haunga", "Kethimak", "Kethlite", "Kethme", "Kolgdora", "Kurekar", "Malgata", "Malgleten", "Malgrima", "Mevletuk", "Mevrimi", "Mevutu", "Okeka", "Okeki", "Poldhare", "Roldate", "Roldre", "Roldtari", "Salthora", "Tetdorit", "Tetutak", "Totleta", "Totungi", "Totungi", "Zildime", "Zildleta", "Zildrotem", "Zoldekom" 
+   "Afrata", "Beyekam", "Beylata", "Ceytarak", "Darate", "Dirleta", "Dirtaruk", "Esrima", "Fetdora", "Kolgha", "Kurde", "Kurhe", "Kuruke", "Malghoran", "Mevleta", "Mevletem", "Poldletan", "Poldrama", "Polduki", "Roldluka", "Saltema", "Tetma", "Totma", "Tottarim", "Turgikum", "Turglater", "Turgrata", "Turguko", "Utrata", "Zoldhora" 
 
 
 "hobgoblin male"
@@ -560,7 +560,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Aklut", "Akom", "Akung", "Bekom", "Bekram", "Bekri", "Bektar", "Dorhor", "Dorram", "Durhi", "Durrat", "Durri", "Fetok", "Hahi", "Hahor", "Kethlut", "Kethri", "Kethuk", "Kurluk", "Kurram", "Malghar", "Malgram", "Malgri", "Mevrot", "Mevuk", "Okhar", "Poldhor", "Poldot", "Poldot", "Poldtar", "Polduk", "Roldla", "Roldok", "Roldtar", "Saltat", "Saltat", "Salthar", "Saltom", "Saltuk", "Tetat", "Tethi", "Tethor", "Tetrim", "Turgri", "Turgtar", "Turguk", "Utot", "Zoldat", "Zoldhar", "Zoldot" 
+   "Akhi", "Akrim", "Dorlut", "Durat", "Durluk", "Fethar", "Fethi", "Haat", "Harim", "Kethluk", "Kethlut", "Kolgot", "Kurung", "Okhar", "Poldok", "Poldrim", "Roldhi", "Roldtar", "Rolduk", "Roldung", "Saltlut", "Tetrot", "Tettar", "Totat", "Totlut", "Turghar", "Uthar", "Zoldat", "Zoldrot", "Zoldut" 
 
 
 "human female"
@@ -568,7 +568,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Adyda", "Aethelburg", "Aethelwig", "Bardasterre", "Bealdwulf", "Beorhthere", "Beorhtmaer", "Dealric", "Dominicella", "Eadweald", "Ealdfrith", "Ecghun", "Eilinurath", "Emelle", "Emelonn", "Eoformaer", "Giselburg", "Godburg", "Godwalh", "Gyra", "Hedra", "Hildflaed", "Hildwig", "Hwitgyth", "Illdteir", "Isereth", "Isluba", "Isugatha", "Julinetta", "Layenne", "Leofburg", "Leofraed", "Leofwig", "Leofwulf", "Matienne", "Mayothra", "Newlyn", "Polimira", "Poloriakira", "Poremira", "Roxnique", "Secgbrand", "Thurfrith", "Tryfena", "Voromina", "Wealdmaer", "Wigric", "Wigric", "Winegyth", "Wineleofu" 
+   "Aelfsig", "Aethelmaer", "Aethelraed", "Bealdthorne", "Beorhtric", "Cwenburg", "Cynein", "Eirudo", "Elida", "Gruistae", "Heathusige", "Helmsige", "Hildsige", "Islynn", "Isothra", "Ivithra", "Kerenza", "Leofmaer", "Leofor", "Lowenna", "Mayetta", "Mundkettil", "Nerama", "Osgrim", "Salenor", "Salywyn", "Voroth", "Winewaru", "Zubuwyn", "Zubylaith" 
 
 
 "human male"
@@ -576,7 +576,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Aelfmaer", "Aelfwine", "Aethelbeorht", "Aethelric", "Aethelweald", "Ardwine", "Arerab", "Dagkath", "Dagrain", "Deorwine", "Deorwyn", "Drleg", "Eadbeorht", "Eadheard", "Eadwalh", "Ealhhard", "Elendas", "Garwini", "Godbeorht", "Godbeorht", "Godwil", "Gunndur", "Harrab", "Hereecg", "Heresige", "Idlatneld", "Jory", "Khelrek", "Leofecg", "Leofweald", "Malgrim", "Merlius", "Mnik", "Ndan", "Nothweald", "Ormebert", "Osraed", "Pawly", "Rherim", "Saemund", "Secgwig", "Sigehard", "Sigemael", "Studs", "Wacerheard", "Waldfrith", "Wallas", "Wigbeorht", "Wulfgeat", "Zerchak" 
+   "Aelfkettil", "Aenesric", "Balrach", "Bardahard", "Bregudeor", "Breguson", "Cenarm", "Censige", "Chalrochak", "Chaltorek", "Cynebeorht", "Delmkor", "Deorgar", "Deorweald", "Ervan", "Garsige", "Garweard", "Godbeorht", "Godweard", "Herebrand", "Hrofweard", "Instan", "Leodhere", "Sigeleof", "Sigeweard", "Thurheard", "Winegar", "Winewulf", "Wulfheard", "Zlen" 
 
 
 "human surname"
@@ -584,7 +584,7 @@ Creatures
 
 .. code-block:: lua
 
-   "'Stout' Jorgenrdottir", "'Strong' Love", "Adlam", "Argarikesdottir", "Arteectus", "Auras", "Ballard", "Beastiana", "Black", "Blackman", "Blake", "Blunt", "Brent", "Chrlaine", "Colton", "Coluseius", "Crook", "Crookbain", "Despicable", "Far-Shifter", "Faull", "Guerien", "Harrison", "Innocent", "Kempthorne", "King", "Kreustiris", "Laudrelle", "Lilly", "Longman", "Lovelock", "Melling", "Merivan", "Mjahriksdottir", "Nereciatius", "Northerner", "Nunnally", "Puddifat", "Sesder", "Shelby", "Sherlock", "Sherlock", "Thick", "Trollsbane", "Vial", "Walker", "War-Child", "Wild", "Williams", "the Broken" 
+   "'Frenzied' Lortavan", "'Haggard' Stanton", "'Hare' Seven-Shaper", "'Pratt' Clayden", "'Small' Summer", "'Stout' Spalding", "Bjoornsdottir", "Brodie", "Brown", "Bunce", "Colenso", "Curicinnius", "Doom-Foot", "Ebonhand", "Finch", "Kjaldssen", "Lencreinace", "Lilly", "Lincoln", "Locippe", "Midal", "Mojisversdottir", "Newbury", "Padley", "Plaelius", "Plenceia", "Secret-Drums", "Stanton", "Ulfransson", "Wavrustiris" 
 
 
 "ifrit female"
@@ -592,7 +592,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Adre", "Aran", "Arlu", "Awu", "Ciqri", "Emdri", "Emran", "Eya", "Fathily", "Fatwa", "Fatyi", "Fehemadu", "Fidreta", "Fudre", "Fudu", "Fulemrhan", "Fulin", "Fulri", "Ganu", "Garyaah", "Guran", "Gutya", "Haryaen", "Hiqri", "Hirawu", "Hita", "Hurqri", "Hurye", "Hurye", "Ilyuwirh", "Inu", "Iryerlun", "Lain", "Laqhi", "Luemrhan", "Luri", "Luthi", "Lutyu", "Luwirhran", "Mathi", "Sadri", "Same", "Same", "Saty", "Sudru", "Sudruem", "Sume", "Uqryain", "Wilen", "Wilryarhu" 
+   "Atwa", "Edu", "Erya", "Fadri", "Fetwi", "Fudru", "Fulhe", "Fullulyu", "Garlun", "Gatwa", "Gethis", "Gula", "Haen", "Hanu", "Hathethi", "Hima", "Himerhu", "Hira", "Hirya", "Hitwa", "Iriswirh", "Irranthis", "Itin", "Lary", "Ludre", "Man", "Satwarhe", "Wilwu", "Zetyi", "Zunu" 
 
 
 "ifrit male"
@@ -600,7 +600,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Aqa", "Arat", "Bagam", "Becun", "Bemag", "Beqa", "Bevu", "Bunat", "Bura", "Bure", "Elum", "Gefim", "Gerat", "Gijig", "Jakum", "Javan", "Jecun", "Jimiq", "Jine", "Jiqil", "Kekum", "Kijul", "Kiket", "Kiva", "Magam", "Maqej", "Mavit", "Mecun", "Mevel", "Miket", "Mikin", "Muva", "Negel", "Ramag", "Rava", "Ricil", "Rikin", "Rime", "Ruvaj", "Tafit", "Takun", "Teqa", "Tilul", "Vaci", "Vale", "Valuh", "Vanim", "Vikut", "Vuci", "Vukun" 
+   "Baviq", "Bukut", "Daci", "Dajad", "Dame", "Egel", "Galum", "Gare", "Giviq", "Jicut", "Kele", "Kivaj", "Maci", "Maluh", "Marut", "Mecun", "Mirut", "Takuh", "Tenim", "Tevel", "Tikin", "Tiqa", "Uvin", "Vakin", "Vila", "Vineh", "Virat", "Vugam", "Vukel", "Vure" 
 
 
 "infernal 1"
@@ -608,7 +608,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Alulobaph", "Avuujhra", "Baphlossu", "Baphuzruaz", "Bialveoazo", "Bialzisoaz", "Buzzurez", "Dre-ijutu", "Dreaytho", "Dromuoralz", "Garlajoazo", "Garu-ivglau", "Glalibuz", "Gleviphaal", "Greelraz", "Grejubael", "Grozushu", "Gura-zebuz", "Huz-ejyee", "Huzujghau", "Huzulhra", "Hzi-ivghu", "Ithalekraa", "Ixuyaruaz", "Juuazraal", "Liluyigro", "Liluzimau", "Lolyelilu", "Lurhzivsau", "Malriduoi", "Nahuyiraz", "Oxulagel", "Pazyubre", "Pazzealu", "Phaalzimuz", "Rhuujughau", "Rhuuyaghaa", "Ruazivru", "Ruazzugura", "Sauilhez", "Scoivbre", "Shaiijraal", "Shaijurhuu", "Ssuizalu", "Thaluzonasu", "Tzau-logel", "Ulchrujanasu", "Vul-laszul", "Vul-legla", "Yilevtha" 
+   "Baphorgya", "Breilghu", "Chruarghu", "Chrulinal", "Drauurshai", "Dromuizbaph", "Garu-lunee", "Garuzabaz", "Ghauvekraa", "Ghurugarl", "Glau-vivuul", "Gle-ovbaal", "Gleiyrezu", "Gre-azrez", "Gura-jeglau", "Hzivassu", "Muzojhez", "Pazulghu", "Pazzarezu", "Razavcha", "Rez-elyaa", "Saa-zetzau", "Saavathu", "Sau-ivzu", "Shu-evidrau", "Ssuvebael", "Szuluyrez", "Tzaurabaz", "Utuovtzau", "Zuavziel" 
 
 
 "infernal 2"
@@ -616,7 +616,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Aabojhrag", "Aagovdaurg", "Blog-yuleegh", "Bulg-josaug", "Bulguzszug", "Chag-ilgaub", "Daurg-ejkrolg", "Daurg-yuuag", "Daurgyathog", "Drujurglaag", "Ghadeytzolg", "Glab-lakag", "Gragolboaj", "Gubalraug", "Haaguzleegh", "Hrudirhrud", "Iugledraug", "Jub-ojrung", "Jubiyiug", "Jubriboaj", "Jubruiug", "Julbulyeeg", "Kagvutrulg", "Klegezurb", "Kolgjekwarg", "Kwarg-uvsaug", "Laug-ultrulg", "Leeghejglab", "Lolgyofelg", "Moglukleg", "Noglihaag", "Nuduzdrelb", "Nudvifrub", "Nugayhrud", "Raugvealg", "Rogg-yikleg", "Rungzinaug", "Stroglauag", "Sugarbarg", "Thaugezaug", "Thaugyidroog", "Thogyeszug", "Trobizruug", "Uagazmaug", "Vulblatzolg", "Yibbujdruj", "Yibburjub", "Zuberrung", "Zug-oysug", "Zugt-ranud" 
+   "Aigelboaj", "Aigoyshub", "Algirglab", "Blog-aysag", "Bulgayjulb", "Drujvibarg", "Felgvudergh", "Ghadvusug", "Glaaglonalb", "Glaagurjub", "Hegazleegh", "Hrud-voboaj", "Hrudlekolg", "Krolgjinog", "Magviiub", "Magzudergh", "Morguyzub", "Naag-uyurb", "Nauglahaag", "Nuglushub", "Nugyiigg", "Nyogzaghad", "Shubevdrog", "Szugvinaug", "Trobuvkwarg", "Xubvithog", "Yebvaalg", "Yeeg-radregh", "Zugjunulb", "Zugvoogg" 
 
 
 "infernal 3"
@@ -624,7 +624,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Ashivtlizit", "Bar-irboak", "Basiysutt", "Blikyirutt", "Boakeyigm", "Chonlurutt", "Dakovloch", "Dekojnirr", "Dun-lanazt", "Gaanorlach", "Goch-lolith", "Goth-lulech", "Gureyrolk", "Gurzasaur", "Hoth-vaurt", "Hrax-zuthalur", "Hrekzonoc", "Iexjulith", "Kirargoch", "Kirjunilv", "Kirzulech", "Krychzesaur", "Lachlaruun", "Lochurash", "Lokzedun", "Matujdun", "Matvibar", "Matzinirr", "Mochejkos", "Namujgor", "Nirryegoth", "Nur-raash", "Nurveszut", "Nyth-ojruaak", "Raukezdraum", "Ruaakjohoth", "Ruaakojgaur", "Soth-zanuur", "Suttjikrych", "Szut-iroth", "Teravmuth", "Thalkezkrych", "Uztavloch", "Uztilurt", "Vach-ivach", "Vapizhaerx", "Vapjerolk", "Vrokarruun", "Vrokozchon", "Yalmoygek" 
+   "Ashevgaur", "Aztratlizit", "Bliklaszut", "Boak-ezazt", "Boakuzhrek", "Boakuzsoth", "Brax-ursark", "Dunjaoch", "Duumolblik", "Gaanozduum", "Gaurilchon", "Gorivinax", "Hraxlosark", "Hrekuyner", "Khorjurolk", "Kireyter", "Mat-yidraum", "Met-ajash", "Mothejgoth", "Namruuzt", "Nerirhoth", "Nythovruaak", "Sarklaazt", "Sarkujszut", "Sotyaboak", "Sutovralk", "Terejloch", "Thakuvthalk", "Utukurgith", "Uztrulok" 
 
 
 "kobold female"
@@ -632,7 +632,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Aali", "Azkuk", "Azor", "Azral", "Derolisa", "Eseor", "Eskrun", "Fiag", "Gagru", "Gale", "Galro", "Gasihooso", "Gurse", "Gursus", "Harkru", "Iddu", "Idkrunak", "Idku", "Idrek", "Ihoo", "Iku", "Isro", "Likugra", "Lulraros", "Lulsikru", "Mako", "Miskro", "Modros", "Mora", "Nenon", "Pardu", "Posoo", "Rizu", "Rolle", "Sadil", "Sara", "Saritro", "Sizko", "Sizor", "Sizzu", "Tarke", "Tarlemsis", "Uzugra", "Vaos", "Viskuzra", "Vokoo", "Zae", "Zikrusoo", "Zilem", "Zizu" 
+   "Ari", "Aslemko", "Asral", "Degees", "Degra", "Ekara", "Gahoo", "Gurli", "Gurzok", "Harkro", "Ia", "Igra", "Ligu", "Matroso", "Nekri", "Noske", "Pogar", "Pokrora", "Potroil", "Pozra", "Rasuskas", "Rolsus", "Sasoo", "Sizlem", "Sokehtro", "Sokzra", "Tolkru", "Tollemkoo", "Tollire", "Zasi" 
 
 
 "kobold male"
@@ -640,7 +640,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Akma", "Dhelerk", "Dhezld", "Dhezzad", "Draneskzad", "Drialpzad", "Driir", "Drima", "Droxdaxas", "Droxdoozo", "Droxkex", "Droxzaxxas", "Drunghe", "Eaar", "Eaghe", "Eanesk", "Gaknalp", "Ghani", "Gheik", "Izorhark", "Jarad", "Jokrean", "Jozin", "Kibog", "Kogah", "Makghe", "Makzen", "Molghe", "Olpzorrud", "Orma", "Ornesk", "Qorgag", "Qrarma", "Qrazenra", "Qrilalpreah", "Rilib", "Rilmaap", "Rorla", "Venalpan", "Vezinnalp", "Vhopdaholk", "Vhopzi", "Votkexir", "Zeezi", "Zomak", "Zonal", "Zonal", "Zoralp", "Zorhark", "Zorzen" 
+   "Crurad", "Dhelal", "Dhelzor", "Dhimaholk", "Drazax", "Eaalp", "Gakni", "Getghe", "Ghenuld", "Ghexas", "Ilnri", "Ilxas", "Jaod", "Makme", "Molnesk", "Orod", "Orze", "Qeerk", "Qrelra", "Rusxas", "Ruszore", "Vadnri", "Vemerk", "Vipir", "Zalxasdoo", "Zalzin", "Zeeark", "Zeedoo", "Zoir", "Zorzad" 
 
 
 "ogre female"
@@ -648,7 +648,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Burzlukhburzghy", "Drokmuzday", "Drubgrufya", "Drubmurkghy", "Dubrolbya", "Duburdy", "Duzyurya", "Ghardushy", "Gharmulgah", "Ghashmaugah", "Gholdrubya", "Ghukkurghy", "Glubobbay", "Gludtrugghy", "Gluzgulvah", "Gomshugghy", "Grokgruzya", "Grulghakhgrolya", "Grutmuly", "Gruzmakhmaugy", "Guhlluggah", "Haiburzah", "Hurgroby", "Krodrolby", "Kugkurah", "Kulkgrolgah", "Kurdugy", "Lukhnakhlukhgah", "Lukhsharggah", "Lurzslugghy", "Lushgluzgomah", "Luzdulghy", "Luzthurkgah", "Makhklobya", "Muldrubya", "Murkghary", "Murkghashay", "Nargslugy", "Rolblurzdruby", "Rukhyuray", "Shargluzgah", "Shrufrukhghy", "Shurthragay", "Sludbogy", "Thulkburzah", "Thulkduzy", "Thurkkloby", "Ulgyugay", "Urdghukkghy", "Urkhhrungya" 
+   "Dugshrufy", "Durshglugay", "Duzdrubgah", "Ghulghakhgah", "Gradbarshghy", "Gradyuggah", "Grobkurya", "Grokgharah", "Grukurghay", "Grulobbgah", "Gruzmakhgah", "Hurslubay", "Kulkzuggah", "Lumkulkya", "Luzfugghy", "Luzkaiy", "Molggharay", "Molghrungah", "Muddrokay", "Mudlorgghy", "Mulobbkaighy", "Murkshargy", "Muzdghakhya", "Obbghashgah", "Rolbshurya", "Shrufmuzday", "Slubdruggah", "Sludlukhgah", "Snadthurkah", "Thulkgruya" 
 
 
 "ogre male"
@@ -656,7 +656,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Burzdrub", "Drubfaugyur", "Drugnakh", "Dubkai", "Gharghol", "Gharhurg", "Ghashrukh", "Ghormud", "Gluzghar", "Gomnarg", "Grashlurz", "Groggkrod", "Grulgrok", "Guhlgrummug", "Hrungtrug", "Hurgglud", "Hurthurk", "Klobshuz", "Kurlorg", "Lorgdush", "Lorghrungthulk", "Lumghor", "Lumyug", "Makhduzkrod", "Maugyug", "Muluzghul", "Murklurz", "Nakhlug", "Nakhslud", "Nakhslug", "Obbdrub", "Rolbgrum", "Rolbulg", "Rukhgrul", "Rukhrolb", "Ruzmug", "Shudmul", "Shuzargh", "Slubgruk", "Slugyug", "Snaddush", "Snadgrogg", "Snogmolg", "Thragtrug", "Trugmurk", "Urghkug", "Urgruz", "Uzrukh", "Yurghash", "Zuglurz" 
+   "Bogdug", "Burzgruz", "Drokgrumf", "Drubdushhurg", "Duzyur", "Fuglush", "Gholgom", "Gludduz", "Gludlug", "Grashdrok", "Grufulg", "Grulsnog", "Grumthrag", "Gruzmud", "Guhlkaislug", "Guhlmakh", "Kugtrug", "Kurlug", "Lorgklobgrut", "Lumklob", "Lurzghash", "Makhgruk", "Nakhkrodurgh", "Nakhnarg", "Obbhrung", "Rolbgrum", "Shargkurmug", "Sludghakhslub", "Urdghar", "Zuglush" 
 
 
 "orc female"
@@ -664,7 +664,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Bagrzush", "Bolar", "Bolob", "Bor", "Bor", "Borba", "Bugdtha", "Bumph", "Burzob", "Burzraz", "Dulkh", "Dulug", "Durz", "Durz", "Ghob", "Glubut", "Gluronk", "Glurza", "Gonrn", "Gratzush", "Grazob", "Homl", "Homlur", "Kharash", "Kharzug", "Lagakh", "Lambug", "Lamut", "Lamut", "Lash", "Mogdzug", "Morngar", "Murob", "Murob", "Murzum", "Murzush", "Oghash", "Orbugol", "Rogbut", "Rogmesh", "Sharamph", "Shel", "Uglaim", "Ugozush", "Ulorz", "Umog", "Urzoth", "Ushat", "Ushat", "Volrog" 
+   "Bashat", "Basht", "Bolar", "Bulfol", "Bum", "Burzob", "Burzraz", "Dulug", "Ghak", "Globh", "Gonk", "Grat", "Gul", "Lambug", "Lamut", "Mazsha", "Mogak", "Morn", "Morza", "Murbraz", "Murmalah", "Orbugol", "Rogbut", "Shagdub", "Shelur", "Ulumt", "Umog", "Uroga", "Ushat", "Volrog" 
 
 
 "orc female 2"
@@ -672,7 +672,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Badgrotah", "Bashrugy", "Bragsnorlghy", "Broglashbragah", "Dagrotghy", "Dobrorgy", "Dogruftay", "Glakhbagay", "Globshogghy", "Glolglufya", "Glurolgya", "Gnashgrotya", "Gnashkhagay", "Gokhglufay", "Gorsluray", "Grazdagghy", "Grazthakya", "Hakkdagghy", "Hrugbashy", "Hrugbruzghy", "Hrugdakkay", "Khaguthghy", "Kragdobgah", "Lakhumshrotghy", "Lashdargah", "Lufuthragy", "Mukdagya", "Oggungya", "Ragblaggah", "Ragkrudah", "Rashkragah", "Rorgshagah", "Rorgtrogah", "Rotglobgah", "Rottrogya", "Rugshoggah", "Shagluby", "Shagrudya", "Shogsnurrgah", "Snarbagay", "Snubgokhah", "Sodshogay", "Stulggnubah", "Stulgnaray", "Stulgshagghy", "Trogshogay", "Ungbruzah", "Uthlufghy", "Yashruday", "Yashsnurray" 
+   "Bakhskaray", "Bruzkragghy", "Dakkolgay", "Dargtrogay", "Gashhrogya", "Gashlakhy", "Ghazgrubgrudah", "Gokhhrugay", "Gokhkrudbrogy", "Grathlufya", "Grazskulgay", "Grubdargy", "Gudsnubya", "Hratoggah", "Hruggrashay", "Khagglufghy", "Kragluby", "Lubgashya", "Lukmolkgah", "Rorgslurghy", "Rotagghy", "Rudgnubay", "Rugzogya", "Shazgasholgah", "Snurrbragya", "Sodrugghy", "Thakbashgah", "Troglakhya", "Umshhakky", "Yobgutgah" 
 
 
 "orc male"
@@ -680,7 +680,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Abghat", "Abghat", "Aguk", "Aguk", "Balarash", "Barokub", "Bogakh", "Bogrin", "Botnarz", "Bragulakh", "Brugumol", "Bugrragdush", "Buomaugh", "Clog", "Gulaub", "Gunaakt", "Kerghug", "Kerghug", "Khahel", "Khahel", "Khaong", "Kilug", "Larek", "Lorzush", "Lorzush", "Lorzush", "Mahlak", "Molor", "Molor", "Muzgrbash", "Muzgrbash", "Oagungad", "Oggugat", "Olaugh", "Olmthu", "Olug", "Olug", "Opilge", "Orokat", "Orokbul", "Peghed", "Rogdu", "Rugrbash", "Sabub", "Slaugh", "Supgugh", "Ulmat", "Vabugbu", "Xonoth", "Yargag" 
+   "Bashrz", "Bogakh", "Brokrkub", "Bugbumol", "Buomaugh", "Ghamrlorz", "Gluh", "Grusur", "Gunaakt", "Kurdburz", "Lurodum", "Malz", "Mashgob", "Mugarod", "Mulunok", "Muzorz", "Nagrutto", "Olug", "Olurgash", "Owkbanok", "Shobrkul", "Shumborz", "Slapdud", "Urul", "Ushnong", "Ushnurz", "Yadba", "Yargron", "Yasog", "Zugorim" 
 
 
 "orc male 2"
@@ -688,7 +688,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Agrogg", "Augrud", "Badsnorl", "Bashbrag", "Blaggnarl", "Bragnar", "Bragumsh", "Bruzmuk", "Dargyash", "Dogyakh", "Dugsnub", "Gashglakh", "Gashluk", "Gashrash", "Gashslur", "Ghazkhar", "Glakhgrash", "Glakhgut", "Glolglob", "Golkglur", "Grakhsnorl", "Grazgol", "Grotgnash", "Grubunggob", "Gudglol", "Hrugdur", "Khargrath", "Kharluk", "Kragbash", "Kragrud", "Krudgut", "Lakhrogg", "Lobrud", "Lubgob", "Ludshak", "Lukgrub", "Lukzahklud", "Molksnar", "Molkyob", "Muzstulg", "Olggluryob", "Rotlakh", "Shadsnurr", "Shoghaggnarl", "Snorldarg", "Sodhrat", "Sodrashgor", "Uggud", "Ungskulg", "Yobhakk" 
+   "Baglub", "Gashhrog", "Glurlub", "Gnubglaz", "Gnubskar", "Grazmuz", "Grubdag", "Grubgrath", "Hagbad", "Hagbag", "Kharglaz", "Lashbrag", "Lashstulg", "Lobbag", "Lobshaz", "Lobsnorl", "Lufdrab", "Lufnar", "Mukyob", "Narskulg", "Olgrag", "Rashgraz", "Rorgrud", "Rudogg", "Skaroggshaz", "Snubstulg", "Snurrshad", "Thakhrug", "Uthgrath", "Yashdarg" 
 
 
 "orc surname"
@@ -696,7 +696,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Atulor", "Badak", "Bagdlor", "Basgakh", "Bashar", "Bogath", "Bogrnag", "Bogugk", "Bogugol", "Borgham", "Burbba", "Burgul", "Durgzol", "Glukub", "Gorum", "Guldar", "Gulfbak", "Gurudu", "Hubor", "Kashhel", "Khagat", "Khazhnar", "Khazhnar", "Khazhug", "Loghgarn", "Lumbl", "Maraku", "Marh", "Mashma", "Moghku", "Morgarz", "Muzurn", "Muzurn", "Olurob", "Orkumba", "Orkumba", "Rimharz", "Rimprz", "Rugoarn", "Shulat", "Ufthk", "Ufthk", "Ugdor", "Ulab", "Urgaharz", "Uzgurol", "Uzgurol", "Yagbu", "Yarkh", "Yarkh" 
+   "Aglhel", "Atugdu", "Atuwog", "Basrn", "Batrak", "Bogath", "Bogugk", "Brou", "Bugpok", "Burbrzog", "Burgul", "Burorz", "Draharzol", "Dullump", "Gargham", "Gasrak", "Gluul", "Gorum", "Gurwog", "Khazbul", "Lagdra", "Lumbl", "Malgdum", "Marh", "Maroar", "Ogduborgob", "Olorzgub", "Shulharzol", "Trairbag", "Urgaharz" 
 
 
 "oread female"
@@ -704,7 +704,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Adeha", "Bhenemo", "Bhimu", "Bischa", "Bisfami", "Eshe", "Ghalsenus", "Ghide", "Ghilar", "Ghofnen", "Hala", "Hehuhlar", "Hemmorye", "Heviti", "Hilty", "Hinfi", "Hushumraf", "Inhithe", "Larycesh", "Larye", "Molryo", "Nicelit", "Nicih", "Niel", "Nifatethin", "Nimu", "Nythin", "Pona", "Rhescha", "Rhesfhi", "Rhomryedha", "Ridhiru", "Rohdele", "Rosthin", "Rosvilar", "Sumhuh", "Summo", "Thasfhes", "Thassha", "Tolcihli", "Toman", "Tucha", "Udelit", "Unmi", "Unnishsa", "Vahlhana", "Vahyi", "Vamu", "Viru", "Vushena" 
+   "Asy", "Bhese", "Buti", "Danisi", "Dehshacha", "Dehtha", "Hilla", "Hilnahise", "Hinlarrin", "Ine", "Irye", "Nannynhe", "Nuannhe", "Pafa", "Pimne", "Pohle", "Pohnyu", "Raseniya", "Rece", "Rhomshude", "Rhomsy", "Riyin", "Rohthodha", "Tolnish", "Tuha", "Tura", "Vifhes", "Vosmalar", "Vunhishu", "Vushe" 
 
 
 "oread male"
@@ -712,7 +712,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Anrun", "Anthon", "Anvum", "Ardusrin", "Arvotrud", "Bomon", "Bothunthu", "Delomvir", "Ganvutar", "Garthunrud", "Gundanva", "Gundur", "Jeydanlod", "Jeyvetvy", "Laltan", "Lolhatmym", "Lolvir", "Lorvum", "Mondon", "Nalen", "Nanvir", "Nudmemvros", "Nudrmuvu", "Nulvum", "Onvhar", "Pordon", "Porhutdan", "Pylhom", "Pylnom", "Rydum", "Ryrer", "Rytannat", "Ryvyhun", "Sarlah", "Sarmon", "Sartanvum", "Sarvir", "Sedam", "Sedonmu", "Sinut", "Sithon", "Solvu", "Sonvirmon", "Suhhada", "Sulvrorvet", "Tovot", "Vomvhat", "Yldom", "Ylvoh", "Ylvum" 
+   "Ahvu", "Anmallus", "Bondatmom", "Bontor", "Bontormu", "Dantorrin", "Gundurhat", "Jeydurnom", "Lordanlen", "Lorhutmus", "Menha", "Menhutlom", "Monvotdon", "Nudtordur", "Nynomdur", "Pyllun", "Pylmon", "Pylrinlur", "Rotys", "Rundanfam", "Rundusvros", "Runnatdom", "Runrmu", "Sarlenlun", "Solhatys", "Urdum", "Vydat", "Vylurhut", "Vyrud", "Ylmumem" 
 
 
 "sprite female 1"
@@ -720,7 +720,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Dexarel", "Dexarel", "Dexasti", "Deximer", "Flaxefer", "Flaxenti", "Friskirel", "Frissafer", "Frissasti", "Glanefer", "Glaxarel", "Glaxenti", "Glaxinel", "Glimenti", "Glissafer", "Glisserel", "Gossenti", "Gossenti", "Gossenti", "Gosserel", "Hexanel", "Hexasti", "Hexinel", "Lissamer", "Miskamer", "Miskanel", "Miskinel", "Raffanel", "Riffafer", "Riffasti", "Rillefer", "Saffirel", "Shimasti", "Shimefer", "Shimirel", "Tinkerel", "Tinkirel", "Tissirel", "Trillinel", "Tristafer", "Tristenti", "Tristerel", "Twillasti", "Twisparel", "Twixerel", "Twixerel", "Weftefer", "Weftinel", "Winnenti", "Wispifer" 
+   "Flaxifer", "Flissasti", "Flissifer", "Flixanel", "Flixasti", "Fossarel", "Friskanel", "Frissefer", "Glisserel", "Glissifer", "Miskanel", "Miskasti", "Miskinel", "Raffinel", "Raffirel", "Ressirel", "Rillamer", "Saffarel", "Saffirel", "Shimarel", "Tissafer", "Tissifer", "Trillerel", "Tristarel", "Twispirel", "Twisserel", "Twixamer", "Weftinel", "Weskinel", "Winnerel" 
 
 
 "sprite female 2"
@@ -728,7 +728,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Brisliss", "Bristiss", "Crylriss", "Crylriss", "Elsitiss", "Emberla", "Eskliss", "Ferisree", "Ferisree", "Frimila", "Gandee", "Ganynx", "Glinkdee", "Heldee", "Helriss", "Helsa", "Histynx", "Iphilliss", "Iphilniss", "Iphilree", "Ispelkiss", "Ispella", "Istlekiss", "Istleliss", "Istleniss", "Istleynx", "Istleynx", "Jostliss", "Jostniss", "Lirratiss", "Maliree", "Mirranyx", "Ninkanyx", "Opalkiss", "Orifla", "Oriskiss", "Sarmsa", "Sprinniss", "Sprinynx", "Stithdee", "Stithliss", "Tirranyx", "Whiskiss", "Whisliss", "Whisliss", "Whisree", "Whistiss", "Whisynx", "Whisynx", "Zandoniss" 
+   "Cryltiss", "Elsidee", "Esktiss", "Ferisla", "Ferissa", "Friminiss", "Friminyx", "Frimisa", "Ganree", "Halliss", "Halynx", "Iphilnyx", "Ispelliss", "Jatniss", "Jostliss", "Lirraynx", "Minkniss", "Opalla", "Opalliss", "Opalynx", "Orifkiss", "Orissa", "Sarmnyx", "Tirrakiss", "Tirramee", "Trumpdee", "Whisla", "Whisree", "Zandola", "Zandomee" 
 
 
 "sprite male 1"
@@ -736,7 +736,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Dexamo", "Dexesto", "Dexondo", "Flaxallo", "Flaxesto", "Flimamo", "Flimando", "Flimeroll", "Flissando", "Flissaroll", "Flixando", "Flixando", "Flixendo", "Flixondo", "Fossando", "Friskeroll", "Frissondo", "Gessaron", "Gesseron", "Glanesto", "Glisseron", "Gossaroll", "Hexaldo", "Hexasto", "Minaroll", "Miskamo", "Rafferoll", "Riffallo", "Riffamo", "Riffaron", "Rilleroll", "Saffaron", "Shimaldo", "Shimando", "Shimando", "Shimesto", "Tinkesto", "Tissando", "Tissondo", "Tristamo", "Twillallo", "Twillasto", "Twillasto", "Twixasto", "Weftaron", "Weftesto", "Weskeroll", "Winnando", "Winnaron", "Winneron" 
+   "Flaxando", "Flimaron", "Flimeron", "Flissaroll", "Frissaron", "Frissendo", "Frissondo", "Gessendo", "Glaxaron", "Glimallo", "Glissendo", "Hexasto", "Hexendo", "Hexeron", "Lissallo", "Raffendo", "Ressamo", "Rillando", "Rillaron", "Rillasto", "Shimamo", "Shimaron", "Trillaroll", "Tristendo", "Twissasto", "Twixamo", "Twixando", "Twixasto", "Weftondo", "Wispesto" 
 
 
 "sprite male 2"
@@ -744,7 +744,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Crylkin", "Crylmist", "Elsifret", "Elsiwin", "Emberbrix", "Embermit", "Emberrix", "Emberzisk", "Frimifrell", "Frimikin", "Ganfrell", "Ganmist", "Halkin", "Halmit", "Haltwik", "Helrix", "Histmist", "Histmist", "Histzisk", "Iphilrix", "Jostfrell", "Jostfret", "Jostwin", "Jusfrell", "Jusrix", "Juswin", "Lirrarix", "Lirrarix", "Malifret", "Minkwin", "Mistlebrix", "Mistlemist", "Ninkafrell", "Ninkarix", "Ninkatwik", "Ninkawin", "Opalrix", "Orifmist", "Orifzisk", "Perifret", "Sarmbik", "Sarmtwik", "Sarmwin", "Sarmwin", "Trumpbrix", "Trumpmist", "Whiszisk", "Zandofret", "Zandomist", "Zandotross" 
+   "Brisfret", "Crylbik", "Elsibrix", "Emberkin", "Ferismist", "Frimikin", "Halbik", "Halfrell", "Helrix", "Heltross", "Histbrix", "Iphilkin", "Istlerix", "Istlezisk", "Jusfrell", "Lirrabrix", "Minkrix", "Mirrabrix", "Ninkafret", "Ninkakin", "Orisbik", "Perikin", "Sarmkin", "Sprinzisk", "Stithtross", "Tansirix", "Tansitross", "Trumpwin", "Whisfret", "Zandokin" 
 
 
 Potions
@@ -755,7 +755,7 @@ Potions
 
 .. code-block:: lua
 
-   "blood red", "blubbery red", "bright", "bubbly dark pink", "bubbly light mercury", "bubbly light violet", "bubbly silvery", "clear", "clear", "dull", "flickering dark blue", "flickering mercury", "glowing", "heavy dark mercury", "heavy light brown", "heavy light orange", "milky", "muddy", "opaque dark brown", "opaque light black", "opaque light red", "rainbow-hued", "rainbow-hued", "rainbow-hued", "rusty", "rusty", "sandy cyan", "sandy dark purple", "shiny", "smelly light pink", "smelly light pink", "smelly purple", "smelly turquoise", "speckled", "swirly dark green", "swirly dark white", "swirly light black", "swirly light green", "swirly light turquoise", "swirly light yellow", "thick dark mercury", "thin dark purple", "thin dark red", "thin light brown", "thin light golden", "thin light pink", "translucent light mercury", "translucent light yellow", "viscous dark magenta", "watery" 
+   "amber", "blubbery blue", "blubbery dark mercury", "bubbly turquoise", "clotted dark orange", "clotted green", "flickering dark cyan", "flickering dark magenta", "flickering mercury", "heavy dark mercury", "heavy dark red", "heavy dark white", "heavy light white", "oily gray", "opaque brown", "opaque light cyan", "sandy dark pink", "sandy dark white", "sandy light mercury", "sparkling white", "swirly blue", "swirly dark turquoise", "swirly gray", "swirly light green", "thin dark red", "thin light silvery", "thin orange", "translucent light turquoise", "viscous light red", "watery" 
 
 
 Towns
@@ -766,7 +766,7 @@ Towns
 
 .. code-block:: lua
 
-   "Aelhold", "Ashsummer", "Barrowburn", "Barrowmount", "Blackfield", "Blackmist", "Blackshade", "Blackwick", "Clearbridge", "Cleardor", "Clearwick", "Coldfield", "Coldtown", "Crystalford", "Deepmill", "Edgeash", "Edgelake", "Edgepond", "Fairmoor", "Falcontown", "Fallgate", "Glassmarsh", "Icecoast", "Ironbridge", "Morcastle", "Raydell", "Redash", "Rockfall", "Rockshore", "Shadowdale", "Shadowdell", "Shadowdor", "Shadowhaven", "Shadowiron", "Shadowmount", "Shadowmount", "Shadowshore", "Shadowtown", "Silvercastle", "Silvercoast", "Springcastle", "Springdor", "Springhold", "Springlake", "Springlake", "Springsummer", "Stonecoast", "Strongcrest", "Wintermarsh", "Winterpond" 
+   "Ashcliff", "Belhill", "Belmist", "Blackash", "Blackpond", "Blackshade", "Clearash", "Clearwick", "Coldash", "Coldburn", "Fairhaven", "Fallhollow", "Glasshill", "Goldsummer", "Ironcoast", "Millbarrow", "Milliron", "Morford", "Rayhold", "Rayhollow", "Raylake", "Rayshore", "Shadowburn", "Spellbarrow", "Spellshade", "Springash", "Westercrest", "Westerhill", "Wintercliff", "Wintermount" 
 
 
 "mingos towns"
@@ -774,6 +774,6 @@ Towns
 
 .. code-block:: lua
 
-   "Alesdorf", "Appleriver", "Ashcester", "Bellmoor", "Birdlingbury", "Brightley", "Brunsmouth", "Bullsland", "Bullspool", "Campborough", "Clarkshore", "Coppervale", "Cornmill Barrens", "Dracburgh", "Dracdorf", "Eaglebank", "Elmcester", "Ewesmill Barrow", "Fairbank", "Fireville Haven", "Fleetgrad View", "Fleetshire", "Grandstoke", "Greenburg", "Hawksminster", "High Norborough", "Icevale", "Ironhollow", "Laynemoor", "Lorriver Ridge", "Lower Steelwick", "Marblethorpe", "Marshborough", "Mistland", "Norstoke", "North Oakhurst", "Portgrad", "Purpleholm Park", "Rossness", "Silverbank", "Silverholm", "Silvertown", "Spruceside", "Stockford", "Stonehurst", "Strongley", "Valdorf", "Waterborough Furnace", "Waterholm Woods", "Whiteminster" 
+   "Alesburg View", "Bellmoor", "Brassborough", "Brasslyn", "Brightriver", "Cherrycester", "Clarkcester Forest", "Clayshire", "Copperdorf", "Darkness", "East Claywich Springs", "Ellesthorpe", "Greyness Corner", "High Laynepool", "High Normont", "Lintness", "Mapleborne", "New Guildburgh Meadow", "New Kentwood", "Nortown", "Rosebury", "Royal Blueshore Grove", "Royal Lorwich", "Saint Deerbury View", "Sowsville", "Stillstead", "Stockmere", "Watergate", "Wheatcrest", "Whitehall" 
 
 

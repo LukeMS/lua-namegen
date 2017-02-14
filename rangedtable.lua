@@ -42,6 +42,31 @@ function RangedTable:get(k)
     return cmp(k, self.ranges)
 end
 
+function RangedTable:keys()
+    local i = 0
+    return function()
+        i = i + 1
+        return self.ranges[i] and self.ranges[i][1] or nil
+    end
+end
+
+function RangedTable:items()
+    local i = 0
+    return function()
+        i = i + 1
+        return self.ranges[i] and self.ranges[i][1] or nil,
+               self.ranges[i] and self.ranges[i][2] or nil
+    end
+end
+
+function RangedTable:values()
+    local i = 0
+    return function()
+        i = i + 1
+        return self.ranges[i] and self.ranges[i][2] or nil
+    end
+end
+
 function RangedTable:choice()
     return self:get(math.random(1, self.max))
 end

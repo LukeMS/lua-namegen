@@ -259,6 +259,41 @@ local function word_prune_spaces(str)
     return str
 end
 
+local function get_lst_from_token(token, data)
+    if token == 'P' then
+        ng_debug("token case 1")
+        return data["pre"]
+    elseif token == 's' then
+        ng_debug("token case 2")
+        return data["start"]
+    elseif token == 'm' then
+        ng_debug("token case 3")
+        return data["middle"]
+    elseif token == 'e' then
+        ng_debug("token case 4")
+        return data["end"]
+    elseif token == 'p' then
+        ng_debug("token case 5")
+        return data["post"]
+    elseif token == 'v' then
+        ng_debug("token case 6")
+        return data["vocals"]
+    elseif token == 'c' then
+        ng_debug("token case 7")
+        return data["consonants"]
+    elseif token == '?' then
+        ng_debug("token case 8")
+        return ((random(1, 2) == 1) and data.vocals or
+               data.consonants)
+    elseif token >= "A" and token < "P" then
+        ng_debug("token case 9")
+        return data["cg" .. token:lower()]
+    elseif token == "'" then
+        ng_debug("token case 10")
+        return {"'"}
+    end
+end
+
 local function generate_custom(name, rule)
     local random = math.random
 
@@ -310,39 +345,8 @@ local function generate_custom(name, rule)
                 -- evaluate the wildcard according to its chance
                 if chance >= random(100) then
                     ng_debug("buf case 4.2")
-                    local lst
-                    if it == 'P' then
-                        ng_debug("buf case 4.2.1")
-                        lst = data["pre"]
-                    elseif it == 's' then
-                        ng_debug("buf case 4.2.2")
-                        lst = data["start"]
-                    elseif it == 'm' then
-                        ng_debug("buf case 4.2.3")
-                        lst = data["middle"]
-                    elseif it == 'e' then
-                        ng_debug("buf case 4.2.4")
-                        lst = data["end"]
-                    elseif it == 'p' then
-                        ng_debug("buf case 4.2.5")
-                        lst = data["post"]
-                    elseif it == 'v' then
-                        ng_debug("buf case 4.2.6")
-                        lst = data["vocals"]
-                    elseif it == 'c' then
-                        ng_debug("buf case 4.2.7")
-                        lst = data["consonants"]
-                    elseif it == '?' then
-                        ng_debug("buf case 4.2.8")
-                        lst = ((random(1, 2) == 1) and data.vocals or
-                               data.consonants)
-                    elseif it >= "A" and it < "P" then
-                        ng_debug("buf case 4.2.9")
-                        lst = data["cg" .. it:lower()]
-                    elseif it == "'" then
-                        ng_debug("buf case 4.2.10")
-                        lst = {"'"}
-                    else
+                    local lst = get_lst_from_token(it, data)
+                    if lst == nil then
                         error(string.format(
                             [[Wrong rules syntax(it:"%s", rule:"%s")]],
                             it, rule))
@@ -387,6 +391,108 @@ local function generate(name)
     return res
 end
 
+local function possible_rules(str)
+    local res = {[str] = true}
+    while true do
+        local changed = false
+        local count = #res
+        for rule, _ in pairs(res) do
+            local chance_rule = rule:match(
+                "%$?[%a_'%- ]*(%$%d+[%a_'%- ]+)%$*.*$")
+            -- print(rule, chance_rule)
+            if chance_rule then
+                local a = rule:gsub(chance_rule, "")
+                local b = rule:gsub("%$%d+", "$", 1)
+                -- print(rule, a, b)
+                res[rule] = nil
+                res[a] = true
+                res[b] = true
+                changed = true
+                break
+            end
+        end
+        if not changed then break end
+    end
+    --[[
+    print(str)
+    for k, _ in pairs(res) do
+        print(k)
+    end
+    ]]--
+    return res
+end
+
+local function exhaust_rules(name)
+    local data = namegen_generators_list[name]
+    local rules = {}
+    for v in data.rules:values() do
+        rules[#rules + 1] = v
+    end
+    local plain_rules = {}
+    for _, rule in ipairs(rules) do
+        local possible = possible_rules(rule)
+        for plain, _ in pairs(possible) do
+            plain_rules[#plain_rules + 1] = plain
+        end
+    end
+    return plain_rules
+end
+
+local function combine_strings(...)
+    print(inspect(...))
+    local str
+    for _, v in pairs(...) do
+        str = (str and " " or "") .. v
+    end
+    return str
+end
+
+local function map_all(fcn, tab, idx, ...)
+    -- http://stackoverflow.com/a/13059680/5496529
+    if idx < 1 then
+        fcn(...)
+    else
+        local t = tab[idx]
+        for i = 1, #t do map_all(fcn, tab, idx-1, t[i], ...) end
+    end
+end
+
+local function exhaust_set(name)
+    local names = {}
+    local data = namegen_generators_list[name]
+    local rules = exhaust_rules(name)
+    local function combine(...)
+        local t = {...}
+        local str
+        for i, v in ipairs(t) do
+            if v ~= nil and v ~= "" then
+                str = (str and (str .. v) or v)
+            end
+        end
+        print(str)
+        str = word_prune_spaces(str)
+        names[str] = str
+    end
+    for _, rule in ipairs(rules) do
+        local groups = {}
+        local tokens = split(rule:gsub("%$", " "))
+        for _, token in ipairs(tokens) do
+            for c in string.gmatch(token, ".") do
+                local lst = (get_lst_from_token(c, data) or
+                             {[1] = c:gsub("_", " ")})
+                if lst == nil then
+                    error("invalid list", c)
+                end
+                -- print("\ntoken", token, "c", c, "lst", inspect(lst))
+                groups[#groups + 1] = lst
+            end
+        end
+        map_all(combine, groups, #groups)
+    end
+    return names
+end
+
+
 local function get_sets()
     local t = {}
     for k, _ in pairs(namegen_generators_list) do
@@ -412,5 +518,7 @@ namegen.get_sets = get_sets
 namegen.parse_file = parse_file
 namegen.generate = generate
 namegen.generate_custom = generate_custom
+namegen.exhaust_set = exhaust_set
+namegen.exhaust_rules = exhaust_rules
 
 return namegen

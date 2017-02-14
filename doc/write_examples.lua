@@ -46,8 +46,18 @@ for _, t in ipairs(groups) do
         dest = dest .. ("\n" .. ".. code-block:: lua" .. "\n")
 
         local names = {}
-        for i = 1, 50 do
-            names[#names + 1] = namegen.generate(set)
+        local s = 0
+        while s < 30 do
+            local str = namegen.generate(set)
+            if names[str] == nil then
+                names[str] = str
+                s = s + 1
+            end
+        end
+
+        local names, old = {}, names
+        for _, v in pairs(old) do
+            names[#names + 1] = v
         end
         table.sort(names)
         dest = dest .. ("\n  " .. inspect(names):gsub("[{}]", "") .. "\n\n")

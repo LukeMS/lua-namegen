@@ -36,7 +36,7 @@ Table of contents
 
 * `How to help`_
 
-* `Release News`_
+* `Release notes`_
 
 * `Example of generated names`_
 
@@ -234,7 +234,7 @@ You can also report an issue_ (and add a fix for it on the comments).
 .. _`Improve the documentation`: https://github.com/LukeMS/lua-namegen/edit/master/README.rst
 
 
-Release News
+Release notes
 ============
 
 1.1.0
