@@ -26,7 +26,7 @@ Creatures
 
 .. code-block:: lua
 
-   "Amaranth", "Ar-valon", "Aradal", "Aral", "Belgan", "Cernan", "Cerran", "Ilamin", "Jalrant", "Jasanathar", "Kaladathar", "Kalwier", "Mauar", "Maunan", "Paath", "Paldril", "Ravanathal", "Sar-palad", "Sar-saran", "Sardanat", "Solarath", "Talanath", "Talonath", "Tuath", "Tutin", "Valnarathal", "Valnarathas", "Valnorathal", "Vanarathal", "Vardaral" 
+   "Adanal", "Amaranth", "Ar-valon", "Aradal", "Belal", "Cernan", "Cerran", "Ilat", "Jalrant", "Kaladathar", "Kalwier", "Klaronas", "Mauar", "Maunan", "Oathas", "Paath", "Paldril", "Ral-raman", "Ravanathal", "Sar-palad", "Sardanat", "Talanath", "Talonath", "Tarnan", "Tuath", "Tural", "Tutin", "Valnarathas", "Valnorathal", "Vardaral" 
 
 
 "catfolk female"
@@ -509,6 +509,22 @@ Creatures
    "Adan", "Analma", "Cila", "Faduniv", "Feifmi", "Fijid", "Gaven", "Geim", "Gevilin", "Hafalid", "Hemi", "Hezadis", "Huansum", "Iden", "Lased", "Liwen", "Luul", "Mased", "Mimunal", "Muudmun", "Muunam", "Muwingum", "Nifinif", "Niudfil", "Sejid", "Sima", "Ulaash", "Vuadim", "Wavun", "Zudul" 
 
 
+"tengu female"
+***************
+
+.. code-block:: lua
+
+   "Ahta", "Bekka", "Belugh", "Chakzack", "Chakzullee", "Chuk-Qro", "Gaakquz", "Kaakcha", "Krepeegaak", "Oun", "Ounck", "Pinlee", "Pra", "Pragh", "Prichor", "Prizack", "Prizotaa", "Qrekraak", "Qro", "Qrocha", "Qroqekmeck", "Qrozack", "Qrune", "Razul", "Rokzo", "Rukraje", "Taitoair", "Tchi", "Xeeppee", "Xeepyi" 
+
+
+"tengu male"
+*************
+
+.. code-block:: lua
+
+   "Aahtack", "Baayoi", "Beel-Bel", "Beelah", "Biuk-Pee", "Caw", "Chakzul", "Chiukzecroa", "Eenkoa", "Gaa-Pee", "Kaarqoon", "Kraaknemeck", "Kragaak", "Krane", "Krazul", "Peeyi", "Poo-Biuk", "Poo-Gaa", "Pookraah", "Preekaak", "Preekamu", "Prigh", "Pu-Oun", "Qack", "Qraah", "Qrayoi", "Qriu-Pu", "Tchirek", "Xaitee", "Xeepun" 
+
+
 Potions
 ----------
 
@@ -517,7 +533,7 @@ Potions
 
 .. code-block:: lua
 
-   "blood red", "bright", "clear", "clotted dark red", "dull", "flickering brown", "flickering dark yellow", "flickering light blue", "glowing", "heavy light cyan", "heavy light pink", "icky", "milky", "murky", "oily light gray", "rusty", "sandy dark red", "sandy light golden", "shiny", "smelly light purple", "smelly pink", "sparkling dark gray", "sparkling light green", "sparkling light mercury", "speckled", "swirly silvery", "thick light violet", "thin green", "translucent dark brown", "translucent light violet" 
+   "blubbery light silvery", "bright", "bubbly light green", "clear", "clotted dark turquoise", "clotted dark white", "clotted dark yellow", "clotted light green", "dull", "heavy light gray", "heavy light red", "misty light golden", "oily mercury", "opaque light magenta", "rusty", "shiny", "smelly light magenta", "smelly light mercury", "sparkling light yellow", "sparkling orange", "swirly light orange", "thick light brown", "thick pink", "thick violet", "thin dark cyan", "thin dark golden", "thin dark purple", "translucent light gray", "viscous light violet", "viscous white" 
 
 
 Towns
@@ -528,7 +544,7 @@ Towns
 
 .. code-block:: lua
 
-   "Aelmill", "Aelsummer", "Ashmill", "Barrowshade", "Belpond", "Crystallake", "Edgemist", "Falconfall", "Falltown", "Icecoast", "Icemarsh", "Ironmist", "Millfall", "Millgate", "Millhaven", "Millshade", "Moonburn", "Moonhollow", "Rosehollow", "Shadowcoast", "Shadowwick", "Silvercastle", "Spelltown", "Springash", "Springcliff", "Springmount", "Strongcliff", "Strongmarsh", "Swyncastle", "Wintermount" 
+   "Aelmount", "Barrowash", "Barrowiron", "Beldale", "Crystalbarrow", "Deepdor", "Edgefall", "Fallford", "Glassash", "Golddale", "Goldfall", "Iceshade", "Millcoast", "Moonhill", "Raypond", "Rayshore", "Rockhaven", "Rockmist", "Rockmount", "Shadowiron", "Shadowshore", "Spellfield", "Springcastle", "Springhill", "Stonehaven", "Stonetown", "Summerbridge", "Swyncastle", "Winterlake", "Wintershore" 
 
 
 "mingos towns"
@@ -536,5 +552,5 @@ Towns
 
 .. code-block:: lua
 
-   "Campshore Crossing", "Crossholm", "Crossminster", "Draccrest", "East Mapleside", "Esterkirk", "Faircliff", "Hammerdale", "Hammershire", "Hawkskeep", "Hawksvale Forest", "Hazeburgh", "Hazecester", "Mablebank", "Mableminster", "Marbleshore", "Mistburgh", "North Birdlinghollow", "Norwich", "Oaktown", "Pinekirk", "Richham", "Rockhall", "Rockmont", "Rosestoke", "Saint Brassville", "Smithness", "Snowcliff", "Wolfborne", "Woolston" 
+   "Alesbank", "Aleswick", "Bellburg", "Bellton", "Browndorf", "Brunsholm", "Camppool", "Crystalmont", "Darkwood", "Dracwood", "Esterbrook Grove", "Fleetley", "Hazeston", "High Mableside", "Ironmoor", "Mareshire", "Marshbrook", "Middle Bellkirk", "Middle Fleetstead", "Old Brightway", "Oxstead", "Purpleham Annex", "Sowsburgh", "Stillburgh", "Watermoor", "Wolfriver", "Woolminster Crossing", "Woolshire", "Worcliff", "Worvale" 
 

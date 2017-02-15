@@ -228,7 +228,7 @@ end
 
 -- check for repeated syllables (case-insensitive)
 local function word_repeated_syllables(str)
-    local word = str:lower()
+    local word = str:lower():gsub("['%-_]", "")
 
     for step = 2, math.min(5, math.floor(#str / 2)) do
         for i = 1, #word - step + 1 do

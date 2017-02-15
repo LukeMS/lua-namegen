@@ -7,7 +7,7 @@ math.random()
 local names = {}
 local s = 0
 while s < 80 do
-    local str = namegen.generate("sylph female")
+    local str = namegen.generate("tengu male")
     if names[str] == nil then
         names[str] = str
         s = s + 1
