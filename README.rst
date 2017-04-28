@@ -237,6 +237,16 @@ You can also report an issue_ (and add a fix for it on the comments).
 Release notes
 ============
 
+1.2.0
+------
+* Added name set for inns (thanks to `Hikitsune-Red, for his pull request`_):
+
+  - `inns.cfg`;
+
+  - updated the docs to include the new set examples.
+
+.. _`Hikitsune-Red, for his pull request`: https://github.com/LukeMS/lua-namegen/pull/1
+
 1.1.0
 ------
 * Added books, potions and towns name sets:
@@ -263,6 +273,8 @@ Example of generated names
   - `Potions`_
 
   - `Towns`_
+
+  - `Inns`_
 
 
 Below are examples of generated names for each of the sets packed with LuaNameGen:
@@ -823,5 +835,16 @@ Towns
 .. code-block:: lua
 
    "Alesbank", "Aleswick", "Bellburg", "Bellton", "Browndorf", "Brunsholm", "Camppool", "Crystalmont", "Darkwood", "Dracwood", "Esterbrook Grove", "Fleetley", "Hazeston", "High Mableside", "Ironmoor", "Mareshire", "Marshbrook", "Middle Bellkirk", "Middle Fleetstead", "Old Brightway", "Oxstead", "Purpleham Annex", "Sowsburgh", "Stillburgh", "Watermoor", "Wolfriver", "Woolminster Crossing", "Woolshire", "Worcliff", "Worvale" 
+
+
+Inns
+-------
+
+"inns"
+*******
+
+.. code-block:: lua
+
+   "The Babbling Staff", "The Bountiful Chipmunk", "The Cerulean Helmet", "The Crying Tankard", "The Emerald Tiger", "The Fair Giant", "The Flying Wentiko", "The Grey Pine", "The Grey Vixen", "The Grinning Dog", "The Hopping Bobcat", "The Indigo Otter", "The Leaping Mug", "The Low Vixen", "The Maroon Giant", "The Mended Maiden", "The Old Moose", "The Orange Badger", "The Orange Giant", "The Risen Cougar", "The Rolling Vixen", "The Royal Sceptre", "The Running Alerion", "The Silver Staff", "The Sparkling Peasant", "The Tall Wolf", "The Velvet Cask", "The Vile Crown", "The Weeping Tiger", "The Winding Ass" 
 
 

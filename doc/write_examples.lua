@@ -14,6 +14,7 @@ local groups = {
     {"Creatures"},
     {"Potions"},
     {"Towns"},
+    {"Inns"},
 }
 
 for _, set in ipairs(sets) do
@@ -26,6 +27,9 @@ for _, set in ipairs(sets) do
     elseif string.find(set, "towns$") then
         Towns = groups[4]
         Towns[#Towns + 1] = set
+    elseif string.find(set, "inns$") then
+        Inns = groups[5]
+        Inns[#Inns + 1] = set
     else
         Creatures = groups[2]
         Creatures[#Creatures + 1] = set

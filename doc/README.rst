@@ -237,6 +237,16 @@ You can also report an issue_ (and add a fix for it on the comments).
 Release notes
 ============
 
+1.2.0
+------
+* Added name set for inns (thanks to `Hikitsune-Red, for his pull request`_):
+
+  - `inns.cfg`;
+
+  - updated the docs to include the new set examples.
+
+.. _`Hikitsune-Red, for his pull request`: https://github.com/LukeMS/lua-namegen/pull/1
+
 1.1.0
 ------
 * Added books, potions and towns name sets:
@@ -263,6 +273,8 @@ Example of generated names
   - `Potions`_
 
   - `Towns`_
+
+  - `Inns`_
 
 
 Below are examples of generated names for each of the sets packed with LuaNameGen:

@@ -554,3 +554,14 @@ Towns
 
    "Alesbank", "Aleswick", "Bellburg", "Bellton", "Browndorf", "Brunsholm", "Camppool", "Crystalmont", "Darkwood", "Dracwood", "Esterbrook Grove", "Fleetley", "Hazeston", "High Mableside", "Ironmoor", "Mareshire", "Marshbrook", "Middle Bellkirk", "Middle Fleetstead", "Old Brightway", "Oxstead", "Purpleham Annex", "Sowsburgh", "Stillburgh", "Watermoor", "Wolfriver", "Woolminster Crossing", "Woolshire", "Worcliff", "Worvale" 
 
+
+Inns
+-------
+
+"inns"
+*******
+
+.. code-block:: lua
+
+   "The Babbling Staff", "The Bountiful Chipmunk", "The Cerulean Helmet", "The Crying Tankard", "The Emerald Tiger", "The Fair Giant", "The Flying Wentiko", "The Grey Pine", "The Grey Vixen", "The Grinning Dog", "The Hopping Bobcat", "The Indigo Otter", "The Leaping Mug", "The Low Vixen", "The Maroon Giant", "The Mended Maiden", "The Old Moose", "The Orange Badger", "The Orange Giant", "The Risen Cougar", "The Rolling Vixen", "The Royal Sceptre", "The Running Alerion", "The Silver Staff", "The Sparkling Peasant", "The Tall Wolf", "The Velvet Cask", "The Vile Crown", "The Weeping Tiger", "The Winding Ass" 
+
