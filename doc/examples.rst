@@ -565,3 +565,25 @@ Inns
 
    "The Babbling Staff", "The Bountiful Chipmunk", "The Cerulean Helmet", "The Crying Tankard", "The Emerald Tiger", "The Fair Giant", "The Flying Wentiko", "The Grey Pine", "The Grey Vixen", "The Grinning Dog", "The Hopping Bobcat", "The Indigo Otter", "The Leaping Mug", "The Low Vixen", "The Maroon Giant", "The Mended Maiden", "The Old Moose", "The Orange Badger", "The Orange Giant", "The Risen Cougar", "The Rolling Vixen", "The Royal Sceptre", "The Running Alerion", "The Silver Staff", "The Sparkling Peasant", "The Tall Wolf", "The Velvet Cask", "The Vile Crown", "The Weeping Tiger", "The Winding Ass" 
 
+
+Corporations
+-------
+
+"corporations"
+*******
+
+.. code-block:: lua
+
+   "Destiny Genomics Genetics","Best Robotics Infinity","Best Neural Genoma","Industrial Nanotech Arms","Applied Nanotech Electronics","Destiny Electronics Technica","Synthetic Genetics Psi","Synthetic Electronics Psi","Wellness Psi Incorporated","Applied Nanotech Psi" 
+
+
+Empires
+-------
+
+"empires"
+*******
+
+.. code-block:: lua
+
+   "God's Righteous Grey Alliance","The Immortal Steadfast Eastern Pact","The People's Industrial Yellow Combine","The People's Democratic Liberal Union","God's Righteous Victory Alliance","The Wrathful Holy Popular Empire","God's Holy Blue Unity","The Wrathful Democratic Orange Legion","The Wrathful Righteous Yellow Sodality","The Democratic Victory Unity"
+
